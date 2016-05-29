@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=600, height=650, initial-scale=0.6, user-scalable=no, user-scalable=0">
         <meta name="description" itemprop="description" content="One Piece Treasure Cruise Drop Table">
 
-        <title>One Piece Treasure Cruise Drop Table</title>
+        <title>[침착맨]원피스 트레저 크루즈</title>
 
         <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
@@ -61,8 +61,8 @@
                     <span>{{island.name}}</span>
                     <i class="fa fa-globe" ng-show="island.global" title="Available On Global"></i>
                     <i class="fa fa-star" ng-show="island.challenge" title="Challenge Available"></i>
-                    <bonus-list ng-if="type == 'Story Island'" y="$index"></bonus-list>
-                    <day-label ng-if="type == 'Weekly Island'"></day-label>
+                    <bonus-list ng-if="type == '스토리'" y="$index"></bonus-list>
+                    <day-label ng-if="type == '재료'"></day-label>
                 </h3>
             </div>
         </script>
@@ -117,26 +117,23 @@
         <div id="main" ng-cloak>
 
             <h1 class="page-header">
-                Drop Table
-                <label><input type="checkbox" ng-model="onlyGlobal" ng-change="changeFilters()">Show only Global</label>
-                <label><input type="checkbox" ng-model="noFodder" ng-change="changeFilters()">Hide fodder</label>
-                <label><input type="checkbox" ng-model="noEvolverBooster" ng-change="changeFilters()">Hide Boosters and Evolvers</label>
+                드롭 테이블
                 <label><input type="checkbox" ng-model="sortByType" ng-change="changeSorting()">Sort by type</label>
                 <input class="pull-right" type="text" placeholder="Filter by name" auto-focus
                     ng-model="queryFilter" ng-model-options="{ debounce: 500 }" ng-change="changeQueryFilter()" id="search">
             </h1>
 
-            <div ng-repeat="type in [ 'Story Island', 'Weekly Island', 'Fortnight', 'Raid', 'Special' ]"
+            <div ng-repeat="type in [ '스토리', '재료', '스페셜 던전', '강림', '기념던전' ]"
                 class="type collapsed" collapsable hidden-units="hiddenUnits" only-global="onlyGlobal"
                 target="type.html" type="type" data="data" query="query">
                 <h2>
                     <i class="fa fa-chevron-right"></i>
                     <i class="fa fa-chevron-down"></i>
-                    <span>{{type}}s</span>
+                    <span>{{type}}</span>
                 </h2> 
             </div>
 
-            <h1 class="page-header">Bonus Table</h1>
+            <h1 class="page-header">보너스 테이블</h1>
             
             <div>
                 <p id="times"></p>
@@ -146,18 +143,18 @@
             <table class="table table-striped" id="bonus-table" add-bonuses>
                 <thead>
                     <tr>
-                        <th>Name</th>
-                        <th>MON</th>
-                        <th>TUE</th>
-                        <th>WED</th>
-                        <th>THU</th>
-                        <th>FRI</th>
-                        <th>SAT</th>
-                        <th>SUN</th>
+                        <th>이름</th>
+                        <th>월</th>
+                        <th>화</th>
+                        <th>수</th>
+                        <th>목</th>
+                        <th>금</th>
+                        <th>토</th>
+                        <th>일</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr ng-repeat="(n,island) in data['Story Island']">
+                    <tr ng-repeat="(n,island) in data['스토리']">
                         <td>{{island.shortName ? island.shortName : island.name}}</td>
                         <td></td>
                         <td></td>
