@@ -241,9 +241,9 @@ function updateTimes(){
     document.getElementById("times").innerHTML = "글로벌: <b>"+moment().tz('America/Los_Angeles').format('H:mm:ss')+"</b> | 일본: <b>"+moment().tz('Asia/Tokyo').format('H:mm:ss')+"</b> | 한국: <b>"+moment().tz('Asia/Seoul').format('H:mm:ss')+"</b>";
     
     if(moment().tz('Asia/Tokyo').format('H')>12 && moment().tz('Asia/Tokyo').format('H')<23){
-        document.getElementById("timesNote").innerHTML = "일본버젼 한정 보너스 12시부터 23시까지<br><b>일본버젼 보너스타임 현재 진행중<b>";
+        document.getElementById("timesNote").innerHTML = "일본버젼 한정 보너스 11시부터 23시까지<br><b>일본버젼 보너스타임 현재 진행중<b>";
     }else{
-         document.getElementById("timesNote").innerHTML = "일본버젼 한정 보너스 12시부터 23시까지<br><b>일본버젼 보너스타임 현재 미진행중<b>";
+         document.getElementById("timesNote").innerHTML = "일본버젼 한정 보너스 11시부터 23시까지<br><b>일본버젼 보너스타임 현재 미진행중<b>";
     }
     tt=refreshTimer();
 }
