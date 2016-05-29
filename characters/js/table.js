@@ -39,16 +39,15 @@ angular.module('optc') .run(function($rootScope, $timeout, $storage, MATCHER_IDS
     var getTableColumns = function() {
         var result = [
             { title: 'ID' },
-            { title: 'Name', render: addImage },
-            { title: 'Type' },
-            { title: 'Class' },
-            { title: 'HP' },
-            { title: 'ATK' },
-            { title: 'RCV' },
-            { title: 'Cost' },
-            { title: 'Slots' },
-            { title: 'Stars' },
-            { title: 'CL', orderable: false }
+            { title: '이름', render: addImage },
+            { title: '속성' },
+            { title: '타입' },
+            { title: '체력' },
+            { title: '공격력' },
+            { title: '회복' },
+            { title: '코스트' },
+            { title: '슬롯' },
+            { title: '등급' }
         ];
         additionalColumns.forEach(function(x) {
             var title = x
