@@ -1,12 +1,12 @@
 window.tandems = [
     {
-        "name": "Gum-Gum Mouton Triple-Sword Meteor",
-        "desc": "Deals 1,000 fixed damage to all enemies",
+        "name": "고무고무 양고기 삼검류 탄r",
+        "desc": "적 전체에 1000의 고정 데미지",
         "units": [ 17, 2, 5, 13 ]
     },
     {
-        "name": "Gum-Gum Dragon Epaule Whip Twister Shot",
-        "desc": "Deals 3 times the ATK of the last character in the tandem to the enemies in the front column",
+        "name": "고무고무 회오리 에폴 바람 채찍 슈트",
+        "desc": "적 전열에 캐릭터의 공격X3배의 데미지",
         "units": [ 3, 6, 18 ]
     },
     {
@@ -15,8 +15,8 @@ window.tandems = [
         "units": [ 8, 20, 4 ]
     },
     {
-        "name": "Trinity Slash",
-        "desc": "Deals 3 times the ATK of the last character in the tandem to the enemies in the front column",
+        "name": "삼위일체 현상수배자 베기",
+        "desc": "적 전열에 캐릭터의 공격X3배의 데미지",
         "units": [ 47, 48, 5 ]
     },
     {
@@ -25,13 +25,13 @@ window.tandems = [
         "units": [ 10, 14, 7 ]
     },
     {
-        "name": "Weak Trio/Guts Attack",
-        "desc": "Deals 2 times the ATK of the last character in the tandem to the enemies in the front column",
+        "name": "약소 트리오 / 근성 어택",
+        "desc": "적 전열에 캐릭터의 공격X2의 데미지",
         "units": [ 9, 13, 21 ]
     },
     {
-        "name": "Golden Mirage Shot",
-        "desc": "Deals 2 times the ATK of the last character in the tandem to all enemies",
+        "name": "골든 신기루 샷",
+        "desc": "적 전체에 캐릭터의 공격X2배의 데미지",
         "units": [ 15, 11, 19 ]
     },
     {
@@ -45,28 +45,28 @@ window.tandems = [
         "units": [ 709, 739, 20, 8, 4 ]
     },
     {
-        "name": "Penguin Reindeer Triangle",
-        "desc": "Deals 2 times the ATK of the last character in the tandem to the enemies in the back column",
+        "name": "펭귄 사슴 트라이앵글",
+        "desc": "적 후열에 캐릭터의 공격X2배의 데미지",
         "units": [ 81, 82, 23 ]
     },
     {
-        "name": "Rare Animal Miracle Attack",
-        "desc": "Deals 3 times the ATK of the last character in the tandem to the enemies in the front column",
+        "name": "진수 미라클 어택",
+        "desc": "적 전열에 캐릭터의 공격X3배의 데미지",
         "units": [ 40, 26, 83, 118 ]
     },
     {
-        "name": "Bandit Triple Attack",
-        "desc": "Deals 2 times the ATK of the last character in the tandem to the enemies in the front column",
+        "name": "산적 트리플 어택",
+        "desc": "적 전열에 캐릭터의 공격X2배의 데미지",
         "units": [ 119, 120, 27 ]
     },
     {
-        "name": "Slip-Slip Circus Carnival",
-        "desc": "Deals 2 times the ATK of the last character in the tandem to all enemies",
+        "name": "매끈매끈 서커스 카니발",
+        "desc": "적 전체에 캐릭터의 공격X2배의 데미지",
         "units": [ 37, 36, 38, 30 ]
     },
     {
-        "name": "Slip-Slip Circus Festival",
-        "desc": "Deals 3 times the ATK of the last character in the tandem to all enemies",
+        "name": "매끈매끈 서커스 페스티벌",
+        "desc": "적 전체에 캐릭터의 공격X3배의 데미지",
         "units": [ 37, 36, 39, 30 ]
     },
     {
@@ -75,28 +75,28 @@ window.tandems = [
         "units": [ 59, 49, 35 ]
     },
     {
-        "name": "Buggy Circus Carnival",
-        "desc": "Deals 2 times the ATK of the last character in the tandem to all enemies",
+        "name": "버기 서커스 카니발",
+        "desc": "적 전체에 캐릭터의 공격X2배의 데미지",
         "units": [ 36, 37, 38 ]
     },
     {
-        "name": "Buggy Circus Festival",
-        "desc": "Deals 2 times the ATK of the last character in the tandem to all enemies",
+        "name": "버기 서커스 페스티벌",
+        "desc": "적 전체에 캐릭터의 공격X2배의 데미지",
         "units": [ 36, 37, 39 ]
     },
     {
-        "name": "Black Cat Formation X",
-        "desc": "Deals 2 times the ATK of the last character in the tandem to all enemies",
+        "name": "크로네코 포메이션 X",
+        "desc": "적 전체의 캐릭터의 공격X2배의 데미지",
         "units": [ 41, 42, 43, 45 ]
     },
     {
-        "name": "Black Cat Formation Z",
-        "desc": "Deals 3 times the ATK of the last character in the tandem to all enemies",
+        "name": "크로네코 포메이션 Z",
+        "desc": "적 전체의 캐릭터의 공격X3배의 데미지",
         "units": [ 41, 42, 43, 46 ]
     },
     {
-        "name": "Baratie's Famous Surf 'n Turf",
-        "desc": "Deals 3 times the ATK of the last character in the tandem to all enemies",
+        "name": "발라티에 명물 분노의 풀코스",
+        "desc": "적 전체에 캐릭터의 공격X3배의 데미지",
         "units": [ 50, 51, 52 ]
     },
     {
@@ -140,83 +140,83 @@ window.tandems = [
         "units": [ 61, 64, 62, 66 ]
     },
     {
-        "name": "Penguin Triangle",
-        "desc": "Deals 2 times the ATK of the last character in the tandem to the enemies in the front column",
+        "name": "펭귄 트라이앵글",
+        "desc": "적 전열에 공격X2배의 데미지",
         "units": [ 78, 80, 79 ]
     },
     {
-        "name": "Penguin Pentagon",
-        "desc": "Deals 5 times the ATK of the last character in the tandem to all enemies",
+        "name": "펭귄 펜타곤",
+        "desc": "적 전체에 공격X5배의 데미지",
         "units": [ 84, 86, 85, 87, 88 ]
     },
     {
-        "name": "Red Combination",
-        "desc": "Deals 1,000 fixed damage to the enemies in the front column",
+        "name": "레드 콤비네이션",
+        "desc": "적 전열에 1000의 고정 데미지",
         "units": [ 121, 126, 131, 136 ]
     },
     {
-        "name": "Blue Combination",
-        "desc": "Deals 1,000 fixed damage to the enemies in the front column",
+        "name": "블루 콤비네이션",
+        "desc": "적 전열에 1000의 고정 데미지",
         "units": [ 122, 127, 132, 137 ]
     },
     {
-        "name": "Green Combination",
-        "desc": "Deals 1,000 fixed damage to the enemies in the front column",
+        "name": "그린 콤비네이션",
+        "desc": "적 전열에 1000의 고정 데미지",
         "units": [ 123, 128, 133, 138 ]
     },
     {
-        "name": "Yellow Combination",
-        "desc": "Deals 1,000 fixed damage to the enemies in the front column",
+        "name": "옐로 콤비네이션",
+        "desc": "적 전열에 1000의 고정 데미지",
         "units": [ 124, 129, 134, 139 ]
     },
     {
-        "name": "Black Combination",
-        "desc": "Deals 1,000 fixed damage to the enemies in the front column",
+        "name": "블랙 콤비네이션",
+        "desc": "적 전열에 1000의 고정 데미지",
         "units": [ 125, 130, 135, 140 ]
     },
     {
-        "name": "Red Formation",
-        "desc": "Deals 1,000 fixed damage to all enemies",
+        "name": "레드 포메이션",
+        "desc": "적 전체에 1000의 고정 데미지",
         "units": [ 142, 147, 152, 157 ]
     },
     {
-        "name": "Blue Formation",
-        "desc": "Deals 1,000 fixed damage to all enemies",
+        "name": "블루 포메이션",
+        "desc": "적 전체에 1000의 고정 데미지",
         "units": [ 143, 148, 153, 158 ]
     },
     {
-        "name": "Green Formation",
-        "desc": "Deals 1,000 fixed damage to all enemies",
+        "name": "그린 포메이션",
+        "desc": "적 전체에 1000의 고정 데미지",
         "units": [ 144, 149, 154, 159 ]
     },
     {
-        "name": "Yellow Formation",
-        "desc": "Deals 1,000 fixed damage to all enemies",
+        "name": "옐로 포메이션",
+        "desc": "적 전체에 1000의 고정 데미지",
         "units": [ 145, 150, 155, 160 ]
     },
     {
-        "name": "Black Formation",
-        "desc": "Deals 1,000 fixed damage to all enemies",
+        "name": "블랙 포메이션",
+        "desc": "적 전체에 1000의 고정 데미지",
         "units": [ 146, 151, 156, 161 ]
     },
     {
-        "name": "Black Cat Formation C",
-        "desc": "Deals 1,000 fixed damage to all enemies",
+        "name": "크로네코 포메이션 C",
+        "desc": "적 전체에 1000의 고정 데미지",
         "units": [ 165, 166, 167, 168, 169 ]
     },
     {
-        "name": "Absolute Justice Formation",
-        "desc": "Deals 1,000 fixed damage to the enemies in the front column",
+        "name": "절대적 정의의 진",
+        "desc": "적 전열에 1000의 고정 데미지",
         "units": [ 179, 180, 181, 182, 183 ]
     },
     {
-        "name": "Absolute Justice Hammer",
-        "desc": "Deals 2,000 fixed damage to all enemies",
+        "name": "절대적 정의의 철퇴",
+        "desc": "적 전체에 2000의 고정 데미지",
         "units": [ 184, 185, 186, 187, 188 ]
     },
     {
-        "name": "Absolute Justice Judgment",
-        "desc": "Deals 2,000 fixed damage to all enemies",
+        "name": "절대적 정의의 심판",
+        "desc": "적 전체에 2000의 고정 데미지",
         "units": [ 194, 195, 196, 197, 198 ]
     },
     {
