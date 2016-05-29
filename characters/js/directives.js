@@ -54,35 +54,19 @@ directives.characterTable = function($rootScope, $timeout, $compile, $storage) {
                 $rootScope.$emit('table.refresh');
                 $timeout(function() { element.fnDraw(); });
             };
-            // report link
-            var link = $('<span class="help-link">Want to report or request something? Use <a>this form</a>.</span>');
-            link.find('a').attr('href', 'http://goo.gl/forms/4FWGgVOQKh');
-            link.insertAfter($('.dataTables_length'));
             // pick column link
             var pick = $('<a id="pick-link" popover-placement="bottom" popover-trigger="click" popover-title="Additional Columns" ' +
                 'uib-popover-template="\'views/pick.html\'" popover-append-to-body="\'true\'">Additional columns</a>');
             $compile(pick)(scope);
             pick.insertAfter($('.dataTables_length'));
             // night toggle
-            var nightToggle = $('<label class="night-toggle"><input type="checkbox">Night mode</input></label>');
+            var nightToggle = $('<label class="night-toggle"><input type="checkbox">야간모드</input></label>');
             nightToggle.find('input').change(function(e) {
                 $rootScope.nightMode = e.target.checked;
                 if (!$rootScope.$$phase) $rootScope.$apply();
             });
             if ($rootScope.nightMode) nightToggle.find('input').attr('checked', 'checked');
             nightToggle.insertBefore($('.dataTables_length'));
-            // fuzzy toggle
-            var fuzzyToggle = $('<label class="fuzzy-toggle"><input type="checkbox">Enable fuzzy search</input></label>');
-            fuzzyToggle.attr('title','When enabled, searches will also display units whose name is not an exact match to the search keywords.\nUseful if you don\'t know the correct spelling of a certain unit.');
-            fuzzyToggle.find('input').prop('checked', scope.table.fuzzy);
-            fuzzyToggle.find('input').change(function() {
-                var checked = $(this).is(':checked');
-                if (checked == scope.table.fuzzy) return;
-                scope.table.fuzzy = checked;
-                $storage.set('fuzzy', scope.table.fuzzy);
-                scope.table.refresh();
-            });
-            fuzzyToggle.insertBefore($('.dataTables_length'));
         }
     };
 };
