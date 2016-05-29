@@ -3,9 +3,9 @@ window.ships = [
     // Do NOT change the order of the ships
     
     { // 0
-        name: 'Dinghy',
+        name: '작은배',
         thumb: 'ship_0001_c.png',
-        description: 'Boosts HP by 1.3x, boosts captain\'s RCV by 120 units',
+        description: '파티의 체력을 X1.3, 선장의 회복을 120 증가',
         hp: function(p) {
             return p.boatLevel < 6  ? 1.0  :
                    p.boatLevel < 10 ? 1.1 :
@@ -18,9 +18,9 @@ window.ships = [
     },
 
     { // 1
-        name: 'Merry Go',
+        name: '고잉 메리호',
         thumb: 'ship_0002_c.png',
-        description: 'Boosts ATK by 1.5x, boosts captain\'s HP by 300 units',
+        description: '파티의 공격력X1.5, 선장의 회복을 300증가',
         hpStatic: function(p) {
             return p.slot != 1 ? 0 :
                 [ 100, 130, 150, 170, 190, 210, 230, 250, 270, 300 ][p.boatLevel - 1];
@@ -33,9 +33,9 @@ window.ships = [
     },
 
     { // 2
-        name: 'Navy Ship',
+        name: '해군선',
         thumb: 'ship_0003_c.png',
-        description: 'Boosts HP by 1.5x, boosts ATK of Shooter characters by 100 units',
+        description: '파티의 체력X1.5, 사격유형 캐릭터의 공격력 100증가',
         atkStatic: function(p) {
             return !p.unit.class.has('Shooter') ? 0 :
                 [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ][p.boatLevel -1];
@@ -48,9 +48,9 @@ window.ships = [
     },
 
     { // 3
-        name: 'Baratie',
+        name: '발라티에',
         thumb: 'ship_0004_c.png',
-        description: 'Boosts captain\'s HP by 2000 units',
+        description: '선장의 체력을 2000증가',
         hpStatic: function(p) {
             return p.slot != 1 ? 0 :
                 [ 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 2000 ][p.boatLevel - 1];
@@ -60,7 +60,7 @@ window.ships = [
     { // 4
         name: 'Coffin Boat',
         thumb: 'ship_0005_c.png',
-        description: 'Boosts ATK and HP of Slasher characters by 1.5x, reduces captain\'s RCV by 700 units',
+        description: '참격유형 캐릭터의 공격과 체력 X1.5 , 선장의 회복력 700 감소',
         atk: function(p) {
             return !p.unit.class.has('Slasher') ? 1 :
                 [ 1.1, 1.1, 1.2, 1.2, 1.3, 1.3, 1.3, 1.4, 1.4, 1.5 ][p.boatLevel - 1];
@@ -75,9 +75,9 @@ window.ships = [
     },
 
     { // 5
-        name: 'Miss Love Duck',
+        name: 'Miss 러브덕 호',
         thumb: 'ship_0006_c.png',
-        description: 'Reduces damage received by 10%, boosts ATK of Striker characters by 100 units',
+        description: '받는 데미지 10% 감소, 타격유형 캐릭터의 공격 100증가',
         atkStatic: function(p) {
             return !p.unit.class.has('Striker') ? 0 : [ 0, 0, 0, 0, 0, 0, 50, 50, 50, 100 ][p.boatLevel -1];
         }
