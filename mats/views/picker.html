@@ -3,10 +3,10 @@
 <div class="custom-modal">
     <div id="picker" class="modal-dialog">
         <div class="modal-content animated fadeInDown">
-            <div class="modal-header">Pick a Unit</div>
+            <div class="modal-header">진화시킬 캐릭터 선택</div>
             <div class="modal-body">
 
-                <span class="animated shake span-warning" ng-if="!isMats">You have to pick the <b>EVOLVED</b> form.</span>
+                <span class="animated shake span-warning" ng-if="!isMats">진화 시킬 캐릭터를 <b>검색</b> 하세요.</span>
 
                 <input type="text" id="picker" placeholder="type to filter"
                     ng-model="query" ng-model-options="{ debounce: 500 }" auto-focus class="modal-filter">
@@ -19,7 +19,7 @@
 
             </div>
             <div class="modal-footer">
-                <button class="btn btn-default" ui-sref="^">Cancel</button> 
+                <button class="btn btn-default" ui-sref="^">취소</button> 
             </div>
         </div>
     </div>
