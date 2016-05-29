@@ -468,7 +468,7 @@ window.drops = {
 
         {
             name: 'Rush of Turtles',
-            day: 0,
+            day: [ 0, 4 ],
             thumb: 193,
             global: true,
             ' ': [ 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 189, 190, 191, 192, 193 ]
