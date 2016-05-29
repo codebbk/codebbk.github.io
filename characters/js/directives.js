@@ -364,17 +364,8 @@ directives.addLinks = function($stateParams) {
             if (!units[id - 1]) return;
             var incomplete = units[id - 1].incomplete;
             var ul = $('<ul></ul>');
-            if (!incomplete && window.flags[id] && window.flags[id].global) {
-                var link = 'http://onepiece-treasurecruise.com/en/' + (id == '5' ? 'roronoa-zoro' : 'c-' + id);
-                ul.append($('<li><a href="' + link + '" target="_blank">Official Guide (English)</a></li>'));
-            }
-            if (!incomplete) {
-                ul.append($('<li><a href="http://onepiece-treasurecruise.com/c-' + id + '" target="_blank">' +
-                        'Official Guide (Japanese)</a></li>'));
-            }
-            if (!isNaN(gw[id-1])) {
-                ul.append($('<li><a href="http://xn--pck6bvfc.gamewith.jp/article/show/' + gw[id-1] + '" target="_blank">' +
-                        'GameWith Page (Japanese)</a> | <a href="http://translate.google.com/translate?sl=ja&tl=en&u=http://xn--pck6bvfc.gamewith.jp/article/show/' + gw[id-1] + '" target="_blank">' +'Google Translate</a></li>'));
+              if (!incomplete) {
+                ul.append($('<li><a href="http://cafe.naver.com/torekuru" target="_blank">원트크(한국공략카페)</a></li>'));
             }
             if (ul.children().length > 0)
                 element.append(ul);
