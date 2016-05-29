@@ -71,7 +71,11 @@ filters.decorate = function() {
         if (input.constructor == Array) input = input[0];
         if (input.constructor != String) return 'N/A';
         return input
-            .replace(/\[?(STR|DEX|QCK|PSY|INT)\]?/g,'<span class="badge $1">$1</span>')
+            .replace(/\[?(STR)\]?/g,'<span class="badge $1">힘 속성</span>')
+            .replace(/\[?(QCK)\]?/g,'<span class="badge $1">속 속성</span>')
+            .replace(/\[?(DEX)\]?/g,'<span class="badge $1">기 속성</span>')
+            .replace(/\[?(PSY)\]?/g,'<span class="badge $1">심 속성</span>')
+            .replace(/\[?(INT)\]?/g,'<span class="badge $1">지 속성</span>')
             .replace(/\[RCV\]/g,'<span class="badge RCV">RCV</span>')
             .replace(/\[TND\]/g,'<span class="badge TND"><i class="tnd-icon"></i> TND</span>')
             .replace(/\[EMPTY\]/g,'<span class="badge EMPTY"><i class="fa fa-circle-o"></i> EMPTY</span>')
