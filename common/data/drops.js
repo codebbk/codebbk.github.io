@@ -134,7 +134,7 @@ window.drops = {
         },
 
         {
-            name: "쌍둥이 곶",
+            name: "쌍둥이 언덕",
             thumb: 213,
             global: true,
             "01": [ 215, 83, 95, 110 ],
