@@ -487,7 +487,7 @@ window.drops = {
         },
 
         {
-            name: 'Sea Pony Paradise',
+            name: '해마 파라다이스',
             day: 1,
             thumb: 118,
             global: true,
