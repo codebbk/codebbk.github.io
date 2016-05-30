@@ -120,23 +120,23 @@ window.tandems = [
         "units": [ 56, 54, 58 ]
     },
     {
-        "name": "Fishman Smash Storm",
-        "desc": "Deals 2 times the ATK of the last character in the tandem to all enemies",
+        "name": "어인족, 스매시 스톰",
+        "desc": "적 전체에 캐릭터의 공격X2배의 데미지",
         "units": [ 61, 63, 62, 65 ]
     },
     {
-        "name": "Fishman Crash Storm",
-        "desc": "Deals 2 times the ATK of the last character in the tandem to all enemies",
+        "name": "어인족, 크래시 스톰",
+        "desc": "적 전체에 캐릭터의 공격X2배의 데미지",
         "units": [ 61, 63, 62, 66 ]
     },
     {
-        "name": "Fishman Burst Cannon",
-        "desc": "Deals 2 times the ATK of the last character in the tandem to all enemies",
+        "name": "어인족, 버스트 캐논,
+        "desc": "적 전체에 캐릭터의 공격X2배의 데미지",
         "units": [ 61, 64, 62, 65 ]
     },
     {
-        "name": "Fishman Ultra Burst Cannon",
-        "desc": "Deals 3 times the ATK of the last character in the tandem to all enemies",
+        "name": "어인족, 슈퍼 버스트 캐논",
+        "desc": "적 전체에 캐릭터의 공격X2배의 데미지",
         "units": [ 61, 64, 62, 66 ]
     },
     {
