@@ -5140,13 +5140,13 @@ window.details = {
     },
 	1074: {
 		captain: "Unknown",
-		special: "Unknown",
-		specialName: "King Riku Special"
+		special: "Changes [QCK] and [PSY] orbs into [INT] orbs.",
+		specialName: "Tenacious Sword of Destruction"
 	},
 	1075: {
 		captain: "Unknown",
-		special: "Unknown",
-		specialName: "King Riku Special"
+		special: "Changes [QCK] and [PSY] orbs into [INT] orbs.",
+		specialName: "Tenacious Sword of Destruction"
 	},
 	1076:{
 		captain: "Unknown",
@@ -5159,7 +5159,7 @@ window.details = {
 			}
 		],
 		specialNotes: "#{stages}",
-        specialName: "Leo Special"
+        specialName: "Haute Couture: Patchwork"
 	},
 	1077:{
 		captain: "Unknown",
@@ -5172,7 +5172,7 @@ window.details = {
 			}
 		],
 		specialNotes: "#{stages}",
-        specialName: "Leo Special"
+        specialName: "Haute Couture: Patchwork"
 	},
 	1078: {
 		captain: "Unknown",
@@ -5185,7 +5185,7 @@ window.details = {
 			}
 		],
 		specialNotes: "#{stages}",
-		specialName: "Mansherry Special"
+		specialName: "Chiyupopo"
 	},
 	1079: {
 		captain: "Unknown",
@@ -5198,26 +5198,26 @@ window.details = {
 			}
 		],
 		specialNotes: "#{stages}",
-		specialName: "Mansherry Special"
+		specialName: "Chiyupopo"
 	},
 	1080: {
 		captain: "Unknown",
-		special: "Unknown",
-		specialName: "Kyros Special"
+		special: "Deals unknown damage to one enemy, changes own orb to [DEX] and bossts own ATK",
+		specialName: "Trueno Bastardo"
 	},
 	1081: {
 		captain: "Unknown",
-		special: "Unknown",
-		specialName: "Kyros Special"
+		special: "Deals unknown damage to one enemy, changes own orb to [DEX] and bossts own ATK",
+		specialName: "Trueno Bastardo"
 	},
 	1082: {
 		captain: "Unknown",
-		special: "Unknown",
+		special: "Deals severe damage to all enemies, if at low health boosts ATK of Striker and Fighter characters",
 		specialName: "Don Sai Special"
 	},
 	1083: {
 		captain: "Unknown",
-		special: "Unknown",
+		special: "Deals severe damage to all enemies, if at low health boosts ATK of Striker and Fighter characters",
 		specialName: "Don Sai Special"
 	},
 	1084: {
