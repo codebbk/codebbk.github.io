@@ -10,8 +10,8 @@ window.tandems = [
         "units": [ 3, 6, 18 ]
     },
     {
-        "name": "Three-Sword Style Gum-Gum Diable Jambe Mouton Jet 600 Pound Cannon",
-        "desc": "Deals 3 times the ATK of the last character in the tandem to all enemies",
+        "name": "삼검류 고무고무 디아블 양고기 JET 육백 번뇌 공성포",
+        "desc": "적 전체에 캐릭터의 공격X3배의 데미지",
         "units": [ 8, 20, 4 ]
     },
     {
@@ -20,8 +20,8 @@ window.tandems = [
         "units": [ 47, 48, 5 ]
     },
     {
-        "name": "Tornado Tabasco Pound Phoenix",
-        "desc": "Deals 3 times the ATK of the last character in the tandem to the enemies in the back column",
+        "name": "토네이도 타바스코 번뇌봉,
+        "desc": "적 후열에 캐릭터의 공격X3배의 데미지n",
         "units": [ 10, 14, 7 ]
     },
     {
@@ -100,23 +100,23 @@ window.tandems = [
         "units": [ 50, 51, 52 ]
     },
     {
-        "name": "Krieg Fleet Delta Attack",
-        "desc": "Deals 2 times the ATK of the last character in the tandem to all enemies",
+        "name": "클리크 함대 - 델타 어택",
+        "desc": "적 전체에 캐릭터의 공격X2배의 데미지",
         "units": [ 55, 54, 57 ]
     },
     {
-        "name": "Krieg Fleet Delta Hurricane",
-        "desc": "Deals 2 times the ATK of the last character in the tandem to all enemies",
+        "name": "클리크 함대 - 델타 허리케인",
+        "desc": "적 전체에 캐릭터의 공격X2배의 데미지",
         "units": [ 55, 54, 58 ]
     },
     {
-        "name": "Krieg Fleet Delta Burst",
-        "desc": "Deals 2 times the ATK of the last character in the tandem to all enemies",
+        "name": "클리크 함대 - 델타 버스트",
+        "desc": "적 전체에 캐릭터의 공격X2배의 데미지",
         "units": [ 56, 54, 57 ]
     },
     {
-        "name": "Krieg Fleet Delta Explosion",
-        "desc": "Deals 3 times the ATK of the last character in the tandem to all enemies",
+        "name": "클리크 함대 - 델타 익스플로전",
+        "desc": "적 전체에 캐릭터의 공격X3배의 데미지",
         "units": [ 56, 54, 58 ]
     },
     {
