@@ -29,3 +29,12 @@
     <input type="text" id="cost-slider" name="cost-slider" value="" cost-slider></input>
 </div>
 
+<div class="filter-container">
+    <span class="filter-header">제외시키기</span>
+    <span class="filter width-12 exc" ng-model="filters.noBase" ng-class="{ active: filters.noBase }"
+        ng-click="filters.noBase = !filters.noBase">기본형 캐릭터 숨기기</span><!--
+ --><span class="filter width-12 exc" ng-model="filters.noFodder" ng-class="{ active: filters.noFodder }"
+        ng-click="filters.noFodder = !filters.noFodder">잔챙이 숨기기(해적등)</span>
+    <span class="filter width-12 exc" ng-model="filters.noEvos" ng-class="{ active: filters.noEvos }"
+        ng-click="filters.noEvos = !filters.noEvos">강화&진화재료 숨기기</span>
+</div>
