@@ -1083,7 +1083,7 @@ window.units = [
     [ "돈 사이", "힘", [ "타격", "격투" ], 4, 18, null, null, null, null, null, null, null, null, null, null, null ],
     [ "칭자오 패밀리의 돈 사이", "힘", [ "타격", "격투" ], 5, 30, null, null, null, null, null, null, null, null, null, null, null ],
     [ "후지토라", "지능", [ "야심", "강인" ], 5, 30, null, 4, 70, null, 430, 250, 77, 1890, 754, 204, null ],
-    [ "후지토라 해군 제독", "지능", [ "야심", "강인" ], 6, 55, null, 5, 99, null, 1820, 700, 201, 3809, 1380, ,
+    [ "후지토라 해군 제독", "지능", [ "야심", "강인" ], 6, 55, null, 5, 99, null, 1820, 700, 201, 3809, 1380, 325, null ],
     [ "콜로세움 므슈르", "지능", [ "야심", "격투" ], 3, 16, null, null, null, null, null, null, null, null, null, null, null ],
     [ "콜로세움 므슈르", "지능", [ "야심", "격투" ], 4, 26, null, null, null, null, null, null, null, null, null, null, null ],
     [ "콜로세움 사가", "속도", [ "참격", "야심" ], 3, 16, null, null, null, null, null, null, null, null, null, null, null ],
