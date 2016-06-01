@@ -100,7 +100,7 @@ directives.addCaptainOptions = function($timeout, $compile, MATCHER_IDS) {
         link: function(scope, element, attrs) {
             if (scope.n !== TARGET) return;
             var filter = $('<div id="class-filters" ng-class="{ enabled: filters.custom[' + TARGET + '] }"></div>');
-            var classes = [ 'Fighter', 'Shooter', 'Slasher', 'Striker', 'Free Spirit', 'Cerebral', 'Powerhouse', 'Ambition' ];
+            var classes = [ '격투', '사격', '참격', '타격', '자유', '박식', '강인', '야심' ];
             classes.forEach(function(x,n) {
                 var template = '<span class="filter subclass %c" ng-class="{ active: filters.classCaptain == \'%s\' }" ' +
                     'ng-click="onCaptainClick($event,\'%s\')">%s</span>';
@@ -122,7 +122,7 @@ directives.addSpecialOptions = function($timeout, $compile, MATCHER_IDS) {
         link: function(scope, element, attrs) {
             if (scope.n !== TARGET) return;
             var filter = $('<div id="class-filters" ng-class="{ enabled: filters.custom[' + TARGET + '] }"></div>');
-            var classes = [ 'Fighter', 'Shooter', 'Slasher', 'Striker', 'Free Spirit', 'Cerebral', 'Powerhouse', 'Ambition' ];
+            var classes = [ '격투', '사격', '참격', '타격', '자유', '박식', '강인', '야심' ];
             classes.forEach(function(x,n) {
                 var template = '<span class="filter subclass %c" ng-class="{ active: filters.classSpecial == \'%s\' }" ' +
                     'ng-click="onSpecialClick($event,\'%s\')">%s</span>';
@@ -147,7 +147,7 @@ directives.addOrbOptions = function($timeout, $compile, MATCHER_IDS) {
             var filter = $('<div id="controllers" ng-class="{ enabled: filters.custom[' + TARGET + '] }">' +
                     '<span class="separator">&darr;</span></div>');
             var separator = filter.find('.separator');
-            [ 'STR', 'DEX', 'QCK', 'PSY', 'INT', 'RCV', 'TND' ].forEach(function(type) {
+            [ '힘', '기술', '속도', '마음', '지식', '고기', '연계' ].forEach(function(type) {
                 var template = '<span class="filter orb %s" ng-class="{ active: filters.%f.indexOf(\'%s\') > -1 }" ' +
                     'ng-model="filters.%f" ng-click="onOrbClick($event,\'%s\')">%S</span>';
                 separator.before($(template.replace(/%s/g,type).replace(/%S/g,type[0]).replace(/%f/g,'ctrlFrom')));
