@@ -5,7 +5,7 @@ var CharUtils = { };
 /* * * * * Reverse drop map * * * * */
 
 var reverseDropMap = null;
-var marks = { '스토리': 1, '재료': 2, '스페셜 던전': 4, '강림': 8, 'Colosseum': 16 };
+var marks = { 'Story Island': 1, 'Weekly Island': 2, 'Fortnight': 4, 'Raid': 8, 'Colosseum': 16 };
 
 var generateReverseDropMap = function() {
     reverseDropMap = { };
@@ -109,10 +109,10 @@ CharUtils.searchDropLocations = function(id) {
             if (temp.length > 0) {
                 temp.sort();
                 var name = window.drops[type][island].name;
-                if (type == '스페셜 던전') name += ' 스페셜 던전';
-                else if (type == '강림') name += ' 강림';
+                if (type == 'Fortnight') name += ' Fortnight';
+                else if (type == 'Raid') name += ' Raid';
                 var data = { name: name, thumb: window.drops[type][island].thumb, data: temp };
-                if (type == '스토리' || window.drops[type][island].hasOwnProperty('day'))
+                if (type == 'Story Island' || window.drops[type][island].hasOwnProperty('day'))
                     data.bonuses = CharUtils.getIslandBonuses(island, window.drops[type][island].day);
                 result.push(data);
             }
@@ -184,7 +184,7 @@ CharUtils.getIslandBonuses = function(y, day) {
             })[0];
         };
         var global = getBonus(CharUtils.getDayOfWeek(false)), japan = getBonus(CharUtils.getDayOfWeek(true, false));
-        if (global && drops['재료'][y] && drops['스토리'][y].global) result.push('GL:' + global.type);
+        if (global && drops['Story Island'][y] && drops['Story Island'][y].global) result.push('GL:' + global.type);
         if (japan) result.push('JP:' + japan.type);
     }
     return result;
