@@ -82,7 +82,7 @@ directives.detailPane = function($timeout) {
         link: function(scope, element, attrs) {
 
             var modifiers = [ 'Below Good', 'Good', 'Great', 'Perfect', 'Miss' ];
-            var types = [ '힘', '속도', '기술', '마음', '지식' ];
+            var types = [ 'STR', 'QCK', 'DEX', 'PSY', 'INT' ];
 
             var modifyDamage = function(e) {
                 var container = $(e.target).closest('.turnContainer');
