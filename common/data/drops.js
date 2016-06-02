@@ -495,7 +495,7 @@ window.drops = {
         },
 
         {
-            name: 'Penguin Beach',
+            name: '펭귄 비치',
             day: 2,
             thumb: 83,
             global: true,
@@ -503,7 +503,7 @@ window.drops = {
         },
 
         {
-            name: 'Penguin Long Beach',
+            name: '펭귄 롱 비치',
             day: 2,
             thumb: 266,
             global: true,
@@ -512,7 +512,7 @@ window.drops = {
 
 
         {
-            name: 'Dragon Sanctuary',
+            name: '용의 성역',
             day: 3,
             thumb: 267,
             global: true,
@@ -520,7 +520,7 @@ window.drops = {
         },
 
         {
-            name: 'Scissor Cavern',
+            name: '게 동굴',
             day: 4,
             thumb: 95,
             global: true,
@@ -561,7 +561,7 @@ window.drops = {
         },
 
          {
-            name: 'Kuro\'s Master Plan',
+            name: '백계의 크로- 완전계획',
             thumb: 46,
             global: true,
 			condition: "None",
@@ -1018,7 +1018,7 @@ window.drops = {
     '강림': [
 
         {
-            name: 'Clash!! Mihawk',
+            name: '결전! 미호크',
             thumb: 227,
             global: true,
             Master: [ 86, 112, 118, 226 ],
@@ -1026,7 +1026,7 @@ window.drops = {
         },
 
         {
-            name: 'Clash!! Chopper\'s Rampage',
+            name: '결전! 쵸파의 폭주',
             thumb: 249,
             global: true,
             Master: [ 84, 110, 118, 248 ],
@@ -1034,21 +1034,21 @@ window.drops = {
         },
 
         {
-            name: 'Clash!! Vice-Admiral Garp',
+            name: '결전! 해군 중장 거프',
             thumb: 306,
             global: true,
             Master: [ 113, 118, 262, 264, 305 ],
         },
 
         {
-            name: 'Clash!! Black Arm Zephyr',
+            name: '결전! 검은 팔 제파',
             thumb: 353,
             Master: [ 88, 114, 118, 352, 354 ],
             Expert: [ 99, 114, 117, 352, 354 ]
         },
 
         {
-            name: 'Clash!! Ivankov',
+            name: '결전! 이완코프',
             thumb: 390,
             global: true,
             Master: [ 85, 111, 118, 389 ],
@@ -1056,7 +1056,7 @@ window.drops = {
         },
 
         {
-            name: 'Clash!! Doflamingo',
+            name: '결전! 도플라밍고',
             thumb: 418,
             global: true,
             Ultimate: [ 86, 112, 118, 302, 417 ],
@@ -1064,7 +1064,7 @@ window.drops = {
         },
 
         {
-            name: 'Clash!! Blackbeard',
+            name: '결전! 검은수염',
             thumb: 447,
             global: true,
             Master: [ 84, 110, 118, 300, 446 ],
@@ -1072,7 +1072,7 @@ window.drops = {
         },
 
         {
-            name: 'Clash!? Usopp\'n',
+            name: '결전!? 우소풍',
             thumb: 518,
             showManual: true,
 			global: true,
@@ -1080,14 +1080,14 @@ window.drops = {
         },
 
         {
-            name: 'Clash!! Heracles\'n',
+            name: '결전! 헤라클레슨',
             thumb: 516,
             Master: [ 87, 97, 113, 117, 118, 294, 295, 303, 429, 515 ],
             Expert: [ 87, 98, 113, 117, 293, 295, 429, 379, 515 ]
         },
 
         {
-            name: 'Clash!! Aokiji',
+            name: '결전! 아오키지',
             thumb: 575,
             global: true,
             Ultimate: [ 88, 114, 118, 304, 574 ],
@@ -1095,7 +1095,7 @@ window.drops = {
         },
 
         {
-            name: 'Clash!! Eneru',
+            name: '결전! 에넬',
             thumb: 603,
             global: true,
             Ultimate: [ 85, 111, 118, 301, 602 ],
@@ -1104,35 +1104,35 @@ window.drops = {
         },
 
         {
-            name: 'Clash!! Duval',
+            name: '결전! 듀발',
             thumb: 654,
             Master: [ 112, 118, 302, 652 ],
             Expert: [ 86, 97, 112, 652 ]
         },
 
         {
-            name: 'Clash!! Buster Call',
+            name: '결전! 버스터 콜',
             thumb: 771,
             Master: [ 110, 111, 112, 113, 114, 770, 771, 772, 773, 774, 775 ],
             Expert: [ 110, 111, 112, 113, 114, 770, 771, 772, 773, 774, 775 ]
         },
 
         {
-            name: 'Clash!! Nightmare Luffy',
+            name: '결전! 나이트메어 루피',
             thumb: 795,
             Master: [ 794 ],
             Expert: [ 794 ]
         },
 
         {
-            name: 'Clash!! Tyrant Kuma',
+            name: '결전! 폭군 쿠마',
             thumb: 836,
             Master: [ 835 ],
             Expert: [ 835 ]
         },
 
         {
-            name: 'Clash!! Pirate Empress Hancock',
+            name: '결전! 해적여왕 핸콕',
             thumb: 865,
             Ultimate: [ 864 ],
             Master: [ 864 ],
@@ -1140,28 +1140,28 @@ window.drops = {
         },
         
         {
-            name: 'Clash!! Pica',
+            name: '결전! 피카',
             thumb: 932,
             Master: [ 932 ],
             Expert: [ 932 ]
         },
 		
 		{
-			name: 'Clash!! Kizaru',
+			name: '결전! 키자루',
             thumb: 978,
 			Ultimate: [ 977 ],
 			Master: [ 977 ]
 		},
         
         {
-            name: 'Clash!? Impostor Straw Hat Pirates',
+            name: '결전!? 가짜 밀짚모자 해적단',
             showManual: true,
             thumb: 989,
             Ultimate: [ 985, 986, 987, 988, -989, -4, -8, -11, -12, -15, -16, -556, -528, -520, -554, -558, -20, -217, -709]
         },
         
         {
-            name: 'Clash!! Sabo',
+            name: '결전! 사보',
             thumb: 1047,
             Ultimate: [ 1046 ],
             Master: [ 1046 ],
