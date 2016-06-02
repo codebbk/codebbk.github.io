@@ -1,6 +1,6 @@
 <div id="stats">
 
-    <div class="damage {{type}}" ng-repeat="type in ['STR','QCK','DEX','PSY','INT']" expandable-damage>
+    <div class="damage {{type}}" ng-repeat="type in ['힘','속도','기술','마음','지능']" expandable-damage>
 
         <span class="damageLabel">Damage against {{type}}</span>
         <span class="damageAmount" id="{{type}}">{{ numbers[type].overall | number:0 }}</span>
