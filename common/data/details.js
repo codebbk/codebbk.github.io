@@ -110,9 +110,9 @@ window.details = {
 		captain: "PSY 캐릭터의 회복력이 1.5배가 된다"
 	},
 	23: {
-		special: "Changes adjacent orbs into [RCV] orbs",
-		specialName: "Scope",
-		captain: "Boosts RCV of INT characters by 1.5x"
+		special: "가까이 있는 캐릭터의 슬롯을 [RCV]로 바꾼다",
+		specialName: "진단",
+		captain: "INT 캐릭터의 회복력이 1.5배가 된다"
 	},
 	24: {
 		special: "Reduces the defense of all enemies by 50% for 2 turns",
