@@ -269,7 +269,7 @@ window.details = {
 	},
 	57: {
 		special: "적 1명에게 캐릭터의 공격×7배의 INT 데미지",
-		specialName: 체인 해머",
+		specialName: "체인 해머",
 		captain: "받는 데미지를 10％ 감소시킨다"
 	},
 	58: {
