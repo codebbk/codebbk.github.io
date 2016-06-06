@@ -94,7 +94,7 @@ window.details = {
 		captain: "QCK 캐릭터의 공격력이 1.5배가 된다"
 	},
 	20: {
-		special: "적 전체에 5000의 고정 대미지",
+		special: "적 전체에 5000의 고정 데미지",
 		specialName: "디아블 잠브",
 		specialNotes: "#{fixed}",
 		captain: "QCK 캐릭터의 공격력과 체력이 1.5배가 된다"
@@ -105,7 +105,7 @@ window.details = {
 		captain: "PSY 캐릭터의 회복력이 1.2배가 된다"
 	},
 	22: {
-		special: "적 1명에게 캐릭터의 공격×15배의 PSY 대미지",
+		special: "적 1명에게 캐릭터의 공격×15배의 PSY 데미지",
 		specialName: "헤비 공",
 		captain: "PSY 캐릭터의 회복력이 1.5배가 된다"
 	},
@@ -115,618 +115,618 @@ window.details = {
 		captain: "INT 캐릭터의 회복력이 1.5배가 된다"
 	},
 	24: {
-		special: "Reduces the defense of all enemies by 50% for 2 turns",
-		specialName: "Hoofprint Roseo",
-		captain: "Boosts RCV of STR characters by 1.5x"
+		special: "적 전체의 방어력을 2턴 동안 반으로 줄인다",
+		specialName: "발굽 로제오",
+		captain: "STR 캐릭터의 회복력이 1.5배가 된다"
 	},
 	25: {
-		special: "Deals 7x character's ATK in QCK damage to all enemies",
-		specialName: "Horn Point Roseo Colonnade",
-		captain: "Boosts RCV of QCK characters by 1.5x"
+		special: "적 전체에 캐릭터의 공격×7배의 QCK 데미지",
+		specialName: "뿔 강화 로제오 콜로네이드",
+		captain: "QCK 캐릭터의 회복력이 1.5배가 된다"
 	},
 	26: {
-		special: "Reduces damage received by 50% for 3 turns",
-		specialName: "Guard Point",
-		captain: "Boosts RCV of DEX characters by 1.5x"
+		special: "받는 데미지를 3턴 동안 50％ 감소시킨다",
+		specialName: "모피강화",
+		captain: "DEX 캐릭터의 회복력이 1.5배가 된다"
 	},
 	27: {
-		special: "Deals 10x character's ATK in character's type damage to one enemy",
-		specialName: "Hyper Slash",
-		captain: "Boosts HP of QCK characters by 1.2x"
+		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 슬래쉬",
+		captain: "QCK 캐릭터의 체력이 1.2배가 된다"
 	},
 	28: {
-		special: "Deals 10x character's ATK in character's type damage to one enemy",
-		specialName: "Hyper Straight",
-		captain: "Boosts ATK of Fighter characters by 1.2x"
+		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 스트레이트",
+		captain: "격투형 캐릭터의 공격력이 1.2배가 된다"
 	},
 	29: {
-		special: "Deals 7x character's ATK in STR damage to one enemy",
-		specialName: "Iron Mace Beauty",
-		captain: "Reduces damage received from STR enemies by 30%"
+		special: "적 1명에게 캐릭터의 공격×7배의 STR 데미지",
+		specialName: "아름다운 쇠몽둥이",
+		captain: "STR 캐릭터가 주는 데미지를 30％ 감소시킨다"
 	},
 	30: {
-		special: "Reduces damage received by 80% for 1 turn",
-		specialName: "Slip-Slip Tracks",
-		captain: "Reduces damage received from STR enemies by 50%"
+		special: "받는 데미지를 1턴 동안 80％ 감소시킨다",
+		specialName: "미끌미끌 슈플",
+		captain: "STR 캐릭터가 주는 데미지를 50％ 감소시킨다"
 	},
 	31: {
-		captain: "Recovers 2x character's RCV in HP at the end of each turn"
+		captain: "턴 종료 후에 캐릭터의 회복×2배의 체력이 회복한다"
 	},
 	32: {
-		special: "Changes [RCV] orbs into [TND] orbs",
-		specialName: "Shooting Spree",
-		captain: "Recovers 2x character's RCV in HP at the end of each turn"
+		special: "RCV슬롯을 TND으로 바꾼다",
+		specialName: "결사의 난사",
+		captain: "턴 종료 후에 캐릭터의 회복×2배의 체력이 회복한다"
 	},
 	33: {
-		captain: "Reduces damage received from INT enemies by 30%"
+		captain: "INT 캐릭터가 주는 데미지를 30％ 감소시킨다"
 	},
 	34: {
-		special: "Reduces the defense of all enemies by 100% for 1 turn",
-		specialName: "Straw Doll Of Resentment",
-		captain: "Reduces damage received from INT enemies by 30%"
+		special: "적 전체의 방어력을 1턴 동안 0으로 만든다",
+		specialName: "적반하장의 지푸라기 인형",
+		captain: "INT 캐릭터가 주는 데미지를 30％ 감소시킨다"
 	},
 	35: {
-		special: "Deals 5x character's ATK in STR damage to one enemy",
-		specialName: "Execution Axe-Hand",
-		captain: "Boosts HP of Slasher characters by 1.2x"
+		special: "적 1명에게 캐릭터의 공격×5배의 STR 데미지",
+		specialName: "처형의 도끼손",
+		captain: "참격형 캐릭터의 체력이 1.2배가 된다"
 	},
 	36: {
-		special: "Deals 5x character's ATK in PSY damage to one enemy",
-		specialName: "Fierce Bite",
-		captain: "Boosts ATK of PSY characters by 1.5x"
+		special: "적 1명에게 캐릭터의 공격×5배의 PSY 데미지",
+		specialName: "격렬 물어뜯기",
+		captain: "PSY 캐릭터의 공격력이 1.5배가 된다"
 	},
 	37: {
-		special: "Deals 5x character's ATK in DEX damage to one enemy",
-		specialName: "The Dance Of A Hundred Kamikaze Tops",
-		captain: "Boosts ATK of DEX characters by 1.5x"
+		special: "적 1명에게 캐릭터의 공격×5배의 DEX 데미지",
+		specialName: "곡예기술 일백팽이 태풍극장",
+		captain: "DEX 캐릭터의 공격력이 1.5배가 된다"
 	},
 	38: {
-		special: "Changes [RCV] orbs into [INT] orbs",
-		specialName: "Chop-Chop Festival",
-		captain: "Boosts ATK of INT characters by 1.5x"
+		special: "RCV슬롯을 INT 슬롯으로 바꾼다",
+		specialName: "동강동강 페스티벌",
+		captain: "INT 캐릭터의 공격력이 1.5배가 된다"
 	},
 	39: {
-		special: "Changes [RCV] orbs into [INT] orbs",
-		specialName: "Chop-Chop Festival",
-		captain: "Boosts ATK of INT characters by 2x"
+		special: "RCV슬롯을 INT 슬롯으로 바꾼다",
+		specialName: "동갈동갈 페스티벌",
+		captain: "INT 캐릭터의 공격력이 2배가 된다"
 	},
 	40: {
-		special: "Changes adjacent orbs into [RCV] orbs",
-		specialName: "[RCV] Slot Storm",
-		captain: "Reduces damage received from Shooter enemies by 30%"
+		special: "가까이 있는 캐릭터의 슬롯을 RCV로 바꾼다",
+		specialName: "[RCV] 슬롯 스톰",
+		captain: "사격형 캐릭터가 주는 데미지를 30％ 감소시킨다"
 	},
 	41: {
-		special: "Changes [RCV] orbs into [INT] orbs",
-		specialName: "Cat Snatch",
-		captain: "Boosts RCV of INT characters by 1.2x"
+		special: "RCV 슬롯을 INT슬롯으로 바꾼다",
+		specialName: "오리발 작전",
+		captain: "INT 캐릭터의 회복력이 1.2배가 된다"
 	},
 	42: {
-		special: "Deals 3x character's ATK in STR damage to all enemies",
-		specialName: "Cat-A-Pult Cat-Astrophe",
-		captain: "Boosts ATK of STR characters by 1.2x"
+		special: "적 전체에 캐릭터의 공격×3배의 STR 데미지",
+		specialName: "필살 고양이 밟았다",
+		captain: "STR 캐릭터의 공격력이 1.2배가 된다"
 	},
 	43: {
-		special: "Changes [RCV] orbs into [DEX] orbs",
-		specialName: "One, Two, Django",
-		captain: "Reduces damage received by 10%"
+		special: "RCV슬롯을 DEX슬롯으로 바꾼다",
+		specialName: "최면술 원 투 쟝고",
+		captain: "받는 데미지를 10％ 감소시킨다"
 	},
 	44: {
-		special: "Changes [RCV] orbs into [DEX] orbs",
-		specialName: "Dance Heaven",
-		captain: "Reduces damage received by 10%"
+		special: "RCV슬롯을 DEX슬롯으로 바꾼다",
+		specialName: "댄스 천국",
+		captain: "받는 데미지를 10％ 감소시킨다"
 	},
 	45: {
-		special: "Deals 5x character's ATK in QCK damage to all enemies",
-		specialName: "Death Scoop",
-		captain: "Boosts ATK of QCK characters by 1.2x"
+		special: "적 전체에 캐릭터의 공격×5배의 QCK 데미지",
+		specialName: "작살",
+		captain: "QCK 캐릭터의 공격력이 1.2배가 된다"
 	},
 	46: {
-		special: "Deals 5x character's ATK in QCK damage to all enemies",
-		specialName: "Death Scoop",
-		captain: "Boosts ATK of QCK characters by 1.5x"
+		special: "적 전체에 캐릭터의 공격×5배의 QCK 데미지",
+		specialName: 작살",
+		captain: "QCK 캐릭터의 공격력이 1.5배가 된다"
 	},
 	47: {
-		special: "Changes [TND] orbs into [RCV] orbs",
-		specialName: "[TND] Slot Change [RCV]"
+		special: "TND을 RCV로 바꾼다",
+		specialName: "TND 체인지·RCV"
 	},
 	48: {
-		special: "Changes adjacent orbs into [RCV] orbs",
-		specialName: "[RCV] Slot Storm"
+		special: "가까이 있는 캐릭터의 슬롯을 RCV로 바꾼다",
+		specialName: "RCV슬롯 스톰"
 	},
 	49: {
-		special: "Deals 10x character's ATK in character's type damage to one enemy",
-		specialName: "Hyper Straight",
-		captain: "Boosts ATK of STR characters by 1.5x"
+		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 스트레이트",
+		captain: "STR 캐릭터의 공격력이 1.5배가 된다"
 	},
 	50: {
-		special: "Deals 5x character's ATK in STR damage to one enemy",
-		specialName: "The Meatball Of Doom",
-		captain: "Recovers 4x character's RCV in HP at the end of each turn"
+		special: "적 1명에게 캐릭터의 공격×5배의 STR 데미지",
+		specialName: "식중독 포탄",
+		captain: "턴 종료 후에 캐릭터의 회복×4배의 체력이 회복한다"
 	},
 	51: {
-		captain: "Recovers 3x character's RCV in HP at the end of each turn"
+		captain: "턴 종료 후에 캐릭터의 회복×3배의 체력이 회복한다"
 	},
 	52: {
-		special: "Changes [STR] orbs into [DEX] orbs",
-		specialName: "Chef Drop",
-		captain: "Boosts ATK of Fighter characters by 2.5x"
+		special: "STR슬롯을 DEX슬롯으로 바꾼다",
+		specialName: "요리장 드롭",
+		captain: "격투형 캐릭터의 공격력이 2.5배가 된다"
 	},
 	53: {
-		captain: "Reduces damage received from QCK enemies by 30%"
+		captain: "QCK으로부터 받는 데미지를 30％ 감소시킨다"
 	},
 	54: {
-		special: "Deals 7x character's ATK in QCK damage to one enemy",
-		specialName: "Demonic Dance",
-		captain: "Reduces damage received from QCK enemies by 50%"
+		special: "적 1명에게 캐릭터의 공격×7배의 QCK 데미지",
+		specialName: "귀신난무",
+		captain: "QCK으로부터 받는 데미지를 50％ 감소시킨다"
 	},
 	55: {
-		captain: "Reduces damage received from STR enemies by 30%"
+		captain: "STR으로부터 받는 데미지를 30％ 감소시킨다"
 	},
 	56: {
-		special: "Changes [RCV] orbs into [STR] orbs",
-		specialName: "Fire Pearl Privilege",
-		captain: "Reduces damage received from STR enemies by 50%"
+		special: "RCV슬롯을 STR슬롯으로 바꾼다",
+		specialName: "파이어 파알 프레젠트",
+		captain: "STR으로부터 받는 데미지를 50％ 감소시킨다"
 	},
 	57: {
-		special: "Deals 7x character's ATK in INT damage to one enemy",
-		specialName: "Chain Hammer",
-		captain: "Reduces damage received by 10%"
+		special: "적 1명에게 캐릭터의 공격×7배의 INT 데미지",
+		specialName: 체인 해머",
+		captain: "받는 데미지를 10％ 감소시킨다"
 	},
 	58: {
-		special: "Poisons all enemies",
+		special: "적 전체를 독으로 만든다",
 		specialNotes: "#{poison}",
-		specialName: "MH5",
-		captain: "Reduces damage received by 20%"
+		specialName: "맹독 가스탄 MH5",
+		captain: "받는 데미지를 20％ 감소시킨다"
 	},
 	59: {
-		special: "Changes [PSY] orbs into [INT] orbs",
-		specialName: "[PSY] Slot Change [INT]",
-		captain: "Boosts ATK of INT characters by 1.2x"
+		special: "PSY슬롯을 INT슬롯으로 바꾼다",
+		specialName: "PSY슬롯 체인지·INT",
+		captain: "INT 캐릭터의 공격력이 1.2배가 된다"
 	},
 	60: {
-		special: "Changes [TND] orbs into [STR] orbs",
-		specialName: "[TND] Slot Change [STR]",
-		captain: "Boosts ATK of STR characters by 1.5x"
+		special: "TND을 STR으로 바꾼다",
+		specialName: "TND 체인지·STR",
+		captain: "STR 캐릭터의 공격력이 1.5배가 된다"
 	},
 	61: {
-		special: "Deals 5x character's ATK in INT damage to all enemies",
-		specialName: "Lip-O-Cannon",
-		captain: "Boosts HP of Shooter characters by 1.5x"
+		special: "적 전체에 캐릭터의 공격×5배의 INT 데미지",
+		specialName: "물대포",
+		captain: "사격형 캐릭터의 체력이 1.5배가 된다"
 	},
 	62: {
-		special: "Deals 7x character's ATK in STR damage to one enemy",
-		specialName: "Guffaw Palm Bomb",
-		captain: "Boosts HP of Fighter characters by 1.5x"
+		special: "적 1명에게 캐릭터의 공격×7배의 STR 데미지",
+		specialName: "손바닥 올려치기",
+		captain: "격투형 캐릭터의 체력이 1.5배가 된다"
 	},
 	63: {
-		captain: "Reduces damage received from DEX enemies by 30%"
+		captain: "DEX으로부터 받는 데미지를 30％ 감소시킨다"
 	},
 	64: {
-		special: "Deals 10x character's ATK in DEX damage to all enemies",
-		specialName: "New Year's Open Body Slam",
-		captain: "Reduces damage received from DEX enemies by 50%"
+		special: "적 전체에 캐릭터의 공격×10배의 DEX 데미지",
+		specialName: "문어발식 집중공격",
+		captain: "DEX으로부터 받는 데미지를 50％ 감소시킨다"
 	},
 	65: {
-		special: "Deals 7x character's ATK in STR damage to one enemy",
-		specialName: "Shark On Darts",
-		captain: "Boosts ATK of Slasher characters by 2x"
+		special: "적 1명에게 캐릭터의 공격×7배의 STR 데미지",
+		specialName: "샤크 온 다트",
+		captain: "참격형 캐릭터의 공격력이 2배가 된다"
 	},
 	66: {
-		special: "Deals 15x character's ATK in STR damage to one enemy",
-		specialName: "Shark On Tooth",
-		captain: "Boosts ATK of Slasher characters by 2x"
+		special: "D적 1명에게 캐릭터의 공격×15배의 STR 데미지",
+		specialName: "샤크 온 톱니바퀴",
+		captain: "참격형 캐릭터의 공격력이 2배가 된다"
 	},
 	67: {
-		special: "Deals 25x character's ATK in QCK damage to one enemy",
-		specialName: "Quick Draw",
-		captain: "Boosts RCV of Slasher characters by 1.5x"
+		special: "적 1명에게 캐릭터의 공격×25배의 QCK 데미지",
+		specialName: "거합베기",
+		captain: "참격형 캐릭터의 회복력이 1.5배가 된다"
 	},
 	68: {
-		special: "Deals 25x character's ATK in QCK damage to one enemy",
-		specialName: "Quick Draw",
-		captain: "Boosts RCV of Slasher characters by 2x"
+		special: "적 1명에게 캐릭터의 공격×25배의 QCK 데미지",
+		specialName: "거합베기",
+		captain: "참격형 캐릭터의 회복력이 2배가 된다"
 	},
 	69: {
-		special: "Reduces damage received by 50% for 3 turns",
-		specialName: "White Out",
-		captain: "Reduces damage received by 20%"
+		special: "받는 데미지를 3턴 동안 50％ 감소시킨다",
+		specialName: "화이트 아웃",
+		captain: "받는 데미지를 20％ 감소시킨다"
 	},
 	70: {
-		special: "Reduces damage received by 50% for 3 turns",
-		specialName: "White Out",
-		captain: "Reduces damage received by 20%"
+		special: "받는 데미지를 3턴 동안 50％ 감소시킨다",
+		specialName: "화이트 아웃",
+		captain: "받는 데미지를 20％ 감소시킨다"
 	},
 	71: {
-		special: "Reduces damage received by 50% for 1 turn",
-		specialName: "Enchanting Vertigo Dance",
-		captain: "Recovers 2x character's RCV in HP at the end of each turn"
+		special: "받는 데미지를 1턴 동안 50％ 감소시킨다",
+		specialName: "매혹의 향수 댄스",
+		captain: "턴 종료 후에 캐릭터의 회복x2배의 체력이 회복한다"
 	},
 	72: {
-		special: "Randomizes all orbs",
-		specialName: "Charge! Supersonic Duck Squadron!",
-		captain: "Recovers 3x character's RCV in HP at the end of each turn"
+		special: "랜덤으로 슬롯을 바꾼다",
+		specialName: "돌격! 초 카루가모 부대!",
+		captain: "턴 종료 후에 캐릭터의 회복x3배의 체력이 회복한다"
 	},
 	73: {
-		special: "Randomizes all orbs",
-		specialName: "Charge! Supersonic Duck Squadron!",
-		captain: "Recovers 5x character's RCV in HP at the end of each turn"
+		special: "랜덤으로 슬롯을 바꾼다",
+		specialName: "돌격! 초 카루가모 부대!",
+		captain: "턴 종료 후에 캐릭터의 회복x5배의 체력이 회복한다"
 	},
 	74: {
-		special: "Deals 25x character's ATK in QCK damage to one enemy",
-		specialName: "Flame Fist",
-		captain: "Boosts ATK of QCK characters by 2x"
+		special: "적 1명에게 캐릭터의 공격×25배의 QCK 데미지",
+		specialName: "불주먹",
+		captain: "QCK 캐릭터의 공격력이 2배가 된다"
 	},
 	75: {
-		special: "Deals 15x character's ATK in QCK to all enemies",
-		specialName: "Flame Mirror",
-		captain: "Boosts ATK of QCK characters by 2.5x"
+		special: "적 전체에 캐릭터의 공격×15배의 QCK 데미지",
+		specialName: "경화염",
+		captain: "QCK 캐릭터의 공격력이 2.5배가 된다"
 	},
 	76: {
-		special: "Deals 15x character's ATK in PSY damage to all enemies",
-		specialName: "Conqueror's Haki",
-		captain: "Boosts ATK of PSY characters by 2x"
+		special: "적 전체에 캐릭터의 공격×15배의 PSY 데미지",
+		specialName: "패왕색 패기",
+		captain: "PSY 캐릭터의 공격력이 2배가 된다"
 	},
 	77: {
-		special: "Deals 15x character's ATK in PSY damage to all enemies",
-		specialName: "Conqueror's Haki",
-		captain: "Boosts ATK of PSY characters by 2.5x"
+		special: "적 전체에 캐릭터의 공격×15배의 PSY 데미지",
+		specialName: "패왕색 패기",
+		captain: "PSY 캐릭터의 공격력이 2.5배가 된다"
 	},
 	119: {
-		special: "Deals 10x character's ATK in character's type damage to one enemy",
-		specialName: "Hyper Slash"
+		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 슬래쉬"
 	},
 	120: {
-		special: "Deals 5x character's ATK in character's type damage to all enemies",
-		specialName: "Hyper Shot"
+		special: "적 전체에 공격×5배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 샷"
 	},
 	121: {
-		special: "Deals 10x character's ATK in character's type damage to one enemy",
-		specialName: "Hyper Straight"
+		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 스트레이트"
 	},
 	122: {
-		special: "Reduces damage received by 20% for 1 turn",
-		specialName: "Iron Shield"
+		special: "받는 데미지를 1턴 동안 20％ 감소시킨다",
+		specialName: "아이언 실드"
 	},
 	123: {
-		special: "Changes [STR] orbs into [DEX] orbs",
-		specialName: "[STR] Slot Change [DEX]"
+		special: "STR슬롯을 DEX슬롯으로 바꾼다",
+		specialName: "STR슬롯 체인지·DEX"
 	},
 	124: {
-		special: "Reduces damage received by 20% for 1 turn",
-		specialName: "Iron Shield"
+		special: "받는 데미지를 1턴 동안 20％ 감소시킨다",
+		specialName: "아이언 실드"
 	},
 	125: {
-		special: "Deals 10x character's ATK in character's type damage to one enemy",
-		specialName: "Hyper Straight"
+		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 스트레이트"
 	},
 	126: {
-		special: "Deals 10x character's ATK in character's type damage to one enemy",
-		specialName: "Hyper Slash"
+		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 슬래쉬"
 	},
 	127: {
-		special: "Reduces the defense of all enemies by 50% for 1 turn",
-		specialName: "Shield Crusher"
+		special: "적 전체의 방어력을 1턴 동안 반으로 줄인다",
+		specialName: "실드 크래셔"
 	},
 	128: {
-		special: "Changes [QCK] orbs into [DEX] orbs",
-		specialName: "[QCK] Slot Change [DEX]"
+		special: "QCK슬롯을 DEX슬롯으로 바꾼다",
+		specialName: "QCK슬롯 체인지·DEX"
 	},
 	129: {
-		special: "Changes [INT] orbs into [PSY] orbs",
-		specialName: "[INT] Slot Change [PSY]"
+		special: "INT슬롯을 PSY슬롯으로 바꾼다",
+		specialName: "INT슬롯 체인지·PSY"
 	},
 	130: {
-		special: "Deals 10x character's ATK in character's type damage to one enemy",
-		specialName: "Hyper Slash"
+		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 슬래쉬"
 	},
 	131: {
-		special: "Changes [RCV] orbs into [STR] orbs",
-		specialName: "[RCV] Slot Change [STR]"
+		special: "RCV슬롯을 STR슬롯으로 바꾼다",
+		specialName: "RCV슬롯 체인지·STR"
 	},
 	132: {
-		special: "Changes [DEX] orbs into [QCK] orbs",
-		specialName: "[DEX] Slot Change [QCK]"
+		special: "DEX슬롯을 QCK슬롯으로 바꾼다",
+		specialName: "DEX슬롯 체인지·QCK"
 	},
 	133: {
-		special: "Changes [QCK] orbs into [DEX] orbs",
-		specialName: "[QCK] Slot Change [DEX]"
+		special: "QCK슬롯을 DEX슬롯으로 바꾼다",
+		specialName: "QCK슬롯 체인지·DEX"
 	},
 	134: {
-		special: "Changes [QCK] orbs into [RCV] orbs",
-		specialName: "[QCK] Slot Change [RCV]"
+		special: "QCK슬롯을 RCV슬롯으로 바꾼다",
+		specialName: "QCK슬롯 체인지·RCV"
 	},
 	135: {
-		special: "Deals 10x character's ATK in character's type damage to one enemy",
-		specialName: "Hyper Spiral"
+		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 스파이럴"
 	},
 	136: {
-		special: "Deals 5x character's ATK in character's type damage to all enemies",
-		specialName: "Hyper Shot"
+		special: "적 전체에 공격×5배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 샷"
 	},
 	137: {
-		special: "Reduces the defense of all enemies by 50% for 1 turn",
-		specialName: "Shield Crusher"
+		special: "적 전체의 방어력을 1턴 동안 반으로 줄인다",
+		specialName: "실드 크래셔"
 	},
 	138: {
-		special: "Changes [DEX] orbs into [RCV] orbs",
-		specialName: "[DEX] Slot Change [RCV]"
+		special: "DEX슬롯을 RCV슬롯으로 바꾼다",
+		specialName: "DEX슬롯 체인지·RCV"
 	},
 	139: {
-		special: "Changes [PSY] orbs into [RCV] orbs",
-		specialName: "[PSY] Slot Change [RCV]"
+		special: "PSY슬롯을 RCV슬롯으로 바꾼다",
+		specialName: "PSY슬롯 체인지·RCV"
 	},
 	140: {
-		special: "Deals 5x character's ATK in character's type damage to all enemies",
-		specialName: "Hyper Shot"
+		special: "적 전체에 공격×5배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 샷"
 	},
 	141: {
-		special: "Reduces damage received by 20% for 1 turn",
-		specialName: "Iron Shield"
+		special: "받는 데미지를 1턴 동안 20％ 감소시킨다",
+		specialName: "아이언 실드"
 	},
 	142: {
-		special: "Deals 10x character's ATK in character's type damage to one enemy",
-		specialName: "Hyper Straight"
+		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 스트레이트"
 	},
 	143: {
-		special: "Reduces damage received by 20% for 1 turn",
-		specialName: "Iron Shield"
+		special: "받는 데미지를 1턴 동안 20％ 감소시킨다",
+		specialName: "아이언 실드"
 	},
 	144: {
-		special: "Changes [STR] orbs into [DEX] orbs",
-		specialName: "[STR] Slot Change [DEX]"
+		special: "STR슬롯을 DEX슬롯으로 바꾼다",
+		specialName: "STR슬롯 체인지·DEX"
 	},
 	145: {
-		special: "Reduces damage received by 20% for 1 turn",
-		specialName: "Iron Shield"
+		special: "받는 데미지를 1턴 동안 20％ 감소시킨다",
+		specialName: "아이언 실드"
 	},
 	146: {
-		special: "Deals 10x character's ATK in character's type damage to one enemy",
-		specialName: "Hyper Straight"
+		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 스트레이트"
 	},
 	147: {
-		special: "Deals 10x character's ATK in character's type damage to one enemy",
-		specialName: "Hyper Slash"
+		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 슬래쉬"
 	},
 	148: {
-		special: "Reduces the defense of all enemies by 50% for 1 turn",
-		specialName: "Shield Crusher"
+		special: "적 전체의 방어력을 1턴 동안 반으로 줄인다",
+		specialName: "실드 크래셔"
 	},
 	149: {
-		special: "Changes [QCK] orbs into [DEX] orbs",
-		specialName: "[QCK] Slot Change [DEX]"
+		special: "QCK슬롯을 DEX슬롯으로 바꾼다",
+		specialName: "QCK슬롯 체인지·DEX"
 	},
 	150: {
-		special: "Changes [INT] orbs into [PSY] orbs",
-		specialName: "[INT] Slot Change [PSY]"
+		special: "INT슬롯을 PSY슬롯으로 바꾼다",
+		specialName: "INT슬롯 체인지·PSY"
 	},
 	151: {
-		special: "Deals 10x character's ATK in character's type damage to one enemy",
-		specialName: "Hyper Slash"
+		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 슬래쉬"
 	},
 	152: {
-		special: "Changes [RCV] orbs into [STR] orbs",
-		specialName: "[RCV] Slot Change [STR]"
+		special: "RCV슬롯을 STR슬롯으로 바꾼다",
+		specialName: "RCV슬롯 체인지·STR"
 	},
 	153: {
-		special: "Changes [DEX] orbs into [QCK] orbs",
-		specialName: "[DEX] Slot Change [QCK]"
+		special: "DEX슬롯을 QCK슬롯으로 바꾼다",
+		specialName: "DEX슬롯 체인지·QCK"
 	},
 	154: {
-		special: "Changes [QCK] orbs into [DEX] orbs",
-		specialName: "[QCK] Slot Change [DEX]"
+		special: "QCK슬롯을 DEX슬롯으로 바꾼다",
+		specialName: "QCK슬롯 체인지·DEX"
 	},
 	155: {
-		special: "Changes [QCK] orbs into [RCV] orbs",
-		specialName: "[QCK] Slot Change [RCV]"
+		special: "QCK슬롯을 RCV슬롯으로 바꾼다",
+		specialName: "QCK슬롯 체인지·RCV"
 	},
 	156: {
-		special: "Deals 10x character's ATK in character's type damage to one enemy",
-		specialName: "Hyper Spiral"
+		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 스파이럴"
 	},
 	157: {
-		special: "Deals 5x character's ATK in character's type damage to all enemies",
-		specialName: "Hyper Shot"
+		special: "적 전체에 공격×5배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 샷"
 	},
 	158: {
-		special: "Reduces the defense of all enemies by 50% for 1 turn",
-		specialName: "Shield Crusher"
+		special: "적 전체의 방어력을 1턴 동안 반으로 줄인다",
+		specialName: "실드 크래셔"
 	},
 	159: {
-		special: "Changes [DEX] orbs into [RCV] orbs",
-		specialName: "[DEX] Slot Change [RCV]"
+		special: "DEX슬롯을 RCV슬롯으로 바꾼다",
+		specialName: "DEX슬롯 체인지·RCV"
 	},
 	160: {
-		special: "Changes [PSY] orbs into [RCV] orbs",
-		specialName: "[PSY] Slot Change [RCV]"
+		special: "PSY슬롯을 RCV슬롯으로 바꾼다",
+		specialName: "PSY슬롯 체인지·RCV"
 	},
 	161: {
-		special: "Deals 5x character's ATK in character's type damage to all enemies",
-		specialName: "Hyper Shot"
+		special: "적 전체에 공격×5배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 샷"
 	},
 	162: {
-		special: "Reduces damage received by 20% for 1 turn",
-		specialName: "Iron Shield"
+		special: "받는 데미지를 1턴 동안 20％ 감소시킨다",
+		specialName: "아이언 실드"
 	},
 	163: {
-		special: "Changes [DEX] orbs into [TND] orbs",
-		specialName: "[DEX] Slot Change [TND]"
+		special: "DEX슬롯을 TND으로 바꾼다",
+		specialName: "DEX슬롯 체인지·TND"
 	},
 	164: {
-		special: "Changes [QCK] orbs into [TND] orbs",
-		specialName: "[QCK] Slot Change [TND]"
+		special: "QCK슬롯을 TND으로 바꾼다",
+		specialName: "QCK슬롯 체인지·TND"
 	},
 	165: {
-		special: "Recovers 5x character's RCV in HP",
-		specialName: "Light Healing"
+		special: "캐릭터의 회복×5배의 체력을 회복한다",
+		specialName: "라이트 힐링"
 	},
 	166: {
-		special: "Recovers 5x character's RCV in HP",
-		specialName: "Light Healing"
+		special: "캐릭터의 회복×5배의 체력을 회복한다",
+		specialName: "라이트 힐링"
 	},
 	167: {
-		special: "Recovers 5x character's RCV in HP",
-		specialName: "Light Healing"
+		special: "캐릭터의 회복×5배의 체력을 회복한다",
+		specialName: "라이트 힐링"
 	},
 	168: {
-		special: "Recovers 5x character's RCV in HP",
-		specialName: "Light Healing"
+		special: "캐릭터의 회복×5배의 체력을 회복한다",
+		specialName: "라이트 힐링"
 	},
 	169: {
-		special: "Recovers 5x character's RCV in HP",
-		specialName: "Light Healing"
+		special: "캐릭터의 회복×5배의 체력을 회복한다",
+		specialName: "라이트 힐링"
 	},
 	170: {
-		special: "Reduces damage received by 20% for 1 turn",
-		specialName: "Iron Shield"
+		special: "받는 데미지를 1턴 동안 20％ 감소시킨다",
+		specialName: "아이언 실드"
 	},
 	171: {
-		special: "Reduces damage received by 20% for 1 turn",
-		specialName: "Iron Shield"
+		special: "받는 데미지를 1턴 동안 20％ 감소시킨다",
+		specialName: "아이언 실드"
 	},
 	172: {
-		special: "Reduces damage received by 20% for 1 turn",
-		specialName: "Iron Shield"
+		special: "받는 데미지를 1턴 동안 20％ 감소시킨다",
+		specialName: "아이언 실드"
 	},
 	173: {
-		special: "Reduces damage received by 20% for 1 turn",
-		specialName: "Iron Shield"
+		special: "받는 데미지를 1턴 동안 20％ 감소시킨다",
+		specialName: "아이언 실드"
 	},
 	174: {
-		special: "Reduces damage received by 20% for 1 turn",
-		specialName: "Iron Shield"
+		special: "받는 데미지를 1턴 동안 20％ 감소시킨다",
+		specialName: "아이언 실드"
 	},
 	175: {
-		special: "Deals 10x character's ATK in character's type damage to one enemy",
-		specialName: "Hyper Straight"
+		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 스트레이트"
 	},
 	176: {
-		special: "Deals 10x character's ATK in character's type damage to one enemy",
-		specialName: "Hyper Slash"
+		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 슬래쉬"
 	},
 	177: {
-		special: "Deals 10x character's ATK in character's type damage to one enemy",
-		specialName: "Hyper Spiral"
+		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 스파이럴"
 	},
 	178: {
-		special: "Deals 5x character's ATK in character's type damage to all enemies",
-		specialName: "Hyper Shot"
+		special: "적 1명에게 공격×5배의 캐릭터 속성 데미지",
+		specialName: "하이퍼 샷"
 	},
 	179: {
-		special: "Changes [QCK] orbs into [STR] orbs",
-		specialName: "[QCK] Slot Change [STR]"
+		special: "QCK슬롯을 STR슬롯으로 바꾼다",
+		specialName: "QCK슬롯 체인지·STR"
 	},
 	180: {
-		special: "Recovers 5x character's RCV in HP",
-		specialName: "Light Healing"
+		special: "캐릭터의 회복×5배의 체력을 회복한다",
+		specialName: "라이트 힐링"
 	},
 	181: {
-		special: "Changes [STR] orbs into [QCK] orbs",
-		specialName: "[STR] Slot Change [QCK]"
+		special: "STR슬롯을 QCK슬롯으로 바꾼다",
+		specialName: "STR슬롯 체인지·QCK"
 	},
 	182: {
-		special: "Recovers 5x character's RCV in HP",
-		specialName: "Light Healing"
+		special: "캐릭터의 회복×5배의 체력을 회복한다",
+		specialName: "라이트 힐링"
 	},
 	183: {
-		special: "Changes [RCV] orbs into [INT] orbs",
-		specialName: "[RCV] Slot Change [INT]"
+		special: "RCV슬롯을 INT슬롯으로 바꾼다",
+		specialName: "RCV슬롯 체인지·INT"
 	},
 	184: {
-		special: "Changes [QCK] orbs into [STR] orbs",
-		specialName: "[QCK] Slot Change [STR]"
+		special: "QCK슬롯을 STR슬롯으로 바꾼다",
+		specialName: "QCK슬롯 체인지·STR"
 	},
 	185: {
-		special: "Recovers 5x character's RCV in HP",
-		specialName: "Light Healing"
+		special: "캐릭터의 회복×5배의 체력을 회복한다",
+		specialName: "라이트 힐링"
 	},
 	186: {
-		special: "Changes [STR] orbs into [QCK] orbs",
-		specialName: "[STR] Slot Change [QCK]"
+		special: "STR슬롯을 QCK슬롯으로 바꾼다",
+		specialName: "STR슬롯 체인지·QCK"
 	},
 	187: {
-		special: "Recovers 5x character's RCV in HP",
-		specialName: "Light Healing"
+		special: "캐릭터의 회복×5배의 체력을 회복한다",
+		specialName: "라이트 힐링"
 	},
 	188: {
-		special: "Changes [RCV] orbs into [INT] orbs",
-		specialName: "[RCV] Slot Change [INT]"
+		special: "RCV슬롯을 INT슬롯으로 바꾼다",
+		specialName: "RCV슬롯 체인지·INT"
 	},
 	194: {
-		special: "Changes [QCK] orbs into [STR] orbs",
-		specialName: "[QCK] Slot Change [STR]",
-		captain: "Boosts ATK of STR characters by 1.5x"
+		special: "QCK슬롯을 STR슬롯으로 바꾼다",
+		specialName: "QCK슬롯 체인지·STR",
+		captain: "STR 캐릭터의 공격력이 1.5배가 된다"
 	},
 	195: {
-		special: "Recovers 5x character's RCV in HP",
-		specialName: "Light Healing",
-		captain: "Boosts RCV of DEX characters by 1.5x"
+		special: "캐릭터의 회복×5배의 체력을 회복한다",
+		specialName: "라이트 힐링",
+		captain: "DEX 캐릭터의 회복력이 1.5배가 된다"
 	},
 	196: {
-		special: "Changes [STR] orbs into [QCK] orbs",
-		specialName: "[STR] Slot Change [QCK]",
-		captain: "Boosts ATK of QCK characters by 1.5x"
+		special: "STR슬롯을 QCK슬롯으로 바꾼다",
+		specialName: "STR슬롯 체인지·QCK",
+		captain: "QCK 캐릭터의 공격력이 1.5배가 된다"
 	},
 	197: {
-		special: "Recovers 5x character's RCV in HP",
-		specialName: "Light Healing",
-		captain: "Reduces damage received from PSY enemies by 20%"
+		special: "캐릭터의 회복×5배의 체력을 회복한다",
+		specialName: "라이트 힐링",
+		captain: "PSY 캐릭터가 주는 데미지를 20％ 감소시킨다"
 	},
 	198: {
-		special: "Changes [RCV] orbs into [INT] orbs",
-		specialName: "[RCV] Slot Change [INT]",
-		captain: "Boosts ATK of Shooter characters by 1.5x"
+		special: "RCV슬롯을 INT슬롯으로 바꾼다",
+		specialName: "RCV슬롯 체인지·INT",
+		captain: "사격형 캐릭터의 공격력이 1.5배가 된다"
 	},
 	199: {
-		special: "Deals 15x character's ATK in STR damage to one enemy",
-		specialName: "Nez-Palm Cannon",
-		captain: "Boosts ATK of STR characters by 1.5x"
+		special: "적 1명에게 캐릭터의 공격×15배의 STR 데미지",
+		specialName: "노즈 팬시 캐논",
+		captain: "STR 캐릭터의 공격력이 1.5배가 된다"
 	},
 	200: {
-		special: "Deals 20x character's ATK in STR damage to one enemy",
-		specialName: "Breeze Breath Bomb",
-		captain: "Boosts ATK of STR characters by 2x"
+		special: "적 1명에게 캐릭터의 공격×20배의 STR 데미지",
+		specialName: "브리즈 브레스 봄",
+		captain: "STR 캐릭터의 공격력이 2배가 된다"
 	},
 	201: {
-		captain: "Boosts HP of Fighter characters by 1.5x"
+		captain: "격투형 캐릭터의 체력이 1.5배가 된다"
 	},
 	202: {
-		special: "Changes [RCV] orbs into [QCK] orbs",
-		specialName: "10,000 Kill-O-Guillotine",
-		captain: "Boosts HP of Fighter characters by 2x"
+		special: "RCV슬롯을 QCK슬롯으로 바꾼다",
+		specialName: "1만 킬로 길로틴",
+		captain: "격투형 캐릭터의 체력이 2배가 된다"
 	},
 	203: {
-		captain: "Reduces damage received from INT enemies by 10%"
+		captain: "INT 캐릭터가 주는 데미지를 10％ 감소시킨다"
 	},
 	204: {
-		special: "Delays all enemies for 1 turn",
-		specialName: "Extra Special Candelabra",
-		captain: "Reduces damage received from INT enemies by 10%"
+		special: "적 전체의 공격을 1턴 지연시킨다",
+		specialName: "특대 캔들 서비스 세트",
+		captain: "INT 캐릭터가 주는 데미지를 10％ 감소시킨다"
 	},
 	205: {
-		captain: "Boosts HP and RCV of DEX characters by 1.2x"
+		captain: "DEX 캐릭터의 체력과 회복력이 1.2배가 된다"
 	},
 	206: {
-		special: "Reduces the defense of all enemies by 50% for 2 turns",
-		specialName: "Colors Trap: Calming Green",
-		captain: "Boosts HP and RCV of DEX characters by 1.2x"
+		special: "적 전체의 방어력을 2턴 동안 반으로 줄인다",
+		specialName: "컬러즈 트랩 온화함의 초록",
+		captain: "DEX 캐릭터의 체력과 회복력이 1.2배가 된다"
 	},
 	207: {
-		captain: "Reduces damage received from PSY enemies by 10%"
+		captain: "PSY 캐릭터가 주는 데미지를 10％ 감소시킨다"
 	},
 	208: {
-		special: "Changes [RCV] orbs into [PSY] orbs",
-		specialName: "Bombardier Arabesque",
-		captain: "Reduces damage received from PSY enemies by 20%"
+		special: "RCV슬롯을 PSY으로 바꾼다",
+		specialName: "폭격백조 아라베스크",
+		captain: "PSY 캐릭터가 주는 데미지를 20％ 감소시킨다"
 	},
 	209: {
-		special: "Boosts ATK of INT characters by 1.5x for 1 turn",
-		specialName: "Dieciseis Fleur",
-		captain: "Boosts RCV of INT characters by 1.5x"
+		special: "1턴 동안 INT의 공격이 1.5배가 된다",
+		specialName: "16송이의 꽃",
+		captain: "INT 캐릭터의 회복력이 1.5배가 된다"
 	},
 	210: {
-		special: "Boosts ATK of INT characters by 2x for 1 turn",
-		specialName: "Cien Fleur",
-		captain: "Boosts RCV of INT characters by 2x"
+		special: "1턴 동안 INT의 공격이 2배가 된다",
+		specialName: "시엔 플루르",
+		captain: "INT 캐릭터의 회복력이 2배가 된다"
 	},
 	211: {
 		captain: "Boosts ATK of Striker characters by 1.2x"
@@ -755,64 +755,64 @@ window.details = {
 		captain: "Boosts HP of Striker characters by 1.5x"
 	},
 	216: {
-		special: "Reduces damage received by 50% for 3 turns",
-		specialName: "Gum-Gum Balloon",
-		captain: "Reduces damage received by 20%"
+		special: "3턴간 받는 데미지를 50% 감소시킨다",
+		specialName: "고무고무 풍선",
+		captain: "받는 데미지를 20% 감소시킨다"
 	},
 	217: {
-		special: "Deals 15x character's ATK in STR damage to all enemies",
-		specialName: "Gum-Gum Giant Rifle",
-		captain: "Boosts ATK by 3.5x after scoring 3 Perfects in a row"
+		special: "적 전체에 캐릭터의 공격×15배의 STR 데미지",
+		specialName: "고무고무 거인의 라이플",
+		captain: "3연속 PERFECT 시 이후의 캐릭터 공격력이 3.5배"
 	},
 	218: {
-		special: "Reduces damage received from STR enemies by 100% for 1 turn",
-		specialName: "Streaming Wolf Swords",
-		captain: "Reduces damage received by 80% if HP is above 99% at the start of the turn"
+		special: "STR의 공격을 1턴간 무효화한다",
+		specialName: "늑대 칼부림",
+		captain: "공격 시작 전에 체력이 가득 차 있으면 받는 데미지가 큰 폭(80%)으로 감소"
 	},
 	219: {
-		special: "Deals 25x character's ATK in DEX damage to one enemy",
-		specialName: "Lion's Song",
-		captain: "Reduces damage received by 80% if HP is above 99% at the start of the turn"
+		special: "적 1명에게 캐릭터의 공격×25배의 DEX 데미지",
+		specialName: "사자의 노래",
+		captain: "공격 시작 전에 체력이 가득 차 있으면 받는 데미지가 큰 폭(80%)으로 감소"
 	},
 	220: {
-		special: "Changes [PSY] orbs into [INT] orbs",
-		specialName: "Fine Tempo",
-		captain: "Boosts ATK of INT characters by 2x"
+		special: "PSY 슬롯을 INT 슬롯으로 변환한다",
+		specialName: "파인 템포",
+		captain: "INT 캐릭터의 공격을 2배로 만든다"
 	},
 	221: {
-		special: "Changes [PSY] orbs into [INT] orbs",
-		specialName: "Happiness Punch",
-		captain: "Boosts ATK of INT characters by 2.5x"
+		special: "PSY 슬롯을 INT 슬롯으로 변환한다",
+		specialName: "행복 펀치",
+		captain: "INT 캐릭터의 공격을 2.5배로 만든다"
 	},
 	222: {
-		special: "Boosts ATK of PSY characters by 1.5x for 1 turn",
-		specialName: "Usopp Hammer",
-		captain: "Boosts ATK of PSY characters by 1.2x"
+		special: "1턴간 PSY의 공격이 1.5배가 된다",
+		specialName: "우솝 해머",
+		captain: "PSY 캐릭터의 공격을 1.2배로 만든다"
 	},
 	223: {
-		special: "Boosts ATK of PSY characters by 2x for 1 turn",
-		specialName: "Impact",
-		captain: "Boosts ATK of PSY characters by 1.5x"
+		special: "1턴간 PSY의 공격이 2배가 된다",
+		specialName: 임팩트",
+		captain: "PSY 캐릭터의 공격력이 1.5배가 된다"
 	},
 	224: {
-		special: "Deals 15x character's ATK in QCK damage to one enemy",
-		specialName: "Mutton Shot",
-		captain: "Boosts ATK by 2x after scoring 2 Perfects in a row"
+		special: "적 1명에게 캐릭터의 공격×15배의 QCK 데미지",
+		specialName: "양고기 샷",
+		captain: "2연속 PERFECT 시 이후의 캐릭터 공격력이 2배"
 	},
 	225: {
-		special: "Deals 20x character's ATK in QCK damage to one enemy",
-		specialName: "Veau Shot",
-		captain: "Boosts ATK by 2.5x after scoring 2 Perfects in a row"
+		special: "적 1명에게 캐릭터의 공격×20배의 QCK 데미지",
+		specialName: "송아지 샷",
+		captain: "2연속 PERFECT 시 이후의 캐릭터 공격력이 2.5배"
 	},
 	226: {
-		special: "Cuts the current HP of each enemy by 30%",
-		specialName: "Black Blade Ship Cutter",
-		captain: "Boosts ATK of Slasher characters by 2x"
+		special: "적 전체의 HP를 30% 줄인다",
+		specialName: "흑도·선박 베기",
+		captain: "참격형 캐릭터의 공격력이 ×2배가 된다."
 	},
 	227: {
-		special: "Cuts the current HP of each enemy by 30%",
-		specialName: "Black Blade Ship Cutter",
-		captain: "Boosts ATK of Slasher characters by 2.5x"
+		special: "적 전체의 HP를 30% 줄인다",
+		specialName: "흑도·선박 베기",
+		captain: "참격형 캐릭터의 공격력이 ×2.5배가 된다."
 	},
 	228: {
 		special: "Reduces Bind duration by 2 turns",
@@ -914,66 +914,66 @@ window.details = {
 		captain: "Boosts ATK of STR characters by 3x and reduces their HP by 60%"
 	},
 	250: {
-		special: "Recovers all HP",
-		specialName: "Blue Flame Rebirth",
-		captain: "Boosts ATK of PSY characters by 3x if HP is above 99% at the start of the turn"
+		special: "체력을 모두 회복한다",
+		specialName: "전생의 창염",
+		captain: "공격 시작 전에 체력이 가득 차 있으면 PSY 캐릭터의 공격력이 3배가 된다."
 	},
 	251: {
-		special: "Recovers all HP",
-		specialName: "Blue Flame Rebirth",
-		captain: "Boosts ATK of PSY characters by 3x if HP is above 99% at the start of the turn"
+		special: "체력을 모두 회복한다",
+		specialName: "전생의 창염",
+		captain: "격 시작 전에 체력이 가득 차 있으면 PSY 캐릭터의 공격력이 3배가 된다."
 	},
 	252: {
-		special: "Reduces damage received from DEX enemies by 100% for 1 turn",
-		specialName: "Brilliant Punk",
-		captain: "Boosts ATK and HP of QCK characters by 2x"
+		special: "DEX의 공격이 무효가 된다 (1턴)",
+		specialName: "브릴리언트 펑크",
+		captain: "QCK 캐릭터의 공격력과 체력이 2배가 된다"
 	},
 	253: {
-		special: "Reduces damage received from DEX enemies by 100% for 1 turn",
-		specialName: "Brilliant Punk",
-		captain: "Boosts ATK and HP of QCK characters by 2x"
+		special: "DEX의 공격이 무효가 된다 (1턴)",
+		specialName: "브릴리언트 펑크",
+		captain: "QCK 캐릭터의 공격력과 체력이 2배가 된다"
 	},
 	254: {
-		special: "Deals 5,000 fixed damage to all enemies",
-		specialName: "Rose Rondo",
+		special: "적 전체에게 고정 데미지 5000",
+		specialName: "로즈 론도",
 		specialNotes: "#{fixed}",
-		captain: "Boosts ATK and HP of INT characters by 2x"
+		captain: "INT 캐릭터의 공격력과 체력이 2배가 된다"
 	},
 	255: {
-		special: "Deals 5,000 fixed damage to all enemies",
-		specialName: "Rose Rondo",
+		special: "적 전체에게 고정 데미지 5000",
+		specialName: "로즈 론도",
 		specialNotes: "#{fixed}",
-		captain: "Boosts ATK and HP of INT characters by 2x"
+		captain: "INT 캐릭터의 공격력과 체력이 2배가 된다"
 	},
 	256: {
-		special: "Changes [STR] and [QCK] orbs into [DEX] orbs",
-		specialName: "Beautiful Dual Flintlocks",
-		captain: "Boosts ATK and RCV of DEX characters by 2x"
+		special: "STR, QCK슬롯이DEX 슬롯으로 바뀐다.",
+		specialName: "화려한 쌍권총",
+		captain: "DEX 캐릭터의 공격력과 회복력이 2배가 된다"
 	},
 	257: {
-		special: "Changes [STR] and [QCK] orbs into [DEX] orbs",
-		specialName: "Beautiful Dual Flintlocks",
-		captain: "Boosts ATK and RCV of DEX characters by 2x"
+		special: "STR, QCK슬롯이DEX 슬롯으로 바뀐다.",
+		specialName: "화려한 쌍권총",
+		captain: "DEX 캐릭터의 공격력과 회복력이 2배가 된다"
 	},
 	258: {
-		special: "Changes [DEX] and [QCK] orbs into [STR] orbs",
-		specialName: "Pocket Mallet",
-		captain: "Boosts ATK and RCV of STR characters by 2x"
+		special: "DEX, QCK 슬롯이STR 슬롯으로 바뀐다.",
+		specialName: "포켓 대망치",
+		captain: "STR 캐릭터의 공격력과 회복력이 2배가 된다"
 	},
 	259: {
-		special: "Changes [DEX] and [QCK] orbs into [STR] orbs",
-		specialName: "Pocket Mallet",
-		captain: "Boosts ATK and RCV of STR characters by 2x"
+		special: "DEX, QCK 슬롯이STR 슬롯으로 바뀐다.",
+		specialName: "포켓 대망치",
+		captain: "STR 캐릭터의 공격력과 회복력이 2배가 된다"
 	},
 	260: {
-		special: "Cuts the current HP of each enemy by 30%",
-		specialName: "Seaquake",
-		captain: "Boosts ATK of all characters by 3x if HP is below 30% at the start of the turn"
+		special: "적 전체의 HP를 30% 줄인다",
+		specialName: "해진",
+		captain: "체력이 얼마 남지 않게 되면(30%이하), 일당의 공격력이 3배가 된다"
 	},
 	261: {
-		special: "Cuts the current HP of each enemy by 30%",
-		specialName: "Seaquake",
-		captain: "Boosts ATK of all characters by 3x if HP is below 30% at the start of the turn"
+		special: "적 전체의 HP를 30% 줄인다",
+		specialName: "해진",
+		captain: "체력이 얼마 남지 않게 되면(30%이하), 일당의 공격력이 3배가 된다"
 	},
 	262: {
 		captain: "Recovers 2x character's RCV in HP at the end of each turn"
@@ -993,9 +993,9 @@ window.details = {
 		captain: "Boosts ATK and HP of Slasher characters by 1.5x"
 	},
 	267: {
-		special: "Reduces the defense of all enemies by 50% for 1 turn",
-		specialName: "Shield Crusher",
-		captain: "Boosts ATK of all characters by 1.5x"
+		special: "적 전체의 방어력을 1턴 동안 반으로 줄인다",
+		specialName: "실드 크래셔",
+		captain: "일당의 공격력이 1.5배가 된다"
 	},
 	268: {
 		special: "Reduces damage received by 50% for 3 turns",
