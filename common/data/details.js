@@ -79,25 +79,25 @@ window.details = {
 		captain: "PSY 캐릭터의 체력과 공격이 1.5배가 된다"
 	},
 	17: {
-		special: "Recovers 10x character's RCV in HP",
-		specialName: "Special Fried Rice",
-		captain: "Boosts ATK of QCK characters by 1.5x"
+		special: "캐릭터의 회복×10배의 체력을 회복한다",
+		specialName: "특제 볶음밥",
+		captain: "QCK 캐릭터의 공격력이 1.5배가 된다"
 	},
 	18: {
-		special: "Reduces the defense of all enemies by 50% for 2 turns",
-		specialName: "Plastic Surgery Shot",
-		captain: "Boosts HP of QCK characters by 1.5x"
+		special: "적 전체의 방어력을 2턴 동안 반으로 줄인다",
+		specialName: "정형 쇼트",
+		captain: "QCK 캐릭터의 체력이 1.5배가 된다"
 	},
 	19: {
-		special: "Recovers 10x character's RCV in HP",
-		specialName: "Hot Rock Stew",
-		captain: "Boosts ATK of QCK characters by 1.5x"
+		special: "캐릭터의 회복×10배의 체력을 회복한다",
+		specialName: "구운 돌 스튜",
+		captain: "QCK 캐릭터의 공격력이 1.5배가 된다"
 	},
 	20: {
-		special: "Deals 5,000 fixed damage to all enemies",
-		specialName: "Diable Jambe",
+		special: "적 전체에 5000의 고정 대미지",
+		specialName: "디아블 잠브",
 		specialNotes: "#{fixed}",
-		captain: "Boosts ATK and HP of QCK characters by 1.5x"
+		captain: "QCK 캐릭터의 공격력과 체력이 1.5배가 된다"
 	},
 	21: {
 		special: "Changes adjacent orbs into [RCV] orbs",
