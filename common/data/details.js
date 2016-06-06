@@ -791,7 +791,7 @@ window.details = {
 	},
 	223: {
 		special: "1턴간 PSY의 공격이 2배가 된다",
-		specialName: 임팩트",
+		specialName: "임팩트",
 		captain: "PSY 캐릭터의 공격력이 1.5배가 된다"
 	},
 	224: {
