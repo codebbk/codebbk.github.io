@@ -222,7 +222,7 @@ window.details = {
 	},
 	46: {
 		special: "적 전체에 캐릭터의 공격×5배의 QCK 데미지",
-		specialName: 작살",
+		specialName: "작살",
 		captain: "QCK 캐릭터의 공격력이 1.5배가 된다"
 	},
 	47: {
