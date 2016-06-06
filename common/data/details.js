@@ -100,14 +100,14 @@ window.details = {
 		captain: "QCK 캐릭터의 공격력과 체력이 1.5배가 된다"
 	},
 	21: {
-		special: "Changes adjacent orbs into [RCV] orbs",
-		specialName: "Hearty Yell",
-		captain: "Boosts RCV of PSY characters by 1.2x"
+		special: "가까이 있는 캐릭터의 슬롯을 RCV로 바꾼다",
+		specialName: "활기를 주는 응원",
+		captain: "PSY 캐릭터의 회복력이 1.2배가 된다"
 	},
 	22: {
-		special: "Deals 15x character's ATK in PSY damage to one enemy",
-		specialName: "Heavy Gong",
-		captain: "Boosts RCV of PSY characters by 1.5x"
+		special: "적 1명에게 캐릭터의 공격×15배의 PSY 대미지",
+		specialName: "헤비 공",
+		captain: "PSY 캐릭터의 회복력이 1.5배가 된다"
 	},
 	23: {
 		special: "Changes adjacent orbs into [RCV] orbs",
