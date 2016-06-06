@@ -366,6 +366,8 @@ directives.addLinks = function($stateParams) {
             var ul = $('<ul></ul>');
               if (!incomplete) {
                 ul.append($('<li><a href="http://cafe.naver.com/torekuru" target="_blank">원트크(한국공략카페)</a></li>'));
+            }if (!incomplete) {
+                ul.append($('<li><a href="http://rostory.net" target="_blank">로스트 스토리(침착맨 블로그)</a></li>'));
             }
             if (ul.children().length > 0)
                 element.append(ul);
