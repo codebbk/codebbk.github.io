@@ -35,8 +35,8 @@ window.tandems = [
         "units": [ 15, 11, 19 ]
     },
     {
-        "name": "Thunder Horn Fire Bird Star",
-        "desc": "Deals 3 times the ATK of the last character in the tandem to the enemies in the back column",
+        "name": "썬더 혼 불새성",
+        "desc": "적 후열에 캐릭터의 공격력 X3의 데미지",
         "units": [ 12, 25, 16 ]
     },
     {
@@ -70,8 +70,8 @@ window.tandems = [
         "units": [ 37, 36, 39, 30 ]
     },
     {
-        "name": "Navy Admiral Union Buster",
-        "desc": "Deals 5 times the ATK of the last character in the tandem to the enemies in the front column",
+        "name": "해군 장교 연합 머스터",
+        "desc": "적 전열에 캐릭터의 공격력 X5배의 데미지",
         "units": [ 59, 49, 35 ]
     },
     {
