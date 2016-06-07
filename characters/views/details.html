@@ -178,8 +178,8 @@
                                 <tr ng-if="cooldown && !isSpecialStaged">
                                     <td>쿨다운</td>
                                     <td>
-                                        {{cooldown.length ? cooldown[0] : cooldown}} turns
-                                        {{cooldown.length ? ' \u2192 ' + cooldown[1] + ' turns' : ''}}
+                                        {{cooldown.length ? cooldown[0] : cooldown}} 턴
+                                        {{cooldown.length ? ' \u2192 ' + cooldown[1] + ' 턴' : ''}}
                                     </td>
                                 </tr>
                             </tbody>
@@ -218,7 +218,7 @@
                                         <div ng-if="!isCompareSpecialHybrid && isCompareSpecialStaged">
                                             <div ng-repeat="stage in compareDetails.special track by $index">
                                                 <strong>Stage {{$index + 1}}</strong>
-                                                ({{stage.cooldown.length ? stage.cooldown[0] : stage.cooldown}}{{stage.cooldown.length ? ' \u2192 ' + stage.cooldown[1] : ''}} turns):
+                                                ({{stage.cooldown.length ? stage.cooldown[0] : stage.cooldown}}{{stage.cooldown.length ? ' \u2192 ' + stage.cooldown[1] : ''}} 턴):
                                                 <span ng-bind-html="stage.description | decorate"></span>
                                             </div>
                                         </div>
@@ -235,8 +235,8 @@
                                 <tr ng-if="compareCooldown && !isCompareSpecialStaged">
                                     <td>Cooldown</td>
                                     <td>
-                                        {{compareCooldown.length ? compareCooldown[0] : compareCooldown}} turns
-                                        {{compareCooldown.length ? ' \u2192 ' + compareCooldown[1] + ' turns' : ''}}
+                                        {{compareCooldown.length ? compareCooldown[0] : compareCooldown}} 턴
+                                        {{compareCooldown.length ? ' \u2192 ' + compareCooldown[1] + ' 턴' : ''}}
                                     </td>
                                 </tr>
                             </tbody>
