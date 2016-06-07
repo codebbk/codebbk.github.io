@@ -98,7 +98,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
         crunchSelfInhibit = true;
         initializeDataStructs();
         var result = { };
-        ['힘','속도','DEX','PSY','INT'].forEach(function(type) {
+        ['힘','속도','기술','마음','지식'].forEach(function(type) {
             result[type] = crunchForType(type);
         });
         result.team = getTeamDetails();
@@ -405,14 +405,14 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
     };
 
     var getTypeMultiplierOfUnit = function(attackerType,attackedType) {
-        if (attackerType == '힘' && attackedType == 'DEX') return 2;
-        if (attackerType == 'QCK' && attackedType == '힘') return 2;
-        if (attackerType == 'DEX' && attackedType == 'QCK') return 2;
-        if (attackerType == 'INT' && attackedType == 'PSY') return 2;
-        if (attackerType == 'PSY' && attackedType == 'INT') return 2;
-        if (attackerType == '힘' && attackedType == 'QCK') return 0.5;
-        if (attackerType == 'QCK' && attackedType == 'DEX') return 0.5;
-        if (attackerType == 'DEX' && attackedType == '힘') return 0.5;
+        if (attackerType == '힘' && attackedType == '기술') return 2;
+        if (attackerType == '속도' && attackedType == '힘') return 2;
+        if (attackerType == '기술' && attackedType == '속도') return 2;
+        if (attackerType == '지식' && attackedType == '마음') return 2;
+        if (attackerType == '마음' && attackedType == '지식') return 2;
+        if (attackerType == '힘' && attackedType == '속도') return 0.5;
+        if (attackerType == '속도' && attackedType == '기술') return 0.5;
+        if (attackerType == '기술' && attackedType == '힘') return 0.5;
         return 1;
     };
 
@@ -711,7 +711,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
     //Used for Bartolomeos Captain ability so far
     var classCounter = function() {
         var classes = {};
-        var classArray = ['Fighter', 'Slasher', 'Free Spirit', 'Powerhouse', 'Shooter', 'Striker', 'Cerebral', 'Ambition'];
+        var classArray = ['격투', '참격', '자유', '강인', '사격', '타격', '박식', '야심'];
         for (var i = 0, j = classArray.length; i < j; i++) {
             classes[classArray[i]] = 0;
         }
