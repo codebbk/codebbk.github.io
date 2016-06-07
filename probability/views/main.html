@@ -28,9 +28,9 @@
 			<div id="calculation-area">
 				
 				<div class="large-container">
-					동일캐릭/스킬북 개수: <input type="text" class="number-field" ng-model="copies" placeholder="보유수량 입력" auto-focus
+					동일캐릭/스킬북 개수: <input type="text" class="number-field" ng-model="copies" placeholder="보유수량" auto-focus
 						ng-change="changeBaseValues()" id="copies">
-					스킬업: <input type="text" class="number-field" ng-model="skillups" placeholder="횟수 입력" auto-focus
+					스킬업: <input type="text" class="number-field" ng-model="skillups" placeholder="필요횟수" auto-focus
 						ng-change="changeBaseValues()" id="skillups">
 					<label><input type="checkbox" ng-model="specialEvent" ng-change="changeBaseValues()"><이벤트>확률 2배 적용</label>
 					
@@ -38,7 +38,7 @@
 				
 				<div class="small-container">
 					<p>  
-					 {{copies}}개의 동일캐릭/스킬북 으로 {{skillups}}번의 레벨이 오를 확률입니다:<br>
+					 {{copies}}개의 동일캐릭/스킬북 으로 {{skillups}}번의 레벨을 올릴 수 있는 확률입니다:<br>
 					<label ng-attr-style="color: {{specialProbabilityColor}}" class="result">{{specialProbabilityResult}}%</label>
 					</p>
 					<uib-progressbar animate="false" value="specialProbabilityProgress" type="success"><b>{{specialProbabilityProgressBar}}</b></uib-progressbar>
@@ -47,7 +47,7 @@
 
 				<div class="large-container">
 					<p>  
-					{{copies}}개의 동일캐릭/스킬북 으로 특수능력(슬롯) 레벨 확률: <br>
+					{{copies}}개의 동일캐릭 으로 특수능력(슬롯)을 올릴수 있는 확률: <br>
 					노트: 현재 슬롯에 특수능력이 있다면, 선택해주세요 <br>
 					능력의 레벨은 슬롯에 숫자를 눌러 변경가능합니다. <br>
 					<label ng-attr-style="color: {{socketProbabilityColor}}" class="result">{{socketProbabilityResult}}% </label>
