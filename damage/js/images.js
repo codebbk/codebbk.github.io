@@ -2,8 +2,8 @@
 
 var app = angular.module('optc');
 
-var BOX_COLORS = { 힘: 'salmon', QCK: 'lightskyblue', DEX: 'lightgreen', PSY: 'gold', INT: 'orchid' };
-var ORB_COLORS = { 힘: 'orangered', QCK: 'dodgerblue', DEX: 'lightgreen', PSY: 'gold', INT: 'orchid', G: 'orange' };
+var BOX_COLORS = { STR: 'salmon', QCK: 'lightskyblue', DEX: 'lightgreen', PSY: 'gold', INT: 'orchid' };
+var ORB_COLORS = { STR: 'orangered', QCK: 'dodgerblue', DEX: 'lightgreen', PSY: 'gold', INT: 'orchid', G: 'orange' };
 
 var lock = new Image(), silence = new Image();
 lock.src = 'res/chain.png';
