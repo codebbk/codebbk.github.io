@@ -14,7 +14,7 @@ window.effects = {
         rcv: function(p) { return !p.class.has('Fighter') ? 0.1 : 1; }
     },
 
-    'Baroque Works': {
+    '바로크 워크스': {
         description: 'ATK of non-Fighter, non-Booster, non-Evolver units reduced by 90%',
         thumb: 462,
         id: 2, // don't change this
