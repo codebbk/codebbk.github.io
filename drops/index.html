@@ -92,7 +92,7 @@
                     <tr ng-repeat="(stage,data) in island"
                         ng-if="stage != 'thumb' && stage != 'day' && stage != 'name' && stage != 'shortName' && stage != 'global' && stage != 'condition' && stage != 'challenge' && stage != 'completion' && stage != 'challengeData' && stage != 'showManual'">
                         <td>
-                            {{type == '스토리'&& stage!='Completion Units' ? 'Stage ' + stage : (stage.length < 2 ? 'Any' : stage)}}
+                            {{type == '스토리'&& stage!='Completion Units' ? '스테이지 ' + stage : (stage.length < 2 ? '모든맵' : stage)}}
                         </td>
                         <td hide-when-empty colspan="2">
                             <a ng-repeat="uid in data | smartSort:'false'" ng-if="uid > 0 && !hiddenUnits[uid]"
