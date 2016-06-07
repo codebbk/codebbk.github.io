@@ -5,7 +5,7 @@
     <div class="custom-modal">
         <div id="picker" class="modal-dialog">
             <div class="modal-content animated fadeInDown">
-                <div class="modal-header">Map Effects</div>
+                <div class="modal-header">맵 효과</div>
                 <div class="modal-body">
 
                     <div class="modal-div">
@@ -14,15 +14,15 @@
                             <thead>
                                 <tr>
                                     <th>&nbsp;</th>
-                                    <th>Name</th>
-                                    <th>Effect</th>
+                                    <th>이름</th>
+                                    <th>효과</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr ng-click="pickEffect(null)">
                                     <td class="slot small" decorate-slot="notitle" uid="1"></td>
-                                    <td>No map effect</td>
-                                    <td>N/A</td>
+                                    <td>맵 효과 없음</td>
+                                    <td>-</td>
                                 </tr>
                                 <tr ng-repeat="(effect,data) in list track by $index" ng-click="pickEffect(effect)">
                                     <td class="slot small" decorate-slot="notitle" uid="data.thumb"></td>
