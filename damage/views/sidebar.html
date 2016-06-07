@@ -22,14 +22,14 @@
             <div id="defenseContainer" title="Middle-click or CTRL-click for details" defense-on-click>
                 <i class="fa fa-level-up comodity" ui-sref="main.defense"></i>
                 <i class="fa fa-shield"></i>
-                Enemy Defense: <input type="number" id="defense" to-int ng-model="data.defense"></input>
+                적 방어력: <input type="number" id="defense" to-int ng-model="data.defense"></input>
             </div>
         </li>
 
         <li ui-sref=".candy">
             <div id="candyContainer">
                 <i class="fa fa-sliders"></i>
-                <a>Cotton Candies</a>
+                <a>솜사탕</a>
             </div>
         </li>
 
@@ -37,13 +37,6 @@
             <div id="sliderToggle" status="{{options.slidersEnabled ? 0 : 1}}"
                 ng-click="options.slidersEnabled = !options.slidersEnabled">
                 <i class="fa fa-circle-o-notch"></i>
-            </div>
-        </li>
-
-        <li ng-show="showGatherButton">
-            <div id="gather" ui-sref=".gather">
-                <i class="fa fa-heartbeat"></i>
-                Data Gathering
             </div>
         </li>
 
