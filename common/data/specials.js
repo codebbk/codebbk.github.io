@@ -1316,7 +1316,7 @@ window.specials = {
 		type: "type"
 	},
     1082: {
-        orb: function(p) {
+        atk: function(p) {
             if(p.percHP >= 70.0){
                 return p.unit.class.has("Striker") || p.unit.class.has("Fighter") ? 1.2 : 1;
             }else if(p.percHP >= 20.0){
@@ -1327,7 +1327,7 @@ window.specials = {
         }
     },
     1083: {
-        orb: function(p) {
+        atk: function(p) {
             if(p.percHP >= 70.0){
                 return p.unit.class.has("Striker") || p.unit.class.has("Fighter") ? 1.2 : 1;
             }else if(p.percHP >= 20.0){
