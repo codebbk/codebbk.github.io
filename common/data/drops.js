@@ -520,7 +520,7 @@ window.drops = {
         },
 
         {
-            name: '게 동굴',
+            name: '집게발 동굴 입구',
             day: 4,
             thumb: 95,
             global: true,
