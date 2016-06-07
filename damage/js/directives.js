@@ -29,7 +29,7 @@ directives.decorateSlot = function($rootScope) {
                     target.style.backgroundImage = 'url(' + Utils.getThumbnailUrl(null) + ')';
                     target.removeAttribute('title');
                 } else {
-                    if (scope.uid != 1 || scope.flag || (scope.udata && scope.udata.name == 'Monkey D. Luffy'))
+                    if (scope.uid != 1 || scope.flag || (scope.udata && scope.udata.name == '몽키 D. 루피'))
                         target.style.backgroundImage = 'url(' + Utils.getThumbnailUrl(scope.uid) + ')';
                     else
                         target.style.backgroundImage = null;
@@ -82,7 +82,7 @@ directives.detailPane = function($timeout) {
         link: function(scope, element, attrs) {
 
             var modifiers = [ 'Below Good', 'Good', 'Great', 'Perfect', 'Miss' ];
-            var types = [ '힘', 'QCK', 'DEX', 'PSY', 'INT' ];
+            var types = [ '힘', '속도', '기술', '마음', '지식' ];
 
             var modifyDamage = function(e) {
                 var container = $(e.target).closest('.turnContainer');
