@@ -1,94 +1,94 @@
 window.abilities = [
 
     {
-        name: 'Damage reduction',
+        name: '데미지 감소',
         levels: [
-            [ 5, 'Received damage reduced by 3%' ],
-            [ 10, 'Received damage reduced by 5%' ],
-            [ 15, 'Received damage reduced by 10%' ]
+            [ 5, '받는 데미지 3% 감소' ],
+            [ 10, '받는 데미지 5% 감소' ],
+            [ 15, '받는 데미지 10% 감소' ]
         ]
     },
 
     {
-        name: 'Charge specials',
+        name: '필살기 턴 단축',
         levels: [
-            [ 10, 'Cooldown of all specials reduced by 1 turn at the start of the fight' ],
-            [ 20, 'Cooldown of all specials reduced by 2 turns at the start of the fight' ]
+            [ 10, '싸움이 시작되면 모든 필살기가 1턴 감소됩니다.' ],
+            [ 20, '싸움이 시작되면 모든 필살기가 2턴 감소됩니다' ]
         ]
     },
 
     {
-        name: 'Bind resistance',
+        name: '봉인 내성',
         levels: [
-            [ 10, 'Bind duration reduced by 1 turn' ],
-            [ 15, 'Bind duration reduced by 2 turns' ],
-            [ 20, 'Bind duration reduced by 3 turns' ]
+            [ 10, '봉인상태 1턴 감소' ],
+            [ 15, '봉인상태 2턴 감소' ],
+            [ 20, '봉인상태 3턴 감소' ]
         ]
     },
 
     {
-        name: 'Despair resistance',
+        name: '절망 내성',
         levels: [
-            [ 10, 'Despair duration reduced by 1 turn' ],
-            [ 15, 'Despair duration reduced by 2 turns' ],
-            [ 20, 'Despair duration reduced by 3 turns' ]
+            [ 10, '절망상태 1턴 감소' ],
+            [ 15, '절망상태 2턴 감소' ],
+            [ 20, '절망상태 3턴 감소' ]
         ]
     },
 
     {
-        name: 'Auto-heal',
+        name: '매턴 회복',
         levels: [
-            [ 5, '100 HP recovered at the end of each turn' ],
-            [ 8, '200 HP recovered at the end of each turn' ],
-            [ 12, '300 HP recovered at the end of each turn' ],
-            [ 16, '500 HP recovered at the end of each turn' ],
-            [ 24, '1000 HP recovered at the end of each turn' ]
+            [ 5, '턴이 종료되면 체력 100 회복' ],
+            [ 8, '턴이 종료되면 체력 200 회복' ],
+            [ 12, '턴이 종료되면 체력 300 회복' ],
+            [ 16, '턴이 종료되면 체력 500 회복' ],
+            [ 24, '턴이 종료되면 체력 1,000 회복' ]
         ]
     },
 
     {
-        name: 'RCV boost',
+        name: '회복력 상승',
         levels: [
-            [ 5, 'Crew\'s RCV boosted by 100 units' ],
-            [ 8, 'Crew\'s RCV boosted by 200 units' ],
-            [ 12, 'Crew\'s RCV boosted by 300 units' ],
-            [ 16, 'Crew\'s RCV boosted by 500 units' ],
-            [ 24, 'Crew\'s RCV boosted by 1000 units' ]
+            [ 5, '선원의 고기 회복량이 100 증가' ],
+            [ 8, '선원의 고기 회복량이 200 증가' ],
+            [ 12, '선원의 고기 회복량이 300 증가' ],
+            [ 16, '선원의 고기 회복량이 500 증가' ],
+            [ 24, '선원의 고기 회복량이 1,000 증가' ]
         ]
     },
 
     {
-        name: 'Slot rate boost',
+        name: '캐릭터 속성 슬롯 출현률 상승',
         levels: [
-            [ 5, 'Boosted chances (20%) of getting matching orbs' ],
-            [ 10, 'Boosted chances (22.2%) of getting matching orbs' ],
-            [ 20, 'Boosted chances (25%) of getting matching orbs' ],
+            [ 5, '캐릭터 속성 슬롯 출현률 20% 상승' ],
+            [ 10, '캐릭터 속성 슬롯 출현률 22.2% 상승' ],
+            [ 20, '캐릭터 속성 슬롯 출현률 25% 상승' ],
         ]
     },
 
     {
-        name: 'Poison resistance',
+        name: '독 내성',
         levels: [
-            [ 10, 'Poison damage reduced by 20%' ],
-            [ 15, 'Poison damage reduced by 50%' ],
-            [ 20, 'Poison damage reduced by 100%' ],
+            [ 10, '독 데미지 20% 감소' ],
+            [ 15, '독 데미지 50% 감소' ],
+            [ 20, '독 데미지 무효화' ],
         ]
     },
 
     {
-        name: 'Map damage resistance',
+        name: '맵 데미지 내성',
         levels: [
-            [ 10, 'Map damage reduced by 50%' ],
-            [ 20, 'Map damage reduced by 100%' ],
+            [ 10, '맵 데미지 50% 감소' ],
+            [ 20, '맵 데미지 무효화' ],
         ]
     },
 
     {
-        name: 'Resilience',
+        name: '버티기',
         levels: [
-            [ 5, '5% chance to withstand a lethal enemy hit' ],
-            [ 10, '10% chance to withstand a lethal enemy hit' ],
-            [ 20, '20% chance to withstand a lethal enemy hit' ]
+            [ 5, '체력이상 공격을 받았을때 5% 확률로 체력1을 남기고 버팁니다.' ],
+            [ 10, '체력이상 공격을 받았을때 10% 확률로 체력1을 남기고 버팁니다.' ],
+            [ 20, '체력이상 공격을 받았을때 20% 확률로 체력1을 남기고 버팁니다.' ]
         ]
     }
 
