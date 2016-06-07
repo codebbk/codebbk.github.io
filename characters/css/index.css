@@ -475,22 +475,22 @@ h3 > label {
 
 .bonus.drop:after, .bonus.drop:before {
     background: #7bc8a4;
-    content: "2x drop";
+    content: "드랍율 2배";
 }
 
 .bonus.stamina:after, .bonus.stamina:before {
     background: skyblue;
-    content: "0.5x stamina";
+    content: "스테미나 절반";
 }
 
 .bonus.beli:after, .bonus.beli:before {
     background: #ffc65d;
-    content: "2x beli";
+    content: "베리 2배";
 }
 
 .bonus.exp:after, .bonus.exp:before {
     background: #f16745;
-    content: "2x EXP";
+    content: "경험치 2배";
 }
 
 .bonus.today:after, .bonus.today:before {
@@ -499,11 +499,11 @@ h3 > label {
 }
 
 .bonus.GL:before {
-    content: "GL: ";
+    content: "글로벌: ";
 }
 
 .bonus.JP:before {
-    content: "JP: ";
+    content: "일본: ";
 }
 
 /**********
