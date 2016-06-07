@@ -161,7 +161,7 @@
                                         <div ng-if="!isSpecialHybrid && isSpecialStaged">
                                             <div ng-repeat="stage in details.special track by $index">
                                                 <strong>Stage {{$index + 1}}</strong>
-                                                ({{stage.cooldown.length ? stage.cooldown[0] : stage.cooldown}}{{stage.cooldown.length ? ' \u2192 ' + stage.cooldown[1] : ''}} turns):
+                                                ({{stage.cooldown.length ? stage.cooldown[0] : stage.cooldown}}{{stage.cooldown.length ? ' \u2192 ' + stage.cooldown[1] : ''}} 턴):
                                                 <span ng-bind-html="stage.description | decorate"></span>
                                             </div>
                                         </div>
