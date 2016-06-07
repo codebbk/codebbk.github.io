@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Turtle Time Calc</title>
+		<title>거북이 타이머</title>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link href="css/polyglot-language-switcher-2.css" rel="stylesheet">
@@ -53,33 +53,11 @@
 
 		<nav class="navbar navbar-default" ng-controller="NavbarCtrl" ng-click="$event.stopPropagation()">
 			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" ng-click="isCollapsed=!isCollapsed">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span> 
-					</button>
-				</div>
-				<div class="navbar-collapse init" collapse="isCollapsed">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="index.html">{{ 'NAV_TURTLE' | translate }}</a></li>
-						<li><a href="barrel.html">{{ 'NAV_BARREL' | translate }}</a></li>
-						<li><a href="event.html">{{ 'NAV_EVENT' | translate }}</a></li>
-						<li><a href="contact.html">{{'NAV_CONTACT' | translate}}</a></li>
-						<li id="settings"><a href="settings.html">{{ 'NAV_SETTINGS' | translate }}</a></li>
-					</ul>
-					<div class="language-picker nav pull-right">
-						<pls id="pls1" items="plsModel.languages" open-mode="click" show-flag="true" selected-lang="{{locale.flag}}" language-changed-callback="onLanguageChanged(lang)"></pls>
-					</div>
-				</div>
-			</div>
+						</div>
 		</nav>
 
 		<div class="jumbotron">
 			<div class="container" ng-controller="TurtleCtrlBeta as turtle">
-				<div class="alert alert-info alert-site">
-				Please check out the new site at <a href="https://optctimer.com">https://optctimer.com</a>.
-				Click <a href="https://www.reddit.com/r/OnePieceTC/comments/42z3m0/turtle_time_calculator_updated/">here</a> for more information.</div>
 				<h1 class="page-title">{{'TT_TITLE' | translate}}</h1>
 				<div>
 					<div class="id">
@@ -89,8 +67,8 @@
 					</div>
 					<p>{{'TT_TIMEZONE' | translate}} {{turtle.timezone}}</p>
 					<div class="btn-group game-version ttc-version">
-						<label class="btn btn-default" ng-model="turtle.version" btn-radio="'global'">GLOBAL</label>
-						<label class="btn btn-default" ng-model="turtle.version" btn-radio="'jpn'">JPN</label>
+						<label class="btn btn-default" ng-model="turtle.version" btn-radio="'global'">글로벌</label>
+						<label class="btn btn-default" ng-model="turtle.version" btn-radio="'jpn'">일본/한국</label>
 					</div>
 					<div class="ttime-global">
 						<turtle-beta 
@@ -118,11 +96,6 @@
 						</turtle-beta>
 						<!-- <p ng-show="turtle.version !== 'global'">JPN: Fixed! Sorry for the inconvenience. The last two dates are incorrect and will be updated once I know the correct times.</p> -->
 					</div>
-					<div class="add-to-calendar" ng-show="!turtle.iOS">
-						<a class="btn btn-default" ng-click="turtle.get_cal()">
-							{{'TT_ADD_CALENDAR' | translate}}
-						</a>
-					</div>
 				</div>
 
 				<button class="btn btn-info btn-notif" ng-click="isCollapsed1 = !isCollapsed1" ng-show="turtle.notif_support" ng-init="isCollapsed1 = true">{{'TT_NOTIFICATION' | translate}}</button>
@@ -136,24 +109,7 @@
 						<button class="btn btn-sm btn-default" ng-click="turtle.example_notification()">{{'TT_NOTIF_EXAMPLE' | translate}}</button>
 					</div>
 				</div>
-
-				<h2>Incorrect? <a href="contact.html">Let me know.</a></h2>
-
-				<h2>FAQ:</h2>
-				<h3>Will you keep updating it?</h3>
-				<p>This site <strong>automatically updates</strong> itself. Source code <a href="https://github.com/cyung/optc">here</a>.</p>
-
-				<button class="btn btn-info" ng-click="isCollapsed2 = !isCollapsed2" ng-init="isCollapsed2 = true">Notifications/Calendar Information</button>
-				<div collapse="isCollapsed2" class="init">
-					<h2>Do I need to leave the page open?</h2>
-					<p>Yes.</p>
-					<h2>Notifications not supported?</h2>
-					<p>Notifications do not work via browser on iOS/Android. I will need to release a native app for that.</p>
-					<h2>Calendar not working on iOS?</h2>
-					<p>Calendars cannot be directly imported from a browser on iOS. You can get around this by downloading it on your computer and emailing it to yourself.</p>
-					<h2>Your translations in German/Spanish are wrong.</h2>
-					<p>Please tell me the corrections since I'm using Google Translate for these.</p>
-				</div>
+			
 
 				<hr>
 				<!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
