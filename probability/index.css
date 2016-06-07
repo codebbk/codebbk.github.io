@@ -57,6 +57,13 @@ p {
 	width: 408px;
 	margin: 0 auto;
 }
+.large-container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+	width: 558px;
+	margin: 0 auto;
+}
 
 .loose-container {
 	padding-top: 10px;
