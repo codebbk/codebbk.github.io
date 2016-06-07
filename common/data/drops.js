@@ -548,91 +548,91 @@ window.drops = {
             name: '버기의 역습!!',
             thumb: 39,
             global: true,
-            Expert: [ 36, 37, 38, 99, 109, 114, -4 ],
-            Elite: [ 36, 37, 38, 99, 109, 114, -3 ]
+            익스퍼트: [ 36, 37, 38, 99, 109, 114, -4 ],
+            엘리트: [ 36, 37, 38, 99, 109, 114, -3 ]
         },
 
         {
             name: '알비다 로맨스',
             thumb: 30,
             global: true,
-            Expert: [ 28, 29, 31, 40, 84, 95, 110, 117, -30, -21, -8 ],
-            Elite: [ 28, 29, 31, 40, 95, 105, 110, -21, -7 ]
+            익스퍼트: [ 28, 29, 31, 40, 84, 95, 110, 117, -30, -21, -8 ],
+            엘리트: [ 28, 29, 31, 40, 95, 105, 110, -21, -7 ]
         },
 
          {
             name: '백계의 크로- 완전계획',
             thumb: 46,
             global: true,
-			condition: "None",
-            Expert: [ 41, 42, 43, 45, -16 ],
-            Elite: [ 41, 42, 43, 45, 96, 106, 111, -15 ]
+			condition: "없음",
+            익스퍼트: [ 41, 42, 43, 45, -16 ],
+            엘리트: [ 41, 42, 43, 45, 96, 106, 111, -15 ]
         },
 
         {
             name: 'Arlong: Empire Rising',
             thumb: 66,
             global: true,
-			condition: "None",
-            Expert: [ 61, 62, 63, 65, 89, 95, 105, 110, -12, -66 ],
-            Elite: [ 61, 62, 63, 65, 95, 105, 110, -11 ]
+			condition: "없음",
+            익스퍼트: [ 61, 62, 63, 65, 89, 95, 105, 110, -12, -66 ],
+            엘리트: [ 61, 62, 63, 65, 95, 105, 110, -11 ]
         },
 
         {
             name: 'Krieg\'s Assault!',
             thumb: 58,
             global: true,
-			condition: "None",
-            Expert: [ 98, 99, 108, 109, 113, 114, 53, 55, 57, -58, -20 ],
-            Elite: [ 98, 99, 108, 109, 113, 114, 53, 55, 57, -58, -20, -19 ]
+			condition: "없음",
+            익스퍼트: [ 98, 99, 108, 109, 113, 114, 53, 55, 57, -58, -20 ],
+            엘리트: [ 98, 99, 108, 109, 113, 114, 53, 55, 57, -58, -20, -19 ]
         },
 
         {
             name: 'Escaped! Morgan',
             thumb: 228,
             global: true,
-			condition: "None",
-			"All Difficulties": [ 33, 35, 84, 95, 105, 107, 110, 112, -228, -34, -26, -25, -24, -23, -22 ]
+			condition: "없음",
+			"모든 난이도": [ 33, 35, 84, 95, 105, 107, 110, 112, -228, -34, -26, -25, -24, -23, -22 ]
         },
 
         {
             name: 'Hina\'s Resort Getaway',
             thumb: 232,
             global: true,
-			condition: "None",
+			condition: "없음",
             challenge: 'High Score calculated with Crew Cost, Turns Taken and Tap Accuracy',
-            challengeData: [['150,000','Blue Elder'],['450,000','ATK Cotton Candy'],['750,000','3x Rainbow Gems']],
-            Expert: [ 43, 49, 79, 85, 96, 106, 231, -230, -229, -221, -208, -62, -54 ],
-            Elite: [ 43, 49, 96, 111, 117, 231, -230, -229, -221, -208 ]
+            challengeData: [['150,000','파란 원로 거북'],['450,000','공격 솜사탕'],['750,000','3x 무지개 보석']],
+            익스퍼트: [ 43, 49, 79, 85, 96, 106, 231, -230, -229, -221, -208, -62, -54 ],
+            엘리트: [ 43, 49, 96, 111, 117, 231, -230, -229, -221, -208 ]
         },
 
         {
             name: 'Cobymeppo\'s Proving Ground!',
             thumb: 263,
             global: true,
-			condition: "None",
+			condition: "없음",
             challenge:'Total number of hits above 50,000',
-            challengeData: [['5 Times','1x Yellow Elder'],['15 Times','1x ATK Cotton Candy'],['25 Times','3x Rainbow Gems']],
-            "All Difficulties": [ 31, 33, 262, 264, 87, 88, 98, 99, 113, -265, -263, -225, -210, -64, -56, -32 ]
+            challengeData: [['5 번','1x 노란 원로 거북'],['15 번','1x 공격 솜사탕'],['25 번','3x 무지개 보석']],
+            "모든 난이도": [ 31, 33, 262, 264, 87, 88, 98, 99, 113, -265, -263, -225, -210, -64, -56, -32 ]
         },
 
         {
             name: 'Smoker\'s Great Pursuit',
             thumb: 268,
             global: true,
-			condition: "None",
+			condition: "없음",
             challenge: 'Cumulative Damage dealt to enemies in a single run',
-            challengeData: [['600,000 Damage','1x Green Elder'],['1,400,000 Damage','1y Rainbow Gem & 1x HP Cotton Candy'],['3,000,000 Damage','2x Rainbow Gems, 1x Forbidden Tome']],
-            "All Difficulties": [ 67, 69, 86, 97, 112, -219, -212, -206, -204, -73, -52, -50 ]
+            challengeData: [['600,000 데미지','1x 초록 원로 거북'],['1,400,000 데미지','1y Rainbow Gem & 1x HP 솜사탕'],['3,000,000 데미지','2x 무지개 보석, 1x Forbidden Tome']],
+            "모든 난이도": [ 67, 69, 86, 97, 112, -219, -212, -206, -204, -73, -52, -50 ]
         },
 
         {
             name: 'Tsuru\'s Morning Stroll',
             thumb: 297,
             global: true,
-			condition: "None",
-            Expert: [ 99, 88, 114, 296, 298, 299, -236, -234, -223, -217, -202, -200, -199 ],
-            Elite: [ 99, 88, 114, 296, 298, 299, -236, -234, -223, -202, -200 ]
+			condition: "없음",
+            익스퍼트: [ 99, 88, 114, 296, 298, 299, -236, -234, -223, -217, -202, -200, -199 ],
+            엘리트: [ 99, 88, 114, 296, 298, 299, -236, -234, -223, -202, -200 ]
         },
 
         {
@@ -640,7 +640,7 @@ window.drops = {
             thumb: 318,
             global: true,
             condition: 'You may only bring STR units into this island',
-            "All Difficulties": [ 86, 97, 110, 112, 317, 319, -259, -253, -216, -215, -62, -56 ]
+            "모든 난이도": [ 86, 97, 110, 112, 317, 319, -259, -253, -216, -215, -62, -56 ]
         },
 
         {
@@ -648,7 +648,7 @@ window.drops = {
             thumb: 322,
             global: true,
             condition: 'You may only bring DEX units for 15 and 30 Stamina',
-            "All Difficulties": [ 85, 96, 111, 112, 321, 323, 325, -251, -218, -75, -74, -54, -21 ]
+            "모든 난이도": [ 85, 96, 111, 112, 321, 323, 325, -251, -218, -75, -74, -54, -21 ]
         },
 
         {
@@ -656,10 +656,10 @@ window.drops = {
             thumb: 337,
             global: true,
             condition: 'You may only bring INT units for 15 and 30 Stamina',
-            challenge: 'Total Damage dealt to enemies in one turn',
-            challengeData: [['150,000 Damage','1x Yellow Elder'],['400,000 Damage','1x ATK Cotton Candy'],['800,000 Damage','3x Rainbow Gems']],
-            Expert: [ 87, 98, 113, 114, 336, 338, 339, -339, -338, -255, -222, -77, -68 ],
-            Elite: [ 87, 98, 113, 336, 338, 339, -339, -338, -255, -222, -77, -68 ]
+            challenge: 'Total 데미지 dealt to enemies in one turn',
+            challengeData: [['150,000 데미지','1x 노란 원로 거북'],['400,000 데미지','1x 공격 솜사탕'],['800,000 데미지','3x 무지개 보석']],
+            익스퍼트: [ 87, 98, 113, 114, 336, 338, 339, -339, -338, -255, -222, -77, -68 ],
+            엘리트: [ 87, 98, 113, 336, 338, 339, -339, -338, -255, -222, -77, -68 ]
         },
 
         {
@@ -668,8 +668,8 @@ window.drops = {
             global: true,
             condition: 'You may only bring QCK units for 15 and 30 Stamina',
             challenge: 'High Score calculated with Crew Cost, Turns Taken and Tap Accuracy',
-            challengeData: [['200,000 Points','1x Red Elder'],['400,000 Points','1x HP Cotton Candy'],['700,000 Points','3x Rainbow Gems']],
-            "All Difficulties": [ 28, 40, 60, 213, 215, 340, -292, -291, -290, -261, -257, -214, -71, -44 ]
+            challengeData: [['200,000 포인트','1x 빨간 원로 거북'],['400,000 포인트','1x HP 솜사탕'],['700,000 포인트','3x 무지개 보석']],
+            "모든 난이도": [ 28, 40, 60, 213, 215, 340, -292, -291, -290, -261, -257, -214, -71, -44 ]
         },
 
         {
@@ -678,8 +678,8 @@ window.drops = {
             global: true,
             condition: 'You may only bring PSY units for 15 and 30 Stamina',
 			challenge: 'High Score calculated with Crew Cost, Turns Taken and Tap Accuracy',
-            challengeData: [['10,000 Points','1x Black Elder'],['40,000 Points','1x Rainbow Gem, 1x ATK Cotton Candy'],['70,000 Points','2x Rainbow Gems, 1x Damage Reduction Forbidden Tome']],
-            "All Difficulties": [ 385, 387, -388, -335, -314, -36, -16, -11 ]
+            challengeData: [['10,000 포인트','1x 검은 원로 거북'],['40,000 포인트','1x Rainbow Gem, 1x 공격 솜사탕'],['70,000 포인트','2x 무지개 보석, 1x 데미지 빨간uction Forbidden Tome']],
+            "모든 난이도": [ 385, 387, -388, -335, -314, -36, -16, -11 ]
         },
 
         {
@@ -688,8 +688,8 @@ window.drops = {
             global: true,
             condition: 'You can only get STR, QCK, INT and Food Orbs',
             challenge: 'Total number of hits over 50,000',
-            challengeData: [['3 Times','1x Green Elder'],['12 Times','1x RCV Cotton Candy'],['25 Times','3x Rainbow Gems']],
-            "All Difficulties": [ 391, 393, 394, -394, -393, -329, -316, -47, -34, -4 ]
+            challengeData: [['3 번','1x 초록 원로 거북'],['12 번','1x RCV 솜사탕'],['25 번','3x 무지개 보석']],
+            "모든 난이도": [ 391, 393, 394, -394, -393, -329, -316, -47, -34, -4 ]
         },
 
         {
@@ -697,15 +697,15 @@ window.drops = {
             thumb: 405,
             global: true,
             condition: 'You can only get QCK, DEX, PSY and Food Orbs',
-            "All Difficulties": [ 404, 406, 407, -407, -406, -333, -312, -208, -26, -20 ]
+            "모든 난이도": [ 404, 406, 407, -407, -406, -333, -312, -208, -26, -20 ]
         },
 
         {
             name: 'Rising Sun, Rising Fortunes',
             thumb: 420,
             global: true,
-			condition: "None",
-            "All Difficulties": [ 36, 37, 47, 48, 49, 50, 51, 59, 63, 211, 233, 420, 421, 422, -422, -332, -308, -225, -206, -204, -8 ]
+			condition: "없음",
+            "모든 난이도": [ 36, 37, 47, 48, 49, 50, 51, 59, 63, 211, 233, 420, 421, 422, -422, -332, -308, -225, -206, -204, -8 ]
         },
 
         {
@@ -713,19 +713,19 @@ window.drops = {
             thumb: 424,
             global: true,
             condition: 'You can only get STR, DEX, INT and PSY Orbs',
-            challenge: 'Cumulative Damage dealt to enemies in a single run',
-            challengeData: [['500,000 Damage','1x Black Elder'],['1,500,000 Damage','1x ATK Cotton Candy'],['3,000,000 Damage','3x Rainbow Gems']],
-            "All Difficulties": [ 423, 425, -425, -327, -310, -223, -219, -214, -202 ]
+            challenge: 'Cumulative 데미지 dealt to enemies in a single run',
+            challengeData: [['500,000 데미지','1x 검은 원로 거북'],['1,500,000 데미지','1x 공격 솜사탕'],['3,000,000 데미지','3x 무지개 보석']],
+            "모든 난이도": [ 423, 425, -425, -327, -310, -223, -219, -214, -202 ]
         },
 
         {
             name: 'Maiden in Love - First Sight',
             thumb: 436,
             global: true,
-            challenge: 'Damage dealt in a single Round',
-            challengeData: [['350,000','1x Black Elder'], ['900,000','1x HP Cotton Candy'], ['2,000,000','3x Rainbow Gems']],
-            condition: 'Each non-Okama in your Team will take 60 Damage each turn',
-            "All Difficulties": [ 433, 434, 435, -384, -372, -371, -359, -217, -210, -19 ]
+            challenge: '데미지 dealt in a single Round',
+            challengeData: [['350,000','1x 검은 원로 거북'], ['900,000','1x HP 솜사탕'], ['2,000,000','3x 무지개 보석']],
+            condition: 'Each non-Okama in your Team will take 60 데미지 each turn',
+            "모든 난이도": [ 433, 434, 435, -384, -372, -371, -359, -217, -210, -19 ]
         },
 
         {
@@ -733,9 +733,9 @@ window.drops = {
             thumb: 445,
             global: true,
             condition: 'Higher Chance of Food orbs',
-            challenge: 'Cumulative Damage dealt to enemies in a single run',
-            challengeData: [['450,000 Damage','1x Yellow Elder'],['1,250,000 Damage','1x RCV Cotton Candy'],['3,000,000 Damage','3x Rainbow Gems']],
-            "All Difficulties": [ 290, 293, 294, 295, 334, 379, 381, 382, 429, 441, 442, 443, 444, -378, -368, -363, -251, -73, -15 ]
+            challenge: 'Cumulative 데미지 dealt to enemies in a single run',
+            challengeData: [['450,000 데미지','1x 노란 원로 거북'],['1,250,000 데미지','1x RCV 솜사탕'],['3,000,000 데미지','3x 무지개 보석']],
+            "모든 난이도": [ 290, 293, 294, 295, 334, 379, 381, 382, 429, 441, 442, 443, 444, -378, -368, -363, -251, -73, -15 ]
         },
 
         {
@@ -743,7 +743,7 @@ window.drops = {
             thumb: 462,
             global: true,
             condition: 'Striker, Shooter and Slashers are weakend.',
-            "All Difficulties": [ 460, 461, -398, -396, -370, -361, -253, -236, -234 ]
+            "모든 난이도": [ 460, 461, -398, -396, -370, -361, -253, -236, -234 ]
         },
 
         {
@@ -751,9 +751,9 @@ window.drops = {
             thumb: 510,
             global: true,
             condition: '30: Non-Striker, Evolver, or Booster class characters are weakend; 15: Fighter and Shooter class characters are weakened (Note: Multi-class characters such as Fighter / Slasher are not affected)',
-            challenge: 'Total Damage dealt to enemies in one turn',
-            challengeData: [['120,000 Damage','1x Blue Elder'],['600,000 Damage','1x HP Cotton Candy, 1x Rainbow Gem'],['2,500,000 Damage','1x CDR Forbidden Tome, 2x Rainbow Gems']],
-            "All Difficulties": [ 509, 511, -402, -400, -374, -357, -259, -212, -209 ]
+            challenge: 'Total 데미지 dealt to enemies in one turn',
+            challengeData: [['120,000 데미지','1x 파란 원로 거북'],['600,000 데미지','1x HP 솜사탕, 1x Rainbow Gem'],['2,500,000 데미지','1x CDR Forbidden Tome, 2x 무지개 보석']],
+            "모든 난이도": [ 509, 511, -402, -400, -374, -357, -259, -212, -209 ]
         },
 
         {
@@ -761,9 +761,9 @@ window.drops = {
             thumb: 538,
             global: true,
             condition: '30: Non-Shooter, Evolver, or Booster class characters are weakend; 15: Fighter and Slasher class characters are weakened',
-            challenge: 'Cumulative Damage dealt to enemies in a single run',
-            challengeData: [['600,000 Damage','1x Yellow Elder'],['2,000,000 Damage','1x HP Cotton Candy, 1x Rainbow Gem'],['5,000,000 Damage','1x Matching Orb Forbidden Tome, 2x Rainbow Gems']],
-            "All Difficulties": [ 537, 539, 540, -539, -428, -416, -365, -257, -59 ]
+            challenge: 'Cumulative 데미지 dealt to enemies in a single run',
+            challengeData: [['600,000 데미지','1x 노란 원로 거북'],['2,000,000 데미지','1x HP 솜사탕, 1x Rainbow Gem'],['5,000,000 데미지','1x Matching Orb Forbidden Tome, 2x 무지개 보석']],
+            "모든 난이도": [ 537, 539, 540, -539, -428, -416, -365, -257, -59 ]
         },
 
         {
@@ -771,7 +771,7 @@ window.drops = {
             thumb: 550,
 			global: true,
             condition: '30: Non-Fighter, Evolver, or Booster class characters are weakend; 15: Striker and Shooter class characters are weakened',
-            "All Difficulties": [ 549, 551, 552, -552, -551, -432, -426, -408, -329, -308, -255 ]
+            "모든 난이도": [ 549, 551, 552, -552, -551, -432, -426, -408, -329, -308, -255 ]
         },
 
         {
@@ -779,18 +779,18 @@ window.drops = {
             thumb: 571,
             global: true,
             challenge: 'Total number of hits over 50,000',
-            challengeData: [['3 Times','1x Red Elder'],['12 Times','1x RCV Cotton Candy'],['34 Times','3x Rainbow Gems & 1x Forbidden Tome']],
-            "All Difficulties": [ 570, 572, 573, -431, -429, -410, -333, -332, -327, -316, -75 ]
+            challengeData: [['3 번','1x 빨간 원로 거북'],['12 번','1x RCV 솜사탕'],['34 번','3x 무지개 보석 & 1x Forbidden Tome']],
+            "모든 난이도": [ 570, 572, 573, -431, -429, -410, -333, -332, -327, -316, -75 ]
         },
 
         {
             name: 'Warriors of Shandia! Dreams of a Homeland!',
             thumb: 583,
             global: true,
-            condition: 'All Units considered from the “Sea” will lose 20% to all stats',
+            condition: 'All Units conside빨간 from the “Sea” will lose 20% to all stats',
 			challenge: 'Total number of hits over 50,000',
-            challengeData: [['4 Times','1x Black Elder'],['16 Times','1x ATK Cotton Candy'],['38 Times','3x Rainbow Gems']],
-            "All Difficulties": [ 581, 582, 583, 584, -584, -544, -466, -412, -371, -335, -314, -291 ]
+            challengeData: [['4 번','1x 검은 원로 거북'],['16 번','1x 공격 솜사탕'],['38 번','3x 무지개 보석']],
+            "모든 난이도": [ 581, 582, 583, 584, -584, -544, -466, -412, -371, -335, -314, -291 ]
         },
 
         {
@@ -798,16 +798,16 @@ window.drops = {
             thumb: 599,
 			global: true,
             condition: 'You cannot use any two units that are the same',
-            Expert: [ 598, 600, -504, -467, -463, -414, -372, -332, -310, -77 ],
-            Elite: [ 598, 600, -467, -463, -414, -372, -332, -310, -77 ]
+            익스퍼트: [ 598, 600, -504, -467, -463, -414, -372, -332, -310, -77 ],
+            엘리트: [ 598, 600, -467, -463, -414, -372, -332, -310, -77 ]
         },
 
         {
-            name: 'Raging Cook! Red Leg Zeff',
+            name: 'Raging Cook! 빨간 Leg Zeff',
             thumb: 607,
 			global: true,
             condition: 'You cannot use any two units that are the same',
-            "All Difficulties": [ 606, 608, 609, -502, -457, -449, -312, -52, -50 ]
+            "모든 난이도": [ 606, 608, 609, -502, -457, -449, -312, -52, -50 ]
         },
 
         {
@@ -816,8 +816,8 @@ window.drops = {
 			global: true,
             condition: 'No Units above the cost of 49 is allowed',
 			challenge: 'Total number of hits over 50,000',
-            challengeData: [['4 Times','1x Blue Elder'],['8 Times','1x Rainbow Gem, 1x HP Cotton Candy'],['22 Times','2x Rainbow Gems, 1x Orb Matching Forbidden Tome']],
-            "All Difficulties": [ 634, 636, 637, -636, -464, -451, -396, -370, -367, -359, -64 ]
+            challengeData: [['4 번','1x 파란 원로 거북'],['8 번','1x Rainbow Gem, 1x HP 솜사탕'],['22 번','2x 무지개 보석, 1x Orb Matching Forbidden Tome']],
+            "모든 난이도": [ 634, 636, 637, -636, -464, -451, -396, -370, -367, -359, -64 ]
         },
 
         {
@@ -825,75 +825,75 @@ window.drops = {
             thumb: 656,
 			global: true,
             condition: 'You can only get STR, QCK, DEX, PSY and INT orbs',
-            "All Difficulties": [ 655, 657, 658, -658, -500, -465, -455, -453, -398, -357, -60 ]
+            "모든 난이도": [ 655, 657, 658, -658, -500, -465, -455, -453, -398, -357, -60 ]
         },
 
         {
             name: 'Fight! Suna Suna Clan!!',
             thumb: 664,
 			global: true,
-            condition: 'Heatwave causes damage every 2 turns',
-            "All Difficulties": [ 663, 665, 667, -667, -522, -508, -506, -459, -378, -221, -73 ]
+            condition: 'Heatwave causes 데미지 every 2 turns',
+            "모든 난이도": [ 663, 665, 667, -667, -522, -508, -506, -459, -378, -221, -73 ]
         },
 
         {
             name: 'Guidance from the Sound of a Bell! Calgara and Noland!',
             thumb: 688,
             condition: 'Bomb orbs appear',
-            "All Difficulties": [ 687, 689, -542, -524, -528, -429, -428, -401, -365, -218 ]
+            "모든 난이도": [ 687, 689, -542, -524, -528, -429, -428, -401, -365, -218 ]
         },
 
         {
             name: "Knight of the Sky Gan Fall",
             thumb: 713,
             condition: '30: Non-Free Spirit, Evolver, or Booster class characters are weakend; 15: Striker and Shooter class characters are weakened',
-			challenge: 'Cumulative Damage dealt to enemies in a single run',
-            challengeData: [['600,000','1x Blue Elder'],['2,000,000','1x RCV Cotton Candy, 1x Rainbow Gem'],['5,000,000','1x Anti-Lock Forbidden Tome, 2x Rainbow Gems']],
-            "All Difficulties": [ 712, 714, 715, -716, -546, -541, -520, -400, -202, -363, -204 ]
+			challenge: 'Cumulative 데미지 dealt to enemies in a single run',
+            challengeData: [['600,000','1x 파란 원로 거북'],['2,000,000','1x RCV 솜사탕, 1x Rainbow Gem'],['5,000,000','1x Anti-Lock Forbidden Tome, 2x 무지개 보석']],
+            "모든 난이도": [ 712, 714, 715, -716, -546, -541, -520, -400, -202, -363, -204 ]
         },
 
         {
             name: "T-Bone's Absolute Justice",
             thumb: 724,
             condition: 'You can only bring INT, PSY and QCK units',
-            "All Difficulties": [ 721, 723, -590, -564, -563, -530, -526, -384, -361, -219 ]
+            "모든 난이도": [ 721, 723, -590, -564, -563, -530, -526, -384, -361, -219 ]
         },
 
         {
             name: "Explosive! Wanze's Ramen Kenpo!!",
             thumb: 743,
             condition: 'You can only bring STR, QCK and DEX units',
-            "All Difficulties": [ 740, 742, -560, -558, -586, -567, -566, -412, -225, -18 ]
+            "모든 난이도": [ 740, 742, -560, -558, -586, -567, -566, -412, -225, -18 ]
         },
 
         {
             name: "Twilight Party DEAD or TREAT!!",
             thumb: 761,
-			condition: "None",
-            "All Difficulties": [ 761, 762, 763, 764, 765, -610, -588, -565, -556, -426, -408, -261, -217 ]
+			condition: "없음",
+            "모든 난이도": [ 761, 762, 763, 764, 765, -610, -588, -565, -556, -426, -408, -261, -217 ]
         },
 
         {
             name: "Twilight Party DEAD or TREAT!! (Global)",
             thumb: 763,
             global: true,
-			condition: "None",
-            "All Difficulties": [ 761, 762, 763, 764, 765, -426, -408, -332, -308, -292, -261, -217, -8 ]
+			condition: "없음",
+            "모든 난이도": [ 761, 762, 763, 764, 765, -426, -408, -332, -308, -292, -261, -217, -8 ]
         },
 
         {
             name: "Midnight Party DEAD or TREAT!!",
             thumb: 766,
-			condition: "None",
-            "All Difficulties": [ 762, 766, 767, 768, 769, -629, -611, -569, -554, -431, -410, -367, -223 ]
+			condition: "없음",
+            "모든 난이도": [ 762, 766, 767, 768, 769, -629, -611, -569, -554, -431, -410, -367, -223 ]
         },
 
         {
             name: "Midnight Party DEAD or TREAT!! (Global)",
             thumb: 768,
             global: true,
-			condition: "None",
-            "All Difficulties": [ 762, 766, 767, 768, 769, -431, -367, -291, -253, -251, -223, -212, -75 ]
+			condition: "없음",
+            "모든 난이도": [ 762, 766, 767, 768, 769, -431, -367, -291, -253, -251, -223, -212, -75 ]
         },
 
         {
@@ -901,96 +901,96 @@ window.drops = {
             thumb: 797,
             condition: 'You can only bring Fighter and Powerhouse units',
             challenge: 'High Score calculated with Crew Cost, Turns Taken and Tap Accuracy',
-            challengeData: [['100,000','1x Purple Elder'],['400,000','1x RCV Candy, 1x Rainbow Gem'],['750,000','1x Auto-Heal Skullbook, 2x Rainbow Gem']],
-            "All Difficulties": [ 796, 798, 799, 800, -800, -639, -628, -562, -414, -432, -380, -75 ]
+            challengeData: [['100,000','1x Purple 원로 거북'],['400,000','1x RCV Candy, 1x Rainbow Gem'],['750,000','1x Auto-Heal Skullbook, 2x Rainbow Gem']],
+            "모든 난이도": [ 796, 798, 799, 800, -800, -639, -628, -562, -414, -432, -380, -75 ]
         },
 
         {
             name: "Nami and Lola's Great Proposal Plan",
             thumb: 808,
             condition: 'You can only bring Slasher and Cerebral units. (No Evolution/Booster)',
-            "All Difficulties": [ 807, 809, 811, -811, -645, -641, -631, -502, -11, -12, -9 ]
+            "모든 난이도": [ 807, 809, 811, -811, -645, -641, -631, -502, -11, -12, -9 ]
         },
 
         {
             name: "Legendary Shipbuilding Company Tom's Workers",
             thumb: 848,
             condition: 'You can only bring Impact and Free Spirit units. (No Evo/Boosters)',
-            challenge: 'Total Damage dealt to enemies in one turn',
-            challengeData: [['100,000 Damage','1x DEX Elder Turtle'],['500,000 Damage','1x Rainbow Gem, 1x ATK Cotton Candy'],['2,000,000 Damage','2x Rainbow Gems, 1x Auto-Heal Forbidden Tome']],
-            "All Difficulties": [ 847, 849, 850, -849, -647, -617, -616, -615, -578, -508, -455 ]
+            challenge: 'Total 데미지 dealt to enemies in one turn',
+            challengeData: [['100,000 데미지','1x DEX 원로 거북 Turtle'],['500,000 데미지','1x Rainbow Gem, 1x 공격 솜사탕'],['2,000,000 데미지','2x 무지개 보석, 1x Auto-Heal Forbidden Tome']],
+            "모든 난이도": [ 847, 849, 850, -849, -647, -617, -616, -615, -578, -508, -455 ]
         },
 
         {
             name: "Wapol's Counterattack",
             thumb: 852,
             condition: 'You can only bring Shooter and Ambition units',
-            "All Difficulties": [ 328, 330, 331, 333, 851, 853, 854, -854, -649, -643, -614, -463, -457, -327, -22 ]
+            "모든 난이도": [ 328, 330, 331, 333, 851, 853, 854, -854, -649, -643, -614, -463, -457, -327, -22 ]
         },
 
         {
             name: "Lightning Speed! Strawhat Crew's Surprise Visit",
             thumb: 866,
-			condition: "None",
+			condition: "없음",
             challenge:'Total number of hits above 50,000',
-            challengeData: [['4 Times','1x INT Elder'],['9 Times','1x ATK Cotton Candy, 1x Rainbow Gem'],['22 Times','1x Anti-Silence Forbidden Tome, 2x Rainbow Gems']],
-            "All Difficulties": [ 41, 42, 53, 235, 395, 397, 419, 426, 427, 432, 563, 564, 866, 867, 868, -709, -673, -671, -633, -500, -467, -465, -451, -431 ]
+            challengeData: [['4 번','1x INT 원로 거북'],['9 번','1x 공격 솜사탕, 1x Rainbow Gem'],['22 번','1x Anti-Silence Forbidden Tome, 2x 무지개 보석']],
+            "모든 난이도": [ 41, 42, 53, 235, 395, 397, 419, 426, 427, 432, 563, 564, 866, 867, 868, -709, -673, -671, -633, -500, -467, -465, -451, -431 ]
         },
 
         {
             name: "Riverside Banquet! Enter the Crazy Ones!",
             thumb: 885,
             condition: 'Highly increased chance of TND, Bomb, and G orbs',
-            "All Difficulties": [ 885, 886, 887, -887, -704, -703, -677, -675, -504, -453, -416 ]
+            "모든 난이도": [ 885, 886, 887, -887, -704, -703, -677, -675, -504, -453, -416 ]
         },
 
         {
             name: "Mountaintop Banquet! Enter the Generals!",
             thumb: 897,
             condition: 'Only STR/DEX/QCK/PSY/INT orbs will appear',
-            "All Difficulties": [ 897, 898, 899, -899, -754, -702, -701, -669, -528, -466, -449, -464 ]
+            "모든 난이도": [ 897, 898, 899, -899, -754, -702, -701, -669, -528, -466, -449, -464 ]
         },
 
         {
             name: "Men are Forbidden!? The Secret Flower Garden",
             thumb: 918,
             condition: 'You can only bring DEX units',
-            "All Difficulties": [ 917, 919, 920, -920, -791, -756, -720, -706, -705, -542, -541, -522 ]
+            "모든 난이도": [ 917, 919, 920, -920, -791, -756, -720, -706, -705, -542, -541, -522 ]
         },
 		
 		{
             name: "Hannyabal's Great Ambition",
             thumb: 929,
             condition: 'You can only bring STR units',
-            "All Difficulties": [ 928, 930, 931, -752, -758, -520, -729, -733, -787, -930, -544, -506 ]
+            "모든 난이도": [ 928, 930, 931, -752, -758, -520, -729, -733, -787, -930, -544, -506 ]
         },
 		
         {
             name: "Encounter! Whitebeard Pirates",
             thumb: 946,
             condition: "You can only bring PSY units",
-            "All Difficulties": [ 946, 947, 948, 949, -718, -750, -760, -526, -793, -735, -546, -738]
+            "모든 난이도": [ 946, 947, 948, 949, -718, -750, -760, -526, -793, -735, -546, -738]
         },
 		
 		{
 			name: "Clash! Whitebeard Pirates",
             thumb: 979,
 			condition: "You can only bring INT units",
-			"All Difficulties": [ 979, 980, 981, 949, -459, -838, -842, -524, -789, -736, -731, -563 ]
+			"모든 난이도": [ 979, 980, 981, 949, -459, -838, -842, -524, -789, -736, -731, -563 ]
 		},
 		
 		{
 			name: "Let's Find Our Captain! Heart Pirates!",
 			condition: "You can only bring QCK units",
             thumb: 1003,
-			"All Difficulties": [ 1002, 1004, 1005, -748, -844, -558, -846, -737, -1006, -785, -564 ]
+			"모든 난이도": [ 1002, 1004, 1005, -748, -844, -558, -846, -737, -1006, -785, -564 ]
 		},
         
         {
 			name: "Rare Animal Island's Count Butler",
 			thumb: 1011,
-			condition: "None",
-			"All Difficulties": [ 1010, 1012, 1013, 1014, -1014, -530, -840, -560, -880, -739, -812, -565 ]
+			condition: "없음",
+			"모든 난이도": [ 1010, 1012, 1013, 1014, -1014, -530, -840, -560, -880, -739, -812, -565 ]
 		},
         
         {
@@ -1004,14 +1004,14 @@ window.drops = {
             name: "The One Who Seeks the Truth of History: Archaeologist Nico Olvia",
             thumb: 1049,
             condition: "Only TND/RCV/INT orbs will appear",
-            "All Difficulties": [ 1048, 1050, 1052, -556, -567, -586, -614, -816, -870, -872, -908]
+            "모든 난이도": [ 1048, 1050, 1052, -556, -567, -586, -614, -816, -870, -872, -908]
         },
         
         {
             name: "Pirate Ship Competition! \"Dead End\" Opens!",
             thumb: 1072,
-            condition: "STR/DEX/QCK units get their ATK boosted by 1.6x and their HP reduced by 90%. INT/PSY units get their ATK reduced by 80% and their HP boosted by 2.0x",
-            "All Difficulties": [ 1069, 1071, 1073, -562, -906, -914, -645, -890, -587, -629, -888]
+            condition: "STR/DEX/QCK units get their 공격 boosted by 1.6x and their HP 빨간uced by 90%. INT/PSY units get their 공격 빨간uced by 80% and their HP boosted by 2.0x",
+            "모든 난이도": [ 1069, 1071, 1073, -562, -906, -914, -645, -890, -587, -629, -888]
         }
 
     ],
@@ -1023,54 +1023,54 @@ window.drops = {
             name: '결전! 미호크',
             thumb: 227,
             global: true,
-            Master: [ 86, 112, 118, 226 ],
-            Expert: [ 97, 112, 226 ]
+            마스터: [ 86, 112, 118, 226 ],
+            익스퍼트: [ 97, 112, 226 ]
         },
 
         {
             name: '결전! 쵸파의 폭주',
             thumb: 249,
             global: true,
-            Master: [ 84, 110, 118, 248 ],
-            Expert: [ 84, 110, 248 ]
+            마스터: [ 84, 110, 118, 248 ],
+            익스퍼트: [ 84, 110, 248 ]
         },
 
         {
             name: '결전! 해군 중장 거프',
             thumb: 306,
             global: true,
-            Master: [ 113, 118, 262, 264, 305 ],
+            마스터: [ 113, 118, 262, 264, 305 ],
         },
 
         {
             name: '결전! 검은 팔 제파',
             thumb: 353,
-            Master: [ 88, 114, 118, 352, 354 ],
-            Expert: [ 99, 114, 117, 352, 354 ]
+            마스터: [ 88, 114, 118, 352, 354 ],
+            익스퍼트: [ 99, 114, 117, 352, 354 ]
         },
 
         {
             name: '결전! 이완코프',
             thumb: 390,
             global: true,
-            Master: [ 85, 111, 118, 389 ],
-            Expert: [ 85, 96, 111, 389 ]
+            마스터: [ 85, 111, 118, 389 ],
+            익스퍼트: [ 85, 96, 111, 389 ]
         },
 
         {
             name: '결전! 도플라밍고',
             thumb: 418,
             global: true,
-            Ultimate: [ 86, 112, 118, 302, 417 ],
-            Master: [ 86, 97, 112, 417 ]
+            얼티메이트: [ 86, 112, 118, 302, 417 ],
+            마스터: [ 86, 97, 112, 417 ]
         },
 
         {
             name: '결전! 검은수염',
             thumb: 447,
             global: true,
-            Master: [ 84, 110, 118, 300, 446 ],
-            Expert: [ 84, 110, 446 ]
+            마스터: [ 84, 110, 118, 300, 446 ],
+            익스퍼트: [ 84, 110, 446 ]
         },
 
         {
@@ -1078,96 +1078,96 @@ window.drops = {
             thumb: 518,
             showManual: true,
 			global: true,
-            'Ultimate': [ 517, -15, -16, -223 ]
+            '얼티메이트': [ 517, -15, -16, -223 ]
         },
 
         {
             name: '결전! 헤라클레슨',
             thumb: 516,
-            Master: [ 87, 97, 113, 117, 118, 294, 295, 303, 429, 515 ],
-            Expert: [ 87, 98, 113, 117, 293, 295, 429, 379, 515 ]
+            마스터: [ 87, 97, 113, 117, 118, 294, 295, 303, 429, 515 ],
+            익스퍼트: [ 87, 98, 113, 117, 293, 295, 429, 379, 515 ]
         },
 
         {
             name: '결전! 아오키지',
             thumb: 575,
             global: true,
-            Ultimate: [ 88, 114, 118, 304, 574 ],
-            Master: [ 114, 118, 574 ]
+            얼티메이트: [ 88, 114, 118, 304, 574 ],
+            마스터: [ 114, 118, 574 ]
         },
 
         {
             name: '결전! 에넬',
             thumb: 603,
             global: true,
-            Ultimate: [ 85, 111, 118, 301, 602 ],
-            Master: [ 85, 111, 118, 602 ] ,
-            Expert: [ 111, 118, 602 ]
+            얼티메이트: [ 85, 111, 118, 301, 602 ],
+            마스터: [ 85, 111, 118, 602 ] ,
+            익스퍼트: [ 111, 118, 602 ]
         },
 
         {
             name: '결전! 듀발',
             thumb: 654,
-            Master: [ 112, 118, 302, 652 ],
-            Expert: [ 86, 97, 112, 652 ]
+            마스터: [ 112, 118, 302, 652 ],
+            익스퍼트: [ 86, 97, 112, 652 ]
         },
 
         {
             name: '결전! 버스터 콜',
             thumb: 771,
-            Master: [ 110, 111, 112, 113, 114, 770, 771, 772, 773, 774, 775 ],
-            Expert: [ 110, 111, 112, 113, 114, 770, 771, 772, 773, 774, 775 ]
+            마스터: [ 110, 111, 112, 113, 114, 770, 771, 772, 773, 774, 775 ],
+            익스퍼트: [ 110, 111, 112, 113, 114, 770, 771, 772, 773, 774, 775 ]
         },
 
         {
             name: '결전! 나이트메어 루피',
             thumb: 795,
-            Master: [ 794 ],
-            Expert: [ 794 ]
+            마스터: [ 794 ],
+            익스퍼트: [ 794 ]
         },
 
         {
             name: '결전! 폭군 쿠마',
             thumb: 836,
-            Master: [ 835 ],
-            Expert: [ 835 ]
+            마스터: [ 835 ],
+            익스퍼트: [ 835 ]
         },
 
         {
             name: '결전! 해적여왕 핸콕',
             thumb: 865,
-            Ultimate: [ 864 ],
-            Master: [ 864 ],
-            Expert: [ 864 ]
+            얼티메이트: [ 864 ],
+            마스터: [ 864 ],
+            익스퍼트: [ 864 ]
         },
         
         {
             name: '결전! 피카',
             thumb: 932,
-            Master: [ 932 ],
-            Expert: [ 932 ]
+            마스터: [ 932 ],
+            익스퍼트: [ 932 ]
         },
 		
 		{
 			name: '결전! 키자루',
             thumb: 978,
-			Ultimate: [ 977 ],
-			Master: [ 977 ]
+			얼티메이트: [ 977 ],
+			마스터: [ 977 ]
 		},
         
         {
             name: '결전!? 가짜 밀짚모자 해적단',
             showManual: true,
             thumb: 989,
-            Ultimate: [ 985, 986, 987, 988, -989, -4, -8, -11, -12, -15, -16, -556, -528, -520, -554, -558, -20, -217, -709]
+            얼티메이트: [ 985, 986, 987, 988, -989, -4, -8, -11, -12, -15, -16, -556, -528, -520, -554, -558, -20, -217, -709]
         },
         
         {
             name: '결전! 사보',
             thumb: 1047,
-            Ultimate: [ 1046 ],
-            Master: [ 1046 ],
-            Expert: [ 1046 ]
+            얼티메이트: [ 1046 ],
+            마스터: [ 1046 ],
+            익스퍼트: [ 1046 ]
         }
 
     ],
@@ -1184,23 +1184,23 @@ window.drops = {
         {
             name: 'Battle Royal! Oars',
             thumb: 893,
-            'Master': [ -367, -316, -314, -312, -308, -259, -257, -255, -253, -251, -221, -218, -217, -210, -75, -30, -16, -15, -8 ]
+            '마스터': [ -367, -316, -314, -312, -308, -259, -257, -255, -253, -251, -221, -218, -217, -210, -75, -30, -16, -15, -8 ]
         },
 
         {
             name: 'Girls of Summer Paradise',
             thumb: 683,
             challenge: 'Total number of hits over 30,000',
-            challengeData: [['10 Times','Vivi\'s Breather Unit'],['35 Times','1x HP Cotton Candy'],['72 Times','3x Rainbow Gems']],
-            Expert: [ 659, 680, 682, 684 ],
+            challengeData: [['10 번','Vivi\'s Breather Unit'],['35 번','1x HP 솜사탕'],['72 번','3x 무지개 보석']],
+            익스퍼트: [ 659, 680, 682, 684 ],
 			"Completion Units": [686]
         },
         
         {
             name: '2nd Anniversary Celebration! Duel! Ace',
             thumb: 1023,
-            Expert: [ 1023 ],
-            Master: [ 1023 ]
+            익스퍼트: [ 1023 ],
+            마스터: [ 1023 ]
         },
 
         {
