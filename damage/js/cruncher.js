@@ -406,12 +406,12 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
 
     var getTypeMultiplierOfUnit = function(attackerType,attackedType) {
         if (attackerType == '힘' && attackedType == 'DEX') return 2;
-        if (attackerType == '속도' && attackedType == '힘') return 2;
-        if (attackerType == 'DEX' && attackedType == '속도') return 2;
+        if (attackerType == 'QCK' && attackedType == '힘') return 2;
+        if (attackerType == 'DEX' && attackedType == 'QCK') return 2;
         if (attackerType == 'INT' && attackedType == 'PSY') return 2;
         if (attackerType == 'PSY' && attackedType == 'INT') return 2;
-        if (attackerType == '힘' && attackedType == '속도') return 0.5;
-        if (attackerType == '속도' && attackedType == 'DEX') return 0.5;
+        if (attackerType == '힘' && attackedType == 'QCK') return 0.5;
+        if (attackerType == 'QCK' && attackedType == 'DEX') return 0.5;
         if (attackerType == 'DEX' && attackedType == '힘') return 0.5;
         return 1;
     };
