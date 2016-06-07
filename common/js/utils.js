@@ -125,12 +125,12 @@
         if (!type)
             return null;
         type = type.toUpperCase();
-        if (type == '힘')
-            return '속도';
-        if (type == '속도')
+        if (type == 'STR')
+            return 'QCK';
+        if (type == 'QCK')
             return 'DEX';
         if (type == 'DEX')
-            return '힘';
+            return 'STR';
         if (type == 'PSY')
             return 'INT';
         return 'PSY';
