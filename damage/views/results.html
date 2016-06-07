@@ -8,5 +8,13 @@
         <div class="detailsContainer" ng-if="detailsVisible" detail-pane></div>
 
     </div>
+      <div class="damage INT" ng-repeat="type in ['INT']" expandable-damage>
+
+        <span class="damageLabel">Damage against {{type}}</span>
+        <span class="damageAmount" id="INT">{{ numbers[type].overall | number:0 }}</span>
+
+        <div class="detailsContainer" ng-if="detailsVisible" detail-pane></div>
+
+    </div>
 
 </div>
