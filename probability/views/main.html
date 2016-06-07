@@ -13,7 +13,7 @@
                             ng-class="{ empty: !character || !character.uid }"></div>
 
                     </div>
-                    <p ng-if="slotCount(character.uid)">Select which Sockets your Unit already has.</p>
+                    <p ng-if="slotCount(character.uid)">소켓이 있다면 선택해 주세요.</p>
                     <p ng-if="!slotCount(character.uid)">이 캐릭터는 소켓이 없습니다.</p>
                     <div class="slots">
 
@@ -38,22 +38,22 @@
 				
 				<div class="small-container">
 					<p>  
-					 {{copies}}개의 동일캐릭/스킬북 으로 {{skillups}}번의 레벨을 올릴 확률입니다.:<br>
+					 {{copies}}개의 동일캐릭/스킬북 으로 {{skillups}}번의 레벨이 오를 확률입니다:<br>
 					<label ng-attr-style="color: {{specialProbabilityColor}}" class="result">{{specialProbabilityResult}}%</label>
 					</p>
 					<uib-progressbar animate="false" value="specialProbabilityProgress" type="success"><b>{{specialProbabilityProgressBar}}</b></uib-progressbar>
 					<button ng-click="!isSpecialReady||calculateSpecialUp()">계산하기</button>
 				</div>
 
-				<div class="small-container">
+				<div class="large-container">
 					<p>  
-					Probability to max above Powers with {{copies}} copies: <br>
-					Note: Slots chosen above are how many you CURRENTLY have <br>
-					To change how many of a type you have, click on the number <br>
+					{{copies}}개의 동일캐릭/스킬북 으로 특수능력(슬롯) 해제 확률: <br>
+					노트: 현재 슬롯이 있다면, 선택해주세요 <br>
+					슬롯 해제 수는 슬롯에 숫자를 눌러 변경가능합니다. <br>
 					<label ng-attr-style="color: {{socketProbabilityColor}}" class="result">{{socketProbabilityResult}}% </label>
 					</p>
 					<uib-progressbar animate="false" value="socketProbabilityProgress" type="success"><b>{{socketProbabilityProgressBar}}</b></uib-progressbar>
-					<button ng-click="!isSocketReady||calculateSocketUp()">Calculate</button>
+					<button ng-click="!isSocketReady||calculateSocketUp()">계산하기</button>
 				</div>
 
 				
