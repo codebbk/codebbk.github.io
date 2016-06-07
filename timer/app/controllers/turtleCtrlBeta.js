@@ -26,16 +26,6 @@
 				self.notif_sound = false;
 		}
 
-		function openRedirectModal() {
-			var modalInstance = $modal.open({
-				animation: true,
-				templateUrl: 'redirectModal.html',
-				controller: 'ModalCtrl',
-				controllerAs: 'modal',
-				size: 'lg',
-			});
-		}
-
 		
 		function note_permission() {
 			self.iOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
