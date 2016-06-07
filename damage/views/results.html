@@ -1,9 +1,9 @@
 <div id="stats">
 
-    <div class="damage STR">
+    <div class="damage STR" expandable-damage>
 
         <span class="damageLabel">Damage against 힘</span>
-        <span class="damageAmount" id="STR">{{ numbers[type].overall | number:0 }}</span>
+        <span class="damageAmount" id="STR">{{ numbers[STR].overall | number:0 }}</span>
 
         <div class="detailsContainer" ng-if="detailsVisible" detail-pane></div>
 
