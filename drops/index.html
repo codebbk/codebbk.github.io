@@ -75,7 +75,7 @@
                         <td colspan="2">{{island.completion}} </td>
                     </tr>
                     <tr ng-if="island.condition" hide-when-empty>
-                        <td>맵 효과</td>
+                        <td>맵 상태</td>
                         <td colspan="2">{{island.condition}} </td>
                     </tr>
                     <tr ng-if="island.challenge">
@@ -92,7 +92,7 @@
                     <tr ng-repeat="(stage,data) in island"
                         ng-if="stage != 'thumb' && stage != 'day' && stage != 'name' && stage != 'shortName' && stage != 'global' && stage != 'condition' && stage != 'challenge' && stage != 'completion' && stage != 'challengeData' && stage != 'showManual'">
                         <td>
-                            {{type == 'Story Island'&& stage!='Completion Units' ? 'Stage ' + stage : (stage.length < 2 ? 'Any' : stage)}}
+                            {{type == '스토리'&& stage!='Completion Units' ? 'Stage ' + stage : (stage.length < 2 ? 'Any' : stage)}}
                         </td>
                         <td hide-when-empty colspan="2">
                             <a ng-repeat="uid in data | smartSort:'false'" ng-if="uid > 0 && !hiddenUnits[uid]"
@@ -101,7 +101,7 @@
                                 uib-tooltip="{{getTooltipText(uid)}}"
                                 tooltip-placement="bottom" tooltip-trigger="mouseenter"
                                 tooltip-enable="{{isTooltipEnabled(uid)}}" tooltip-append-to-body="true"></a>
-                            <h4 ng-if="type == 'Fortnight' || island.showManual">Manuals:</h4>
+                            <h4 ng-if="type == '스페셜 던전' || island.showManual">Manuals:</h4>
                             <a ng-repeat="uid in data | smartSort:'true'" ng-if="uid < 0"
                                 decorate-slot uid="-uid" class="slot small"
                                 href="../characters/#/view/{{-uid}}" target="_blank"
