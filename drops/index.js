@@ -77,10 +77,10 @@ app.directive('island',function() {
                 var cooldown = cooldowns[id - 1], unit = units[id - 1];
                 if (!cooldown && (!unit || !unit.name || !unit.incomplete)) return;
                 if (cooldown) {
-                    if (cooldown.constructor == Array) cooldown = cooldown[0] + ' \u2192 ' + cooldown[1] + ' turns';
-                    else cooldown = cooldown + ' \u2192 ? turns';
+                    if (cooldown.constructor == Array) cooldown = cooldown[0] + ' \u2192 ' + cooldown[1] + ' 턴';
+                    else cooldown = cooldown + ' \u2192 ? 턴';
                 }
-                var result = 'CD: ' + cooldown;
+                var result = '쿨감소: ' + cooldown;
                 if (unit.incomplete && unit.name) result = unit.name + '\n' + result;
                 return result;
             };
