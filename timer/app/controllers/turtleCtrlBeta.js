@@ -2,11 +2,10 @@
 	'use strict';
 	angular.module('app')
 		.controller('TurtleCtrlBeta', turtleCtrlBeta);
-		function turtleCtrlBeta($scope, localStorageService, turtleFact, $document, $window, $modal) {
+		function turtleCtrlBeta($scope, localStorageService, turtleFact, $document, $window) {
 		var self = this;
 		set_params();
 		note_permission();
-		openRedirectModal();
 
 		function set_params() {
 			self.timezone = jstz.determine().name();
