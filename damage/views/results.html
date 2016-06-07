@@ -2,7 +2,7 @@
 
     <div class="damage STR" ng-repeat="type in ['힘']" expandable-damage>
 
-        <span class="damageLabel">Damage against {{type}}</span>
+        <span class="damageLabel">데미지 {{type}}</span>
         <span class="damageAmount" id="STR">{{ numbers[type].overall | number:0 }}</span>
 
         <div class="detailsContainer" ng-if="detailsVisible" detail-pane></div>
