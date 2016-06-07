@@ -163,7 +163,7 @@ app.directive('addBonuses',function($timeout) {
     return {
         restrict: 'A',
         link: function(scope, element, attrs) {
-            var bonusNames = { 'stamina': '0.5x stamina', 'drop': '2x drop', 'beli': '2x beli', 'exp': '2x EXP', };
+            var bonusNames = { 'stamina': '스태미나 절반', 'drop': '드랍 2배', 'beli': '베리 2배', 'exp': '경험치 2배', };
             $timeout(function() {
 
                 var rows = element[0].rows;
