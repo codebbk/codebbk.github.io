@@ -14,7 +14,7 @@
 
                     </div>
                     <p ng-if="slotCount(character.uid)">Select which Sockets your Unit already has.</p>
-                    <p ng-if="!slotCount(character.uid)">This Unit has no Sockets.</p>
+                    <p ng-if="!slotCount(character.uid)">이 캐릭터는 소켓이 없습니다.</p>
                     <div class="slots">
 
                         <slot-wheel ng-repeat="slotNumber in range(0, slotCount(character.uid))">
@@ -28,9 +28,9 @@
 			<div id="calculation-area">
 				
 				<div class="small-container">
-					Copies/Books: <input type="text" class="number-field" ng-model="copies" placeholder="e.g. 65" auto-focus
+					동일캐릭/스킬북 개수: <input type="text" class="number-field" ng-model="copies" placeholder="보유수량 입력" auto-focus
 						ng-change="changeBaseValues()" id="copies">
-					Skillups: <input type="text" class="number-field" ng-model="skillups" placeholder="e.g. 10" auto-focus
+					스킬업: <input type="text" class="number-field" ng-model="skillups" placeholder="횟수 입력" auto-focus
 						ng-change="changeBaseValues()" id="skillups">
 					<label><input type="checkbox" ng-model="specialEvent" ng-change="changeBaseValues()">Special x2 Event</label>
 					
@@ -38,11 +38,11 @@
 				
 				<div class="small-container">
 					<p>  
-					Probability to get {{skillups}} skillups with {{copies}} copies/books:<br>
+					 {{copies}}개의 동일캐릭/스킬북 으로 {{skillups}}번의 레벨을 올릴 확률입니다.:<br>
 					<label ng-attr-style="color: {{specialProbabilityColor}}" class="result">{{specialProbabilityResult}}%</label>
 					</p>
 					<uib-progressbar animate="false" value="specialProbabilityProgress" type="success"><b>{{specialProbabilityProgressBar}}</b></uib-progressbar>
-					<button ng-click="!isSpecialReady||calculateSpecialUp()">Calculate</button>
+					<button ng-click="!isSpecialReady||calculateSpecialUp()">계산하기</button>
 				</div>
 
 				<div class="small-container">
