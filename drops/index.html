@@ -71,15 +71,15 @@
             <table class="table table-striped">
                 <tbody>
                     <tr ng-if="island.completion" hide-when-empty>
-                        <td>Completion</td>
+                        <td>완료</td>
                         <td colspan="2">{{island.completion}} </td>
                     </tr>
                     <tr ng-if="island.condition" hide-when-empty>
-                        <td>Condition</td>
+                        <td>맵 효과</td>
                         <td colspan="2">{{island.condition}} </td>
                     </tr>
                     <tr ng-if="island.challenge">
-                        <td>Challenge</td>
+                        <td>미션</td>
                         <td colspan="2">{{island.challenge}} </td>
                     </tr>
                     <tr ng-repeat="challenge in island.challengeData">
