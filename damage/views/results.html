@@ -2,7 +2,7 @@
 
     <div class="damage STR" ng-repeat="type in ['힘']" expandable-damage>
 
-        <span class="damageLabel">데미지 {{type}}</span>
+        <span class="damageLabel">{{type}} 속성에 가하는 데미지</span>
         <span class="damageAmount" id="STR">{{ numbers[type].overall | number:0 }}</span>
 
         <div class="detailsContainer" ng-if="detailsVisible" detail-pane></div>
@@ -10,8 +10,35 @@
     </div>
       <div class="damage QCK" ng-repeat="type in ['속도']" expandable-damage>
 
-        <span class="damageLabel">데미지 {{type}}</span>
+        <span class="damageLabel">{{type}} 속성에 가하는 데미지</span>
         <span class="damageAmount" id="QCK">{{ numbers[type].overall | number:0 }}</span>
+
+        <div class="detailsContainer" ng-if="detailsVisible" detail-pane></div>
+
+    </div>
+    
+      <div class="damage DEX" ng-repeat="type in ['기술']" expandable-damage>
+
+        <span class="damageLabel">{{type}} 속성에 가하는 데미지</span>
+        <span class="damageAmount" id="DEX">{{ numbers[type].overall | number:0 }}</span>
+
+        <div class="detailsContainer" ng-if="detailsVisible" detail-pane></div>
+
+    </div>
+    
+      <div class="damage PSY" ng-repeat="type in ['마음']" expandable-damage>
+
+        <span class="damageLabel">{{type}} 속성에 가하는 데미지</span>
+        <span class="damageAmount" id="PSY">{{ numbers[type].overall | number:0 }}</span>
+
+        <div class="detailsContainer" ng-if="detailsVisible" detail-pane></div>
+
+    </div>
+    
+      <div class="damage INT" ng-repeat="type in ['지능']" expandable-damage>
+
+        <span class="damageLabel">{{type}} 속성에 가하는 데미지</span>
+        <span class="damageAmount" id="INT">{{ numbers[type].overall | number:0 }}</span>
 
         <div class="detailsContainer" ng-if="detailsVisible" detail-pane></div>
 
