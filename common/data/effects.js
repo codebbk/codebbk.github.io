@@ -5,7 +5,7 @@ window.effects = {
     // last ID used: 31
     // Use p.type instead of p.unit.type here
 
-    'Baroque Works (pre-v4.0)': {
+    '바로크 워크스 (pre-v4.0)': {
         description: 'Stats of non-Fighter units reduced by 90%',
         thumb: 462,
         id: 1, // don't change this
