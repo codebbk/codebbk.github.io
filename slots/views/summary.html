@@ -1,5 +1,5 @@
 <h4 ng-show="summaryEnabled" ng-click="showAbilities = !showAbilities">
-    Abilities
+    특수 능력
     <i class="pull-right fa fa-chevron-{{showAbilities ? 'up' : 'down' }}"></i>
 </h4>
 
@@ -13,16 +13,16 @@
                     <div class="ability"></div>
                 </td>
                 <td>
-                    <b>{{summary[i].points}} point{{summary[i].points > 1 ? 's' : ''}}, level {{summary[i].level}}:</b>
+                    <b>{{summary[i].points}} 포인트{{summary[i].points > 1 ? 's' : ''}}, 레벨 {{summary[i].level}}:</b>
                     <span ng-class="{ inactive: summary[i].level == 0 }">{{summary[i].description}}</span>
                     <br ng-if="summary[i].missing > -1" />
                     <span ng-if="summary[i].missing > -1" class="next">
-                        <b>Next level:</b>
+                        <b>다음레벨:</b>
                         {{summary[i].next}}
-                        (<b>{{summary[i].missing}}</b> more points needed)
+                        (<b>{{summary[i].missing}}</b>포인트 더 필요)
                     </span>
                     <span ng-if="summary[i].overflow" class="label label-danger">
-                        <b>Unneeded points:</b> {{summary[i].overflow}}
+                        <b>필요없는 포인트:</b> {{summary[i].overflow}}
                     </span>
                 </td>
             </tr>
