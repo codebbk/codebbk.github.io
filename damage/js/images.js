@@ -21,14 +21,14 @@ app.controller('ImageGeneratorCtrl', function($scope, $filter, $timeout) {
 
     // damage numbers
     $scope.$watch('numbers',function(numbers) {
-        [ '힘', '속도', 'DEX', 'PSY', 'INT' ].forEach(function(which, n) {
+        [ '힘', '속도', '기술', '마음', '지식' ].forEach(function(which, n) {
             if (!numbers[which]) return;
             // rectangles
             context.fillStyle = BOX_COLORS[which];
             context.fillRect(440, 10 + n * 70, 150, 60);
             // text
             var overall = $filter('number')(numbers[which].overall);
-            type(context, { text: 'Damage against ' + which, style: '10.5px "Open Sans"', x: 515, y: 30 + n * 70, align: 'center' });
+            type(context, { text: '테스트 ' + which, style: '10.5px "Open Sans"', x: 515, y: 30 + n * 70, align: 'center' });
             type(context, { text: overall, style: 'bold 21px "Open Sans"', x: 515, y: 58 + n * 70, align: 'center' });
         });
         // indicators
