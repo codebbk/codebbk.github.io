@@ -3,7 +3,7 @@
 var app = angular.module('optc');
 
 var BOX_COLORS = { STR: 'salmon', QCK: 'lightskyblue', DEX: 'lightgreen', PSY: 'gold', INT: 'orchid' };
-var ORB_COLORS = { 힘: 'orangered', 속도: 'dodgerblue', 기술: 'lightgreen', 마음: 'gold', 지능: 'orchid', G: 'orange' };
+var ORB_COLORS = { STR: 'orangered', QCK: 'dodgerblue', DEX: 'lightgreen', PSY: 'gold', INT: 'orchid', G: 'orange' };
 
 var lock = new Image(), silence = new Image();
 lock.src = 'res/chain.png';
