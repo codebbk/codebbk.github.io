@@ -711,7 +711,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
     //Used for Bartolomeos Captain ability so far
     var classCounter = function() {
         var classes = {};
-        var classArray = ['Fighter', 'Slasher', 'Free Spirit', 'Powerhouse', 'Shooter', 'Striker', 'Cerebral', 'Ambition'];
+        var classArray = ['격투', '참격', '자유', '강인', '사격', '타격', '박식', '야심'];
         for (var i = 0, j = classArray.length; i < j; i++) {
             classes[classArray[i]] = 0;
         }
