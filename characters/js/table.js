@@ -47,7 +47,8 @@ angular.module('optc') .run(function($rootScope, $timeout, $storage, MATCHER_IDS
             { title: '회복' },
             { title: '코스트' },
             { title: '슬롯' },
-            { title: '등급.', orderable: false }
+            { title: '등급'},
+            { title: 'CL', orderable: false }
         ];
         additionalColumns.forEach(function(x) {
             var title = x
@@ -222,12 +223,13 @@ angular.module('optc') .run(function($rootScope, $timeout, $storage, MATCHER_IDS
             x.type,
             
         x.class.constructor == Array ? x.class.join(', ') : x.class,
-            x.minHP,
+            x.maxHP,
             x.maxATK,
             x.maxRCV,
             x.cost,
             x.slots,
             x.stars,
+            '',
             x.number
         ];
         additionalColumns.forEach(function(c,n) {
