@@ -381,10 +381,10 @@ directives.hpBar = function() {
         replace: true,
         template: '<div id="hp"><div id="hpSlider"></div>' + 
             '<div id="hp-rcv"><table><tbody>' +
-                '<tr><td id="hp-cell" ng-click="setHP()">{{ hp.current | number }}</td><td>HP ({{ hp.perc | number:2 }}%)</td></tr>' +
-                '<tr><td>{{ numbers.rcv | number }}</td><td>RCV</td></tr>' +
-                '<tr ng-show="numbers.healPerTurn"><td>{{ numbers.healPerTurn | number }}</td><td>heal/turn</td></tr>' +
-                '<tr title="Minimum pirate level: {{ numbers.cost.level }}"><td>{{ numbers.cost.cost | number }}</td><td>cost</td></tr>' +
+                '<tr><td id="hp-cell" ng-click="setHP()">체력 : {{ hp.current | number }}</td><td>({{ hp.perc | number:2 }}%)</td></tr>' +
+                '<tr><td>회복력 : </td><td>{{ numbers.rcv | number }}</td></tr>' +
+                '<tr ng-show="numbers.healPerTurn"><td>턴당 회복 : </td><td>{{ numbers.healPerTurn | number }}<</td></tr>' +
+                '<tr title="Minimum pirate level: {{ numbers.cost.level }}"><td>코스트 : </td><td>{{ numbers.cost.cost | number }}</td></tr>' +
             '</tbody></table></div>',
         link: function(scope, element, attrs) {
 
@@ -728,7 +728,7 @@ directives.special = function($rootScope) {
         link: function(scope, element, attrs) {
             scope.slot = element.prevAll('.special').length;
             var isSelected = scope.tdata.team[scope.slot].special;
-            var removeType = function() { ['STR','DEX','QCK','PSY','INT'].forEach(function(x) { element.removeClass(x); }); };
+            var removeType = function() { ['힘','기술','속도','마음','지능'].forEach(function(x) { element.removeClass(x); }); };
             scope.hasSpecial = false;
             scope.$watch('tdata.team[slot].special',function(enabled) {
                 removeType();
