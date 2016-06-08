@@ -2,12 +2,15 @@
 
 <div class="filter-container">
     <span class="filter-header">속성 필터</span>
-    <span class="filter width-4 type STR " ng-class="{ active: filters.type == type }"
+    <span ng-repeat="(n,type) in [ '힘' ]"
+        class="filter width-4 type STR " ng-class="{ active: filters.type == type }"
         ng-click="onFilterClick($event,type)">힘</span>
-        <span class="filter width-4 type QCK " ng-class="{ active: filters.type == type }"
-        ng-click="onFilterClick($event,type)">속도</span>
-        <span class="filter  width-4 type DEX " ng-class="{ active: filters.type == type }"
-        ng-click="onFilterClick($event,type)">기술</span>
+    <span ng-repeat="(n,type) in [ '속도' ]"
+        class="filter width-4 type QCK " ng-class="{ active: filters.type == type }"
+        ng-click="onFilterClick($event,type)">힘</span>
+    <span ng-repeat="(n,type) in [ '기술' ]"
+        class="filter width-4 type DEX " ng-class="{ active: filters.type == type }"
+        ng-click="onFilterClick($event,type)">힘</span>
       
 </div>
 
