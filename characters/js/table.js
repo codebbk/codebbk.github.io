@@ -223,7 +223,7 @@ angular.module('optc') .run(function($rootScope, $timeout, $storage, MATCHER_IDS
             x.type,
             
         x.class.constructor == Array ? x.class.join(', ') : x.class,
-            x.maxHP,
+            x.minHP(x.maxHP),
             x.maxATK,
             x.maxRCV,
             x.cost,
