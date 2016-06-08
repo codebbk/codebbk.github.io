@@ -84,8 +84,7 @@ input[type="text"] {
 }
 
 .filter {
-    display: inline-block;
-    padding: 0;
+    padding: 3px 0;
     text-align: center;
     cursor: pointer;
     border-top: 1px solid #aaa;
