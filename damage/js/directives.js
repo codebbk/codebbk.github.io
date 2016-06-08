@@ -728,7 +728,7 @@ directives.special = function($rootScope) {
         link: function(scope, element, attrs) {
             scope.slot = element.prevAll('.special').length;
             var isSelected = scope.tdata.team[scope.slot].special;
-            var removeType = function() { ['힘','기술','속도','마음','지능'].forEach(function(x) { element.removeClass(x); }); };
+            var removeType = function() { ['STR','DEX','QCK','PSY','INT'].forEach(function(x) { element.removeClass(x); }); };
             scope.hasSpecial = false;
             scope.$watch('tdata.team[slot].special',function(enabled) {
                 removeType();
