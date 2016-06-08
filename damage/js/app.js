@@ -62,7 +62,7 @@ var SharedRootCtrl = function($scope, $rootScope, $timeout) {
     $rootScope.options = {
         gOrbsEnabled: 0,
         slidersEnabled: true,
-        sidebarVisible: false,
+        sidebarVisible: true,
         transientMode: false,
         crunchInhibitor: Infinity
     };
