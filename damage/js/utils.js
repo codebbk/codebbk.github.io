@@ -37,14 +37,14 @@ window.CrunchUtils.mihawkSort = function(array) {
     // atk-based
     var temp = array.map(function(x) {
         var multiplier = x.multipliers.reduce(function(prev,next) { return prev * next[0]; },1);
-        return [ x.base * multiplier * (x.unit.unit.class.has("Slasher") ? 2.75 : 1), x ];
+        return [ x.base * multiplier * (x.unit.unit.class.has("참격") ? 2.75 : 1), x ];
     });
     temp.sort(function(x,y) { return x[0] - y[0]; });
     result.push(temp.map(function(x) { return x[1]; }));
     // class-based
     var nonSlashers = [ ], slashers = [ ];
     array.forEach(function(x) {
-        if (x.unit.unit.class.has("Slasher")) slashers.push(x);
+        if (x.unit.unit.class.has("참격")) slashers.push(x);
         else nonSlashers.push(x);
     });
     result.push(nonSlashers.concat(slashers));
