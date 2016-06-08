@@ -29,7 +29,7 @@ directives.decorateSlot = function($rootScope) {
                     target.style.backgroundImage = 'url(' + Utils.getThumbnailUrl(null) + ')';
                     target.removeAttribute('title');
                 } else {
-                    if (scope.uid != 1 || scope.flag || (scope.udata && scope.udata.name == 'Monkey D. Luffy'))
+                    if (scope.uid != 1 || scope.flag || (scope.udata && scope.udata.name == '몽키 D. 루피'))
                         target.style.backgroundImage = 'url(' + Utils.getThumbnailUrl(scope.uid) + ')';
                     else
                         target.style.backgroundImage = null;
@@ -383,7 +383,7 @@ directives.hpBar = function() {
             '<div id="hp-rcv"><table><tbody>' +
                 '<tr><td id="hp-cell" ng-click="setHP()">체력 : {{ hp.current | number }}</td><td>({{ hp.perc | number:2 }}%)</td></tr>' +
                 '<tr><td>회복력 : </td><td>{{ numbers.rcv | number }}</td></tr>' +
-                '<tr ng-show="numbers.healPerTurn"><td>턴당 회복 : </td><td>{{ numbers.healPerTurn | number }}<</td></tr>' +
+                '<tr ng-show="numbers.healPerTurn"><td>턴당 회복량 : </td><td>{{ numbers.healPerTurn | number }}</td></tr>' +
                 '<tr title="Minimum pirate level: {{ numbers.cost.level }}"><td>코스트 : </td><td>{{ numbers.cost.cost | number }}</td></tr>' +
             '</tbody></table></div>',
         link: function(scope, element, attrs) {
