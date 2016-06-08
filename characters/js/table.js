@@ -47,7 +47,8 @@ angular.module('optc') .run(function($rootScope, $timeout, $storage, MATCHER_IDS
             { title: '회복' },
             { title: '코스트' },
             { title: '슬롯' },
-            { title: '등급' }
+            { title: '등급.', orderable: false }
+        
         ];
         additionalColumns.forEach(function(x) {
             var title = x
