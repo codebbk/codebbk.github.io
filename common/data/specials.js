@@ -25,19 +25,19 @@ window.specials = {
 	},
 	209: {
 		atk: function(p) { return p.unit.type == "지능" ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	210: {
 		atk: function(p) { return p.unit.type == "지능" ? 2 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	222: {
 		atk: function(p) { return p.unit.type == "마음" ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	223: {
 		atk: function(p) { return p.unit.type == "마음" ? 2 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	263: {
 		orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.5); }
@@ -62,11 +62,11 @@ window.specials = {
 	},
 	313: {
 		atk: function(p) { return p.unit.class.has("타격") ? 1.5 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	314: {
 		atk: function(p) { return p.unit.class.has("타격") ? 1.5 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	323: {
 		orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.5); }
@@ -76,22 +76,22 @@ window.specials = {
 	},
 	352: {
 		atk: function(p) { return p.unit.class.has("사격") ? 1.75 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	353: {
 		atk: function(p) { return p.unit.class.has("사격") ? 1.75 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	382: {
 		def: function(p) { return 0.5; }
 	},
 	385: {
 		atk: function(p) { return p.unit.class.has("격투") ? 1.25 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	386: {
 		atk: function(p) { return p.unit.class.has("격투") ? 1.25 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	391: {
 		def: function(p) { return 0.2; }
@@ -107,19 +107,19 @@ window.specials = {
 	},
 	399: {
 		atk: function(p) { return p.unit.type == "기술" ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	400: {
 		atk: function(p) { return p.unit.type == "기술" ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	401: {
 		atk: function(p) { return p.unit.class.has("참격") ? 1.25 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	402: {
 		atk: function(p) { return p.unit.class.has("참격") ? 1.25 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	404: {
 		rcv: function(p) { return 2; }
@@ -129,7 +129,7 @@ window.specials = {
 	},
 	406: {
 		atk: function(p) { return 1.2; },
-		type: "속성"
+		type: "type"
 	},
 	417: {
 		orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 2); }
@@ -148,7 +148,7 @@ window.specials = {
 	},
 	426: {
 		atk: function(p) { return p.unit.type == "힘" ? 1.05 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	429: {
 		def: function(p) { return 0.5; }
@@ -164,35 +164,35 @@ window.specials = {
 	},
 	450: {
 		atk: function(p) { return p.unit.class.has("격투") ? 1.5 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	451: {
 		atk: function(p) { return p.unit.class.has("격투") ? 1.5 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	454: {
 		atk: function(p) { return p.unit.type == "힘" ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	455: {
 		atk: function(p) { return p.unit.type == "힘" ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	458: {
 		atk: function(p) { return 1.5; },
-		type: "속성"
+		type: "type"
 	},
 	459: {
 		atk: function(p) { return 1.5; },
-		type: "속성"
+		type: "type"
 	},
 	461: {
 		atk: function(p) { return p.unit.class.has("격투") ? 1.25 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	462: {
 		atk: function(p) { return p.unit.class.has("격투") ? 1.25 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	465: {
 		orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.25); }
@@ -205,68 +205,68 @@ window.specials = {
 	},
 	487: {
 		atk: function(p) { return p.unit.type == "힘" ? 1.2 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	488: {
 		atk: function(p) { return p.unit.type == "속도" ? 1.2 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	489: {
 		atk: function(p) { return p.unit.type == "기술" ? 1.2 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	490: {
 		atk: function(p) { return p.unit.type == "힘" ? 1.2 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	491: {
 		atk: function(p) { return p.unit.type == "속도" ? 1.2 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	492: {
 		atk: function(p) { return p.unit.type == "기술" ? 1.2 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	505: {
 		atk: function(p) { return p.unit.type == "속도" ? 1.25 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	506: {
 		atk: function(p) { return p.unit.type == "속도" ? 1.25 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	509: {
 		atk: function(p) { return p.unit.class.has("타격") ? 1.5 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	510: {
 		atk: function(p) { return p.unit.class.has("타격") ? 1.5 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	511: {
 		atk: function(p) { return p.unit.class.has("참격") ? 1.25 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	514: {
 		def: function(p) { return 0.5; },
 		atk: function(p) { return p.unit.type == "지능" ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	517: {
 		atk: function(p) { return 1.05; },
-		type: "속성"
+		type: "type"
 	},
 	518: {
 		atk: function(p) { return 1.05; },
-		type: "속성"
+		type: "type"
 	},
 	519: {
 		atk: function(p) { return p.unit.type == "힘" ? 2 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	520: {
 		atk: function(p) { return p.unit.type == "힘" ? 2 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	529: {
 		def: function(p) { return 0; }
@@ -285,11 +285,11 @@ window.specials = {
 	},
 	545: {
 		atk: function(p) { return p.unit.type == "마음" ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	546: {
 		atk: function(p) { return p.unit.type == "마음" ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	549: {
 		atk: function(p) { return p.defenseDown ? 1.3 : 1; },
@@ -313,32 +313,32 @@ window.specials = {
 	},
 	572: {
 		atk: function(p) { return p.unit.class.has("격투") ? 2 : 1; },
-		type: "타입",
+		type: "class",
 		onActivation: function(p) { p.tdata.lock = Math.max(1, p.tdata.lock); },
 		onDeactivation: function(p) { if (p.tdata.lock == 1) p.tdata.lock = 0; }
 	},
 	574: {
 		atk: function(p) { return p.unit.class.has("타격") ? 1.75 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	575: {
 		atk: function(p) { return p.unit.class.has("타격") ? 1.75 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	576: {
 		rcv: function(p) { return 1.5; }
 	},
 	582: {
 		atk: function(p) { return p.unit.type == "속도" ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	589: {
 		atk: function(p) { return p.unit.class.has("참격") ? 1.5 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	590: {
 		atk: function(p) { return p.unit.class.has("참격") ? 1.5 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	596: {
 		def: function(p) { return 0.5; }
@@ -348,40 +348,40 @@ window.specials = {
 	},
 	600: {
 		atk: function(p) { return p.unit.type == "마음" ? 1.3 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	601: {
 		atk: function(p) { return p.unit.type == "마음" ? 1.3 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	602: {
 		atk: function(p) { return p.unit.type == "속도" ? 2 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	603: {
 		atk: function(p) { return p.unit.type == "속도" ? 2 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	612: {
 		atkStatic: function(p) { return 45; },
 		rcvStatic: function(p) { return 45; },
-		type: "속성"
+		type: "type"
 	},
 	613: {
 		atkStatic: function(p) { return 45; },
 		rcvStatic: function(p) { return 45; },
-		type: "속성"
+		type: "type"
 	},
 	614: {
 		def: function(p) { return 0.5; }
 	},
 	617: {
 		atk: function(p) { return p.unit.class.has("사격") ? 1.2 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	622: {
 		rcvStatic: function(p) { return 100; },
-		type: "속성"
+		type: "type"
 	},
 	632: {
 		def: function(p) { return 0.5; }
@@ -391,11 +391,11 @@ window.specials = {
 	},
 	634: {
 		atk: function(p) { return p.unit.type == "속도" || p.unit.type == "마음" ? 1.2 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	635: {
 		atk: function(p) { return p.unit.type == "속도" || p.unit.type == "마음" ? 1.2 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	637: {
 		atk: function(p) { return 1.3; },
@@ -452,7 +452,7 @@ window.specials = {
 	},
 	668: {
 		atk: function(p) { return !p.unit.class.has('자유') ? 1 : window.specials[668].multiplier; },
-		type: "타입",
+		type: "class",
 		onActivation: function(p) {
 			var n = (window.specials[668].multiplier == 1.5 ? 1 : 0);
 			window.specials[668].multiplier = [1.5, 2][n];
@@ -464,7 +464,7 @@ window.specials = {
 	},
 	669: {
 		atk: function(p) { return !p.unit.class.has('자유') ? 1 : window.specials[669].multiplier; },
-		type: "타입",
+		type: "class",
 		onActivation: function(p) {
 			var n = (window.specials[669].multiplier == 1.5 ? 1 : 0);
 			window.specials[669].multiplier = [1.5, 2][n];
@@ -476,29 +476,29 @@ window.specials = {
 	},
 	670: {
 		atk: function(p) { return p.unit.class.has("격투") ? 1.75 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	671: {
 		atk: function(p) { return p.unit.class.has("격투") ? 1.75 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	680: {
 		atk: function(p) { return p.unit.type == "기술" ? 1.25 : 1; },
 		rcv: function(p) { return p.unit.type == "기술" ? 1.25 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	681: {
 		atk: function(p) { return p.unit.type == "기술" ? 1.25 : 1; },
 		rcv: function(p) { return p.unit.type == "기술" ? 1.25 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	687: {
 		atk: function(p) { return p.unit.class.has("자유") ? 1.3 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	688: {
 		atk: function(p) { return p.unit.class.has("자유") ? 1.3 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	689: {
 		orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.5); }
@@ -508,31 +508,31 @@ window.specials = {
 	},
 	710: {
 		atk: function(p) { return p.unit.class.has("사격") ? 1.25 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	711: {
 		atk: function(p) { return p.unit.class.has("사격") ? 1.25 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	712: {
 		atk: function(p) { return p.slot < 2 ? 1.5 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	713: {
 		atk: function(p) { return p.slot < 2 ? 1.5 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	715: {
 		atk: function(p) { return p.unit.class.has("자유") ? 1.5 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	716: {
 		atk: function(p) { return p.unit.class.has("자유") ? 1.5 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	719: {
 		atk: function(p) { return p.unit.class.has("박식") ? window.specials[719].multiplier : 1; },
-		type: "타입",
+		type: "class",
 		onActivation: function(p) {
 			var n = (p.percHP <= 30 ? 2 : 1.5);
 			window.specials[719].multiplier = n;
@@ -544,7 +544,7 @@ window.specials = {
 	},
 	720: {
 		atk: function(p) { return p.unit.class.has("박식") ? window.specials[720].multiplier : 1; },
-		type: "타입",
+		type: "class",
 		onActivation: function(p) {
 			var n = (p.percHP <= 30 ? 2 : 1.5);
 			window.specials[720].multiplier = n;
@@ -559,11 +559,11 @@ window.specials = {
 	},
 	730: {
 		atk: function(p) { return p.unit.type == "지능" ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	731: {
 		atk: function(p) { return p.unit.type == "지능" ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	732: {
 		def: function(p) { return 0.5; }
@@ -595,19 +595,19 @@ window.specials = {
 	},
 	755: {
 		atk: function(p) { return p.unit.class.has("강인") ? 1.75 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	756: {
 		atk: function(p) { return p.unit.class.has("강인") ? 1.75 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	761: {
 		atk: function(p) { return 1.2; },
-		type: "속성"
+		type: "type"
 	},
 	762: {
 		atk: function(p) { return p.unit.type == "마음" ? 1.75 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	770: {
 		atk: function(p) { return 1.3; },
@@ -616,11 +616,11 @@ window.specials = {
 	},
 	771: {
 		atk: function(p) { return p.unit.class.has("박식") ? 1.75 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	780: {
 		atk: function(p) { return p.slot == p.sourceSlot ? window.specials[780].multiplier : 1; },
-		type: "속성",
+		type: "type",
 		onActivation: function(p) {
 			var n = (p.percHP <= 20 ? 2 : (p.percHP <= 50 ? 1.75 : 1.5));
 			window.specials[780].multiplier = n;
@@ -632,7 +632,7 @@ window.specials = {
 	},
 	781: {
 		atk: function(p) { return p.slot == p.sourceSlot ? window.specials[781].multiplier : 1; },
-		type: "속성",
+		type: "type",
 		onActivation: function(p) {
 			var n = (p.percHP <= 20 ? 2 : (p.percHP <= 50 ? 1.75 : 1.5));
 			window.specials[781].multiplier = n;
@@ -644,39 +644,39 @@ window.specials = {
 	},
 	788: {
 		atk: function(p) { return p.unit.class.has("참격") ? 1.75 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	789: {
 		atk: function(p) { return p.unit.class.has("참격") ? 1.75 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	790: {
 		atk: function(p) { return /힘|기술|속도/.test(p.unit.type) ? 1.2 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	791: {
 		atk: function(p) { return /힘|기술|속도/.test(p.unit.type) ? 1.2 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	796: {
 		atk: function(p) { return p.slot == p.sourceSlot ? 1.75 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	797: {
 		atk: function(p) { return p.slot == p.sourceSlot ? 1.75 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	798: {
 		atk: function(p) { return p.unit.class.has("격투") ? 1.75 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	803: {
 		atk: function(p) { return 1.1; },
-		type: "속성"
+		type: "type"
 	},
 	804: {
 		atk: function(p) { return 1.1; },
-		type: "속성"
+		type: "type"
 	},
 	805: {
 		orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.75); }
@@ -705,15 +705,15 @@ window.specials = {
 	},
 	822: {
 		rcvStatic: function(p) { return 100; },
-		type: "속성"
+		type: "type"
 	},
 	825: {
 		atkStatic: function(p) { return 200; },
-		type: "속성"
+		type: "type"
 	},
 	826: {
 		atk: function(p) { return 0.2; },
-		type: "속성"
+		type: "type"
 	},
 	827: {
 		atk: function(p) { return 1.05; },
@@ -722,7 +722,7 @@ window.specials = {
 	},
     828: {
         atk: function(p) { return p.unit.class.has("참격") || p.unit.class.has("야심") ? window.specials[828].multiplier : 1; },
-		type: "타입",
+		type: "class",
 		onActivation: function(p) {
 			var n = (p.percHP < 20 ? 1.75 : 1);
 			window.specials[828].multiplier = n;
@@ -734,7 +734,7 @@ window.specials = {
     },
     829: {
         atk: function(p) { return p.unit.class.has("참격") || p.unit.class.has("야심") ? window.specials[829].multiplier : 1; },
-		type: "타입",
+		type: "class",
 		onActivation: function(p) {
 			var n = (p.percHP < 20 ? 1.75 : 1);
 			window.specials[829].multiplier = n;
@@ -746,11 +746,11 @@ window.specials = {
     },
 	832: {
 		atk: function(p) { return p.unit.class.has("자유") ? 1.5 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	833: {
 		atk: function(p) { return p.unit.class.has("자유") ? 1.5 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	835: {
 		orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.75); }
@@ -760,19 +760,19 @@ window.specials = {
 	},
 	837: {
 		atk: function(p) { return p.unit.class.has("야심") ? 1.75 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	838: {
 		atk: function(p) { return p.unit.class.has("야심") ? 1.75 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	839: {
 		atk: function(p) { return p.slot == p.sourceSlot ? 2 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	840: {
 		atk: function(p) { return p.slot == p.sourceSlot ? 2 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	841: {
 		atk: function(p) { return 1.25; },
@@ -789,7 +789,7 @@ window.specials = {
 			if (window.specials[843].first) return p.unit.class.has("사격") ? 1.5 : 1;
 			else return p.unit.class.has("사격") || p.unit.class.has("참격") || p.unit.class.has("타격") ? 1.5 : 1;
 		},
-		type: "타입",
+		type: "class",
 		onActivation: function(p) {
 			window.specials[843].first = !window.specials[843].first;
 			p.scope.notify({
@@ -805,7 +805,7 @@ window.specials = {
 			if (window.specials[844].first) return p.unit.class.has("사격") ? 1.5 : 1;
 			else return p.unit.class.has("사격") || p.unit.class.has("참격") || p.unit.class.has("타격") ? 1.5 : 1;
 		},
-		type: "타입",
+		type: "class",
 		onActivation: function(p) {
 			window.specials[844].first = !window.specials[844].first;
 			p.scope.notify({
@@ -819,27 +819,27 @@ window.specials = {
 	847: {
 		atk: function(p) { return 1.05; },
 		orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.15); },
-		type: "타입"
+		type: "class"
 	},
 	848: {
 		atk: function(p) { return 1.05; },
 		orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.15); },
-		type: "타입"
+		type: "class"
 	},
 	849: {
 		def: function() { return 0.5; }
 	},
 	853: {
 		atk: function(p) { return p.unit.class.has("강인") || p.unit.class.has("격투") ? 1.2 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	857: {
 		rcv: function(p) { return p.unit.type == 'PSY' ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	858: {
 		rcv: function(p) { return p.unit.type == 'PSY' ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	861: {
 		orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.5); }
@@ -862,7 +862,7 @@ window.specials = {
 		atk: function(p) {
 			return p.unit.class.has("참격") || p.unit.class.has("박식") ? 1.3 : 1;
 		},
-		type: "타입"
+		type: "class"
 	},
 	869: {
 		orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 2.0); }
@@ -875,7 +875,7 @@ window.specials = {
 			if (window.specials[873].first) return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.5);
 			else return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.75);
 		},
-		type: "타입",
+		type: "class",
 		onActivation: function(p) {
 			window.specials[873].first = !window.specials[873].first;
 			p.scope.notify({
@@ -891,7 +891,7 @@ window.specials = {
 			if (window.specials[874].first) return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.5);
 			else return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.75);
 		},
-		type: "타입",
+		type: "class",
 		onActivation: function(p) {
 			window.specials[874].first = !window.specials[874].first;
 			p.scope.notify({
@@ -907,18 +907,18 @@ window.specials = {
 			return p.unit.class.has("사격") || p.unit.class.has("자유") ? 1.75 : 1;
 		},
 		rcv: function(p) { return 0.1; },
-		type: "타입"
+		type: "class"
 	},
 	882: {
 		atk: function(p) {
 			return p.unit.class.has("사격") || p.unit.class.has("자유") ? 1.75 : 1;
 		},
 		rcv: function(p) { return 0.1; },
-		type: "타입"
+		type: "class"
 	},
 	883: {
 		atk: function(p) { return !p.unit.class.has('강인') ? 1 : window.specials[883].multiplier; },
-		type: "타입",
+		type: "class",
 		onActivation: function(p) {
 			var n = (window.specials[883].multiplier == 1.5 ? 1 : 0);
 			window.specials[883].multiplier = [1.5, 2][n];
@@ -930,7 +930,7 @@ window.specials = {
 	},
 	884: {
 		atk: function(p) { return !p.unit.class.has('강인') ? 1 : window.specials[884].multiplier; },
-		type: "타입",
+		type: "class",
 		onActivation: function(p) {
 			var n = (window.specials[884].multiplier == 1.5 ? 1 : 0);
 			window.specials[884].multiplier = [1.5, 2][n];
@@ -942,22 +942,22 @@ window.specials = {
 	},
 	885: {
 		atk: function(p) { return p.unit.class.has("격투") ? 1.5 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	886: {
 		atk: function(p) { return p.unit.class.has("참격") ? 1.5 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	887: {
 		def: function(p) { return 0.2; }
 	},
 	891: {
 		atk: function(p) { return p.unit.class.has("강인") ? 1.25 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	902: {
 		atk: function(p) { return !p.unit.class.has('강인') ? 1 : window.specials[902].multiplier; },
-		type: "타입",
+		type: "class",
 		onActivation: function(p) {
 			var n = (window.specials[902].multiplier == 1.5 ? 1 : 0);
 			window.specials[902].multiplier = [1.5, 2][n];
@@ -969,7 +969,7 @@ window.specials = {
 	},
 	903: {
 		atk: function(p) { return !p.unit.class.has('강인') ? 1 : window.specials[903].multiplier; },
-		type: "타입",
+		type: "class",
 		onActivation: function(p) {
 			var n = (window.specials[903].multiplier == 1.5 ? 1 : 0);
 			window.specials[903].multiplier = [1.5, 2][n];
@@ -985,7 +985,7 @@ window.specials = {
 			if (window.specials[905].stage == 1) return p.unit.class.has("참격") ? 1.5 : 1;
 			if (window.specials[905].stage == 2) return p.unit.class.has("참격") ? 1.75 : 1;
 		},
-		type: "타입",
+		type: "class",
 		stage: -1,
 		onActivation: function(p) {
 			window.specials[905].stage = (window.specials[905].stage + 1) % 3;
@@ -1001,7 +1001,7 @@ window.specials = {
 			if (window.specials[906].stage == 1) return p.unit.class.has("참격") ? 1.5 : 1;
 			if (window.specials[906].stage == 2) return p.unit.class.has("참격") ? 1.75 : 1;
 		},
-		type: "타입",
+		type: "class",
 		stage: -1,
 		onActivation: function(p) {
 			window.specials[906].stage = (window.specials[906].stage + 1) % 3;
@@ -1013,18 +1013,18 @@ window.specials = {
 	},
 	909: {
 		atk: function(p) { return p.unit.type == "마음" ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	910: {
 		atk: function(p) { return p.unit.type == "마음" ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	911: {
 		atk: function(p) {
 			if (!window.specials[911].stage) return p.unit.class.has("강인") ? 1.2 : 1;
 			if (window.specials[911].stage == 1) return p.unit.class.has("강인") ? 2 : 1;
 		},
-		type: "타입",
+		type: "class",
 		stage: -1,
 		onActivation: function(p) {
 			window.specials[911].stage = (window.specials[911].stage + 1) % 2;
@@ -1039,7 +1039,7 @@ window.specials = {
 			if (!window.specials[912].stage) return p.unit.class.has("강인") ? 1.2 : 1;
 			if (window.specials[912].stage == 1) return p.unit.class.has("강인") ? 2 : 1;
 		},
-		type: "타입",
+		type: "class",
 		stage: -1,
 		onActivation: function(p) {
 			window.specials[912].stage = (window.specials[912].stage + 1) % 2;
@@ -1052,12 +1052,12 @@ window.specials = {
 	915: {
 		atk: function(p) { return p.unit.class.has("박식") ? 1.5 : 1; },
 		rcv: function(p) { return p.unit.class.has("박식") ? 1.5 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	916: {
 		atk: function(p) { return p.unit.class.has("박식") ? 1.5 : 1; },
 		rcv: function(p) { return p.unit.class.has("박식") ? 1.5 : 1; },
-		type: "타입"
+		type: "class"
 	},
     921: {
         orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.5); }
@@ -1077,7 +1077,7 @@ window.specials = {
         atk: function(p) {
 			return p.unit.class.has("참격") || p.unit.class.has("야심") ? 1.2 : 1;
 		},
-		type: "타입"
+		type: "class"
     },
 	928: {
         atk: function(p) { return 1.3; },
@@ -1091,25 +1091,25 @@ window.specials = {
     },
 	940: {
 		atk: function(p) { return p.unit.type == "기술" ? 1.75 : 1; },
-		type: "속성"
+		type: "type"
     },
 	941: {
 		atk: function(p) { return p.unit.type == "기술" ? 1.75 : 1; },
-		type: "속성"
+		type: "type"
     },
 	944: {
 		atk: function(p) { return p.unit.class.has("야심") ? 1.5 : 1; },
 		rcv: function(p) { return p.unit.class.has("야심") ? 1.5 : 1; },
-		type: "타입"
+		type: "class"
     },
 	945: {
 		atk: function(p) { return p.unit.class.has("야심") ? 1.5 : 1; },
 		rcv: function(p) { return p.unit.class.has("야심") ? 1.5 : 1; },
-		type: "타입"
+		type: "class"
     },
 	947: {
 		atk: function(p) { return p.unit.type == "힘" || p.unit.type == "지능" ? 1.3 : 1; },
-		type: "속성"
+		type: "type"
     },
 	954: {
 		def: function(p) { return 0.2; }		
@@ -1120,7 +1120,7 @@ window.specials = {
 	},
 	956: {
 		atk: function(p) { return p.unit.class.has("강인") ? 1.2 : 1; },
-		type: "타입"
+		type: "class"
 	},
 	961: {
 		orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.25); }
@@ -1130,7 +1130,7 @@ window.specials = {
 	},
 	964: {
 		atk: function(p) { return window.specials[964].multiplier; },
-		type: "타입",
+		type: "class",
 		onActivation: function(p) {
 			var n = (window.specials[964].multiplier == 1.1 ? 1 : 0);
 			window.specials[964].multiplier = [1.1, 1.5][n];
@@ -1142,7 +1142,7 @@ window.specials = {
 	},
 	965: {
 		atk: function(p) { return window.specials[965].multiplier; },
-		type: "타입",
+		type: "class",
 		onActivation: function(p) {
 			var n = (window.specials[965].multiplier == 1.1 ? 1 : 0);
 			window.specials[965].multiplier = [1.1, 1.5][n];
@@ -1155,12 +1155,12 @@ window.specials = {
 	975: {
 		atk: function(p) { return p.unit.class.has("야심") ? 1.3 : 1; },
 		atk: function(p) { return p.unit.class.has("타격") ? 1.3 : 1; },
-		type: "타입"
+		type: "class"
     },
 	976: {
 		atk: function(p) { return p.unit.class.has("야심") ? 1.3 : 1; },
 		atk: function(p) { return p.unit.class.has("타격") ? 1.3 : 1; },
-		type: "타입"
+		type: "class"
     },
     977: {
         chainAddition: function(p) {return 0.5;}
@@ -1170,23 +1170,23 @@ window.specials = {
     },
     981: {
         atk: function(p) { return p.slot == p.sourceSlot ? 1.75 : 1; },
-		type: "속성"
+		type: "type"
     },
 	1005: {
 		atk: function(p) { return p.slot == p.sourceSlot ? 1.75 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	1006: {
 		atk: function(p) { return p.slot == p.sourceSlot ? 1.75 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	1010: {
 		atk: function(p) { return p.slot == p.sourceSlot ? 1.3 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	1011: {
 		atk: function(p) { return p.slot == p.sourceSlot ? 1.3 : 1; },
-		type: "속성"
+		type: "type"
 	},
 	1013: {
 		atk: function(p) { return 1.2; },
@@ -1195,23 +1195,23 @@ window.specials = {
 	},
     1015: {
         atk: function(p) { return p.unit.type == "지능" ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
     },
     1016: {
         atk: function(p) { return p.unit.type == "지능" ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
     },
     1017: {
         atk: function(p) { return p.unit.class.has("참격") ? 1.5 : 1},
-        type: "타입"
+        type: "class"
     },
     1018: {
         atk: function(p) { return p.unit.class.has("참격") ? 1.5 : 1},
-        type: "타입"
+        type: "class"
     },
     1023: {
         atk: function(p) { return p.unit.class.has("자유") ? 1.75 : 1},
-        type: "타입"
+        type: "class"
     },
     1024: {
         orb: function(p) {
@@ -1245,19 +1245,19 @@ window.specials = {
     },
     1030: {
         atk: function(p) { return p.slot == p.sourceSlot ? 2.25 : 1; },
-		type: "속성"
+		type: "type"
     },
     1031: {
         atk: function(p) { return p.slot == p.sourceSlot ? 2.25 : 1; },
-		type: "속성"
+		type: "type"
     },
     1040: {
         atk: function(p) { return p.percHP < 30.0 ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
     },
     1041: {
         atk: function(p) { return p.percHP < 30.0 ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
     },
     1046: {
         staticMult: function(p) { return 55; }
@@ -1287,7 +1287,7 @@ window.specials = {
 	},
     1063: {
         atk: function(p) { return p.unit.class.has("사격") ? 1.3 : 1},
-        type: "타입"
+        type: "class"
     },
     1065: {
         orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.25); }
@@ -1297,23 +1297,23 @@ window.specials = {
     },
     1067: {
 		atk: function(p) { return p.slot == p.sourceSlot ? 1.5 : 1; },
-		type: "속성"
+		type: "type"
 	},
     1071: {
         atk: function(p) { return p.unit.class.has("강인") ? 1.5 : 1},
-        type: "타입"
+        type: "class"
     },
     1072: {
         atk: function(p) { return p.unit.class.has("강인") ? 1.5 : 1},
-        type: "타입"
+        type: "class"
     },
     1080: {
 		atk: function(p) { return p.slot == p.sourceSlot ? 2 : 1; },
-		type: "속성"
+		type: "type"
 	},
     1081: {
 		atk: function(p) { return p.slot == p.sourceSlot ? 2 : 1; },
-		type: "속성"
+		type: "type"
 	},
     1082: {
         atk: function(p) {
@@ -1345,10 +1345,10 @@ window.specials = {
     },
     1088: {
         atk: function(p) { return p.unit.class.has("참격" || "야심") ? 1.5 : 1},
-        type: "타입"
+        type: "class"
     },
     1089: {
         atk: function(p) { return p.unit.class.has("참격" || "야심") ? 1.5 : 1},
-        type: "타입"
+        type: "class"
     }
 };
