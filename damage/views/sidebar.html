@@ -5,7 +5,7 @@
         <li ui-sref=".effects">
             <div id="profileContainer" ng-class="{ profiled: data.effect }">
                 <i class="fa fa-book"></i>
-                <a>{{data.effect || 'No active map effect'}}</a>
+                <a>{{data.effect || '맵효과 없음'}}</a>
             </div>
         </li>
 
@@ -41,7 +41,7 @@
         </li>
 
         <li>
-            <div id="specialDivider">Specials:</div>
+            <div id="specialDivider">필살기:</div>
         </li>
 
         <special slot="0"></special>
