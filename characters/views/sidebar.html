@@ -2,13 +2,13 @@
 
 <div class="filter-container">
     <span class="filter-header">속성 필터</span>
-    <span ng-repeat="(n,type) in [ '힘' ]"
+    <span ng-model="filters.type" ng-repeat="(n,type) in [ '힘' ]"
         class="filter width-4 type STR" ng-class="{ active: filters.type == type }"
         ng-click="onFilterClick($event,type)">{{type}}</span>
-    <span ng-repeat="(n,type) in [ '속도' ]"
+    <span ng-model="filters.type" ng-repeat="(n,type) in [ '속도' ]"
         class="filter width-4 type QCK" ng-class="{ active: filters.type == type }"
         ng-click="onFilterClick($event,type)">{{type}}</span>
-    <span ng-repeat="(n,type) in [ '기술' ]"
+    <span ng-model="filters.type" ng-repeat="(n,type) in [ '기술' ]"
         class="filter width-4 type DEX" ng-class="{ active: filters.type == type }"
         ng-click="onFilterClick($event,type)">{{type}}</span>
       
