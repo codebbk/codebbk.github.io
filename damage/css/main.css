@@ -486,8 +486,8 @@ body, html {
     bottom: 1px;
 }
 
-#sliderToggle[status="0"]:after { content: "Level sliders: enabled"; }
-#sliderToggle[status="1"]:after { content: "Level sliders: disabled"; }
+#sliderToggle[status="0"]:after { content: "레벨 슬라이더: 사용"; }
+#sliderToggle[status="1"]:after { content: "레벨 슬라이더: 사용 안함"; }
 
 nav.panel {
     position: fixed;
@@ -1082,7 +1082,7 @@ body > .popover .popover-content {
 }
 
 .cooldown:before {
-    content: "Cooldown: ";
+    content: "쿨다운소: ";
 }
 
 /**********
