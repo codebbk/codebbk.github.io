@@ -228,7 +228,6 @@ angular.module('optc') .run(function($rootScope, $timeout, $storage, MATCHER_IDS
             x.cost,
             x.slots,
             x.stars,
-            x.''
             x.number
         ];
         additionalColumns.forEach(function(c,n) {
