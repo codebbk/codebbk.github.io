@@ -98,7 +98,7 @@ input[type="text"] {
 
 .type.filter, #controllers > span:not(.separator) {
     border: none;
-    margin: 0 auto;
+    margin-right:-10px;
 }
 
 .type.filter:not(.active):not(:hover), #controllers > span:not(.separator):not(.active):not(:hover) {
