@@ -570,7 +570,7 @@ window.drops = {
         },
 
         {
-            name: 'Arlong: Empire Rising',
+            name: '독재! 아론 제국',
             thumb: 66,
             global: true,
 			condition: "없음",
