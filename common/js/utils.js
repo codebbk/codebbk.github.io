@@ -125,15 +125,15 @@
         if (!type)
             return null;
         type = type.toUpperCase();
-        if (type == 'STR')
-            return 'QCK';
-        if (type == 'QCK')
-            return 'DEX';
-        if (type == 'DEX')
-            return 'STR';
-        if (type == 'PSY')
-            return 'INT';
-        return 'PSY';
+        if (type == '힘')
+            return '속도';
+        if (type == '속도')
+            return '기술';
+        if (type == '기술')
+            return '힘';
+        if (type == '마음')
+            return '지능';
+        return '마음';
     };
 
     /* * * * * Searching/filtering * * * * */
