@@ -2,8 +2,8 @@
 
 var app = angular.module('optc');
 
-var BOX_COLORS = { 힘: 'salmon', QCK: 'lightskyblue', DEX: 'lightgreen', PSY: 'gold', INT: 'orchid' };
-var ORB_COLORS = { 힘: 'orangered', QCK: 'dodgerblue', DEX: 'lightgreen', PSY: 'gold', INT: 'orchid', G: 'orange' };
+var BOX_COLORS = { 힘: 'salmon', 속도: 'lightskyblue', 기술: 'lightgreen', 마음: 'gold', 지능: 'orchid' };
+var ORB_COLORS = { 힘: 'orangered', 속도: 'dodgerblue', 기술: 'lightgreen', 마음: 'gold', 지능: 'orchid', G: 'orange' };
 
 var lock = new Image(), silence = new Image();
 lock.src = 'res/chain.png';
@@ -21,7 +21,7 @@ app.controller('ImageGeneratorCtrl', function($scope, $filter, $timeout) {
 
     // damage numbers
     $scope.$watch('numbers',function(numbers) {
-        [ '힘', 'QCK', 'DEX', 'PSY', 'INT' ].forEach(function(which, n) {
+        [ '힘', '속도', '기술', '마음', '지능' ].forEach(function(which, n) {
             if (!numbers[which]) return;
             // rectangles
             context.fillStyle = BOX_COLORS[which];
