@@ -6,80 +6,80 @@ window.effects = {
     // Use p.type instead of p.unit.type here
 
     '바로크 워크스 (pre-v4.0)': {
-        description: 'Stats of non-Fighter units reduced by 90%',
+        description: '격투타입이 아닌경우 스탯의 90% 감소',
         thumb: 462,
         id: 1, // don't change this
-        atk: function(p) { return !p.class.has('Fighter') ? 0.1 : 1; },
-        hp: function(p)  { return !p.class.has('Fighter') ? 0.1 : 1; },
-        rcv: function(p) { return !p.class.has('Fighter') ? 0.1 : 1; }
+        atk: function(p) { return !p.class.has('격투') ? 0.1 : 1; },
+        hp: function(p)  { return !p.class.has('격투') ? 0.1 : 1; },
+        rcv: function(p) { return !p.class.has('격투') ? 0.1 : 1; }
     },
 
     '바로크 워크스': {
-        description: 'ATK of non-Fighter, non-Booster, non-Evolver units reduced by 90%',
+        description: '격투타입,진화재료,강화재료 를 제외한 타입의 공격력 90%감소',
         thumb: 462,
         id: 2, // don't change this
-        atk: function(p) { return p.class.has('Fighter') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; },
-        hp: function(p)  { return p.class.has('Fighter') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; },
-        rcv: function(p) { return p.class.has('Fighter') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; }
+        atk: function(p) { return p.class.has('격투') || p.class.has('진화용') || p.class.has('강화용') ? 1 : 0.1; },
+        hp: function(p)  { return p.class.has('격투') || p.class.has('진화용') || p.class.has('강화용') ? 1 : 0.1; },
+        rcv: function(p) { return p.class.has('격투') || p.class.has('진화용') || p.class.has('강화용') ? 1 : 0.1; }
     },
 
-    'Prisoner Crocodile (pre-v4.0)': {
-        description: 'Stats of non-Striker units reduced by 90%',
+    '죄수 크로커다일(pre-v4.0)': {
+        description: '타격타입이 아닌경우 스탯의 90% 감소',
         thumb: 510,
         id: 3, // don't change this
-        atk: function(p) { return !p.class.has('Striker') ? 0.1 : 1; },
-        hp: function(p)  { return !p.class.has('Striker') ? 0.1 : 1; },
-        rcv: function(p) { return !p.class.has('Striker') ? 0.1 : 1; }
+        atk: function(p) { return !p.class.has('타격') ? 0.1 : 1; },
+        hp: function(p)  { return !p.class.has('타격') ? 0.1 : 1; },
+        rcv: function(p) { return !p.class.has('타격') ? 0.1 : 1; }
     },
 
-    'Prisoner Crocodile': {
-        description: 'Stats of non-Striker, non-Booster, non-Evolver units reduced by 90%',
+    '죄수 크로커다일': {
+        description: '타격타입,진화재료,강화재료 를 제외한 타입의 공격력 90%감소',
         thumb: 510,
         id: 4, // don't change this
-        atk: function(p) { return p.class.has('Striker') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; },
-        hp: function(p)  { return p.class.has('Striker') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; },
-        rcv: function(p) { return p.class.has('Striker') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; }
+        atk: function(p) { return p.class.has('타격') || p.class.has('진화용') || p.class.has('렙업용') ? 1 : 0.1; },
+        hp: function(p)  { return p.class.has('타격') || p.class.has('진화용') || p.class.has('렙업용') ? 1 : 0.1; },
+        rcv: function(p) { return p.class.has('타격') || p.class.has('진화용') || p.class.has('렙업용') ? 1 : 0.1; }
     },
 
-    'Jailer Domino (pre-v4.0)': {
-        description: 'Stats of non-Shooter units reduced by 90%',
+    '부간수장 도미노 (pre-v4.0)': {
+        description: '사격타입이 아닌경우 스탯의 90% 감소',
         thumb: 538,
         id: 5, // don't change this
-        atk: function(p) { return !p.class.has('Shooter') ? 0.1 : 1; },
-        hp: function(p)  { return !p.class.has('Shooter') ? 0.1 : 1; },
-        rcv: function(p) { return !p.class.has('Shooter') ? 0.1 : 1; }
+        atk: function(p) { return !p.class.has('사격') ? 0.1 : 1; },
+        hp: function(p)  { return !p.class.has('사격') ? 0.1 : 1; },
+        rcv: function(p) { return !p.class.has('사격') ? 0.1 : 1; }
     },
 
-    'Jailer Domino': {
-        description: 'Stats of non-Shooter, non-Booster, non-Evolver units reduced by 90%',
+    '부간수장 도미노': {
+        description: '사격타입,진화재료,강화재료 를 제외한 타입의 공격력 90%감소',
         thumb: 538,
         id: 6, // don't change this
-        atk: function(p) { return p.class.has('Shooter') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; },
-        hp: function(p)  { return p.class.has('Shooter') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; },
-        rcv: function(p) { return p.class.has('Shooter') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; }
+        atk: function(p) { return p.class.has('사격') || p.class.has('진화용') || p.class.has('렙업용') ? 1 : 0.1; },
+        hp: function(p)  { return p.class.has('사격') || p.class.has('진화용') || p.class.has('렙업용') ? 1 : 0.1; },
+        rcv: function(p) { return p.class.has('사격') || p.class.has('진화용') || p.class.has('렙업용') ? 1 : 0.1; }
     },
 
-    'Chief Guard Sadi-chan (pre-v4.0)': {
-        description: 'Stats of non-Slasher units reduced by 90%',
+    '옥졸장 사디짱 (pre-v4.0)': {
+        description: '참격타입이 아닌경우 스탯의 90% 감소',
         thumb: 550,
         id: 7, // don't change this
-        atk: function(p) { return !p.class.has('Slasher') ? 0.1 : 1; },
-        hp: function(p)  { return !p.class.has('Slasher') ? 0.1 : 1; },
-        rcv: function(p) { return !p.class.has('Slasher') ? 0.1 : 1; }
+        atk: function(p) { return !p.class.has('참격') ? 0.1 : 1; },
+        hp: function(p)  { return !p.class.has('참격') ? 0.1 : 1; },
+        rcv: function(p) { return !p.class.has('참격') ? 0.1 : 1; }
     },
 
-    'Chief Guard Sadi-chan': {
-        description: 'Stats of non-Slasher, non-Booster, non-Evolver units reduced by 90%',
+    '옥졸장 사디짱': {
+        description: '참격타입,진화재료,강화재료 를 제외한 타입의 공격력 90%감소',
         thumb: 550,
         id: 8, // don't change this
-        atk: function(p) { return p.class.has('Slasher') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; },
-        hp: function(p)  { return p.class.has('Slasher') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; },
-        rcv: function(p) { return p.class.has('Slasher') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; }
+        atk: function(p) { return p.class.has('참격') || p.class.has('진화용') || p.class.has('렙업용') ? 1 : 0.1; },
+        hp: function(p)  { return p.class.has('참격') || p.class.has('진화용') || p.class.has('렙업용') ? 1 : 0.1; },
+        rcv: function(p) { return p.class.has('참격') || p.class.has('진화용') || p.class.has('렙업용') ? 1 : 0.1; }
     },
 
-    'Warriors of Shandia': {
+    '샨디아의 전사들': {
         // Note: The debuff is applied to normal attacks but not to specials
-        description: 'Stats of characters whose homeland is not a sky island reduced by 20%',
+        description: '하늘섬 캐릭터가 아닌경우 스탯의 20% 감소',
         thumb: 583,
         id: 9, // don't change this
         atk: function(p) {
@@ -102,45 +102,45 @@ window.effects = {
         }
     },
 
-    'Warriors of Shandia, Last Round': {
+    '샨디아의 전사들, 마지막 라운드': {
         // Note: The debuff is applied to normal attacks but not to specials
         // Note 2: The 50% reduction is applied to enemy's defense as well, for whatever reason
-        description: 'Stats of characters whose homeland is not a sky island reduced by 20%, ATK of PSY characters reduced by 50%',
+        description: '하늘섬 캐릭터가 아닌경우 스탯의 20% 감소, 심 속성 캐릭터의 공격력 50% 감소',
         thumb: 583,
         id: 10, // don't change this
         atk: function(p) {
-            var result = window.effects['Warriors of Shandia'].atk(p);
+            var result = window.effects['샨디아의 전사들'].atk(p);
             return (p.type == 'PSY' ? 0.5 : 1) * result;
         },
-        hp: function(p) { return window.effects['Warriors of Shandia'].hp(p); },
-        rcv: function(p) { return window.effects['Warriors of Shandia'].rcv(p); },
+        hp: function(p) { return window.effects['샨디아의 전사들'].hp(p); },
+        rcv: function(p) { return window.effects['샨디아의 전사들'].rcv(p); },
     },
 
-    'Gan Fall': {
-        description: 'Stats of non-Free Spirit, non-Booster, non-Evolver units reduced by 90%',
+    '간 폴': {
+        description: '자유타입,진화재료,강화재료 를 제외한 타입의 공격력 90%감소',
         thumb: 713,
         id: 11, // don't change this
-        atk: function(p) { return p.class.has('Free Spirit') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; },
-        hp: function(p)  { return p.class.has('Free Spirit') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; },
-        rcv: function(p) { return p.class.has('Free Spirit') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; }
+        atk: function(p) { return p.class.has('자유') || p.class.has('진화용') || p.class.has('렙업용') ? 1 : 0.1; },
+        hp: function(p)  { return p.class.has('자유') || p.class.has('진화용') || p.class.has('렙업용') ? 1 : 0.1; },
+        rcv: function(p) { return p.class.has('자유') || p.class.has('진화용') || p.class.has('렙업용') ? 1 : 0.1; }
     },
 
-    'Orb amplification (1.05x)': {
-        description: 'Orb effects amplified by 1.05x',
+    '속성 증폭 (1.05x)': {
+        description: '속성 효과가 1.05배 증폭된다.',
         thumb: 768,
         id: 12, // don't change this
         orb: function(p) { return p.orb == 2.0 ? 1.05 : (p.orb == 0.5 ? 20/21 : 1); }
     },
 
-    'Orb amplification (1.10x)': {
-        description: 'Orb effects amplified by 1.10x',
+    '속성 증폭 (1.10x)': {
+        description: '속성 효과가 1.10배 증폭된다.',
         thumb: 415,
         id: 13, // don't change this
         orb: function(p) { return p.orb == 2.0 ? 1.1 : (p.orb == 0.5 ? 10/11 : 1); }
     },
 
-    'Chain multiplier limiter (2.0x)': {
-        description: 'Limits chain multiplier to 2.0x',
+    '체인계수 제한 (2.0x)': {
+        description: '체인계수가 2.0x 로 제한',
         thumb: 772,
         id: 14, // don't change this
         chainLimiter: function() { return 2.0; }
@@ -183,17 +183,17 @@ window.effects = {
     },
 
     'Shu (Expert)': {
-        description: 'Attack of Slasher units reduced by 50%',
+        description: 'Attack of 참격 units reduced by 50%',
         thumb: 773,
         id: 20, // don't change this
-        atk: function(p) { return p.class.has("Slasher") ? 0.5 : 1; }
+        atk: function(p) { return p.class.has("참격") ? 0.5 : 1; }
     },
 
     'Shu (Master)': {
-        description: 'Attack of Slasher units reduced by 70%',
+        description: 'Attack of 참격 units reduced by 70%',
         thumb: 773,
         id: 21, // don't change this
-        atk: function(p) { return p.class.has("Slasher") ? 0.3 : 1; }
+        atk: function(p) { return p.class.has("참격") ? 0.3 : 1; }
     },
 
     'Attack reduction (20%)': {
