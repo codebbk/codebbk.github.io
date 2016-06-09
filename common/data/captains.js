@@ -522,32 +522,32 @@ window.captains = {
 		rcv: function(p) { return p.unit.type == "마음" ? 1.5 : 1; }
 	},
 	389: {
-		damageSorter: function(d) { return CrunchUtils.okamaSort(d, ['DEX', 'INT', 'QCK']); },
+		damageSorter: function(d) { return CrunchUtils.okamaSort(d, ['기술', '지능', '속도']); },
 		hitAtk: function(p) {
 			return CrunchUtils.okamaCheck(p.damage.slice(0, p.chainPosition), p.modifiers, [{
-				type: 'DEX',
+				type: '기술',
 				minModifier: 'Good'
 			}, {
-				type: 'INT',
+				type: '지능',
 				minModifier: 'Good'
 			}, {
-				type: 'QCK',
+				type: '속도',
 				minModifier: 'Good'
 			}]) ? 2 : 1;
 		},
 		hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"]
 	},
 	390: {
-		damageSorter: function(d) { return CrunchUtils.okamaSort(d, ['DEX', 'INT', 'QCK']); },
+		damageSorter: function(d) { return CrunchUtils.okamaSort(d, ['기술', '지능', '속도']); },
 		hitAtk: function(p) {
 			return CrunchUtils.okamaCheck(p.damage.slice(0, p.chainPosition), p.modifiers, [{
-				type: 'DEX',
+				type: '기술',
 				minModifier: 'Good'
 			}, {
-				type: 'INT',
+				type: '지능',
 				minModifier: 'Good'
 			}, {
-				type: 'QCK',
+				type: '속도',
 				minModifier: 'Good'
 			}]) ? 2.75 : 1;
 		},
@@ -706,32 +706,32 @@ window.captains = {
 		hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"]
 	},
 	434: {
-		damageSorter: function(d) { return CrunchUtils.okamaSort(d, ['PSY', 'INT', 'INT']); },
+		damageSorter: function(d) { return CrunchUtils.okamaSort(d, ['마음', '지능', '지능']); },
 		hitAtk: function(p) {
 			return CrunchUtils.okamaCheck(p.damage.slice(0, p.chainPosition), p.modifiers, [{
-				type: 'PSY',
+				type: '마음',
 				minModifier: 'Good'
 			}, {
-				type: 'INT',
+				type: '지능',
 				minModifier: 'Good'
 			}, {
-				type: 'INT',
+				type: '지능',
 				minModifier: 'Good'
 			}]) ? 2 : 1;
 		},
 		hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"]
 	},
 	435: {
-		damageSorter: function(d) { return CrunchUtils.okamaSort(d, ['INT', 'PSY', 'QCK']); },
+		damageSorter: function(d) { return CrunchUtils.okamaSort(d, ['지능', '마음', '속도']); },
 		hitAtk: function(p) {
 			return CrunchUtils.okamaCheck(p.damage.slice(0, p.chainPosition), p.modifiers, [{
-				type: 'INT',
+				type: '지능',
 				minModifier: 'Good'
 			}, {
-				type: 'PSY',
+				type: '마음',
 				minModifier: 'Good'
 			}, {
-				type: 'QCK',
+				type: '속도',
 				minModifier: 'Good'
 			}]) ? 2 : 1;
 		},
