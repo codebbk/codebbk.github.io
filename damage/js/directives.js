@@ -724,7 +724,7 @@ directives.special = function($rootScope) {
         restrict: 'E',
         replace: true,
         scope: true,
-        template: '<li class="special" ng-show="hasSpecial"><div>{{data.team[slot].unit.name}}</div></li>',
+        template: '<li class="DEX" ng-show="hasSpecial"><div>{{data.team[slot].unit.name}}</div></li>',
         link: function(scope, element, attrs) {
             scope.slot = element.prevAll('.special').length;
             var isSelected = scope.tdata.team[scope.slot].special;
@@ -745,7 +745,7 @@ directives.special = function($rootScope) {
             });
             scope.$watch('data.team[slot].unit',function(unit) {
                 removeType();
-                if (scope.tdata.team[scope.slot].special) element.addClass(DEX);
+                if (scope.tdata.team[scope.slot].special) element.addClass(unit.type);
                 scope.hasSpecial = unit && window.specials.hasOwnProperty(unit.number+1);
             });
             element.click(function(e) {
