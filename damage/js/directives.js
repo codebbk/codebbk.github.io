@@ -733,7 +733,7 @@ directives.special = function($rootScope) {
             scope.$watch('tdata.team[slot].special',function(enabled) {
                 removeType();
                 var unit = scope.data.team[scope.slot].unit;
-                if (enabled) element.addClass(unit.type);
+                if (enabled) element.addClass(DEX);
                 type = (unit ? unit.type : null);
                 isSelected = enabled;
                 if (enabled && window.specials[unit.number+1].warning) {
