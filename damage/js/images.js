@@ -21,7 +21,7 @@ app.controller('ImageGeneratorCtrl', function($scope, $filter, $timeout) {
 
     // damage numbers
     $scope.$watch('numbers',function(numbers) {
-        [ 'STR', 'QCK', 'DEX', 'PSY', 'INT' ].forEach(function(which, n) {
+        [ '힘', 'QCK', 'DEX', 'PSY', 'INT' ].forEach(function(which, n) {
             if (!numbers[which]) return;
             // rectangles
             context.fillStyle = BOX_COLORS[which];
