@@ -733,7 +733,7 @@ directives.special = function($rootScope) {
             scope.$watch('tdata.team[slot].special',function(enabled) {
                 removeType();
                 var unit = scope.data.team[scope.slot].unit;
-                if (enabled) element.addClass(DEX);
+                if (enabled) element.addClass(unit.type);
                 type = (unit ? unit.type : null);
                 isSelected = enabled;
                 if (enabled && window.specials[unit.number+1].warning) {
@@ -745,7 +745,7 @@ directives.special = function($rootScope) {
             });
             scope.$watch('data.team[slot].unit',function(unit) {
                 removeType();
-                if (scope.tdata.team[scope.slot].special) element.addClass(unit.type);
+                if (scope.tdata.team[scope.slot].special) element.addClass(DEX);
                 scope.hasSpecial = unit && window.specials.hasOwnProperty(unit.number+1);
             });
             element.click(function(e) {
