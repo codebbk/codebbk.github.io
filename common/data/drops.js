@@ -1018,7 +1018,7 @@ window.drops = {
         },
 
         {
-            name: '결전! 쵸파의 폭주',
+            name: '결전! 폭주 쵸파',
             thumb: 249,
             global: true,
             마스터: [ 84, 110, 118, 248 ],
