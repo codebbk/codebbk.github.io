@@ -305,8 +305,8 @@ body, html {
     margin-bottom: 0 !important;
 }
 
-.damage.STR, li.STR, [current-type="힘"] > div { background: salmon; }
-.damage.QCK, li.QCK, [current-type="QCK"] > div { background: lightskyblue; }
+.damage.STR, li.STR, [type in '힘'] > div { background: salmon; }
+.damage.QCK, li.QCK, [type in ['속도']] > div { background: lightskyblue; }
 .damage.DEX, li.DEX, [current-type="DEX"] > div { background: lightgreen; }
 .damage.PSY, li.PSY, [current-type="PSY"] > div { background: gold; }
 .damage.INT, li.INT, [current-type="INT"] > div { background: orchid; }
