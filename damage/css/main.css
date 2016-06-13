@@ -305,11 +305,11 @@ body, html {
     margin-bottom: 0 !important;
 }
 
-.damage.STR, li.힘, [current-type="STR"] > div { background: salmon; }
-.damage.QCK, li.QCK, [current-type="INT"] > div { background: lightskyblue; }
-.damage.DEX, li.DEX, [current-type="DEX"] > div { background: lightgreen; }
-.damage.PSY, li.PSY, [current-type="PSY"] > div { background: gold; }
-.damage.INT, li.INT, [current-type="INT"] > div { background: orchid; }
+.damage.STR, li.힘, [current-type="힘"] > div { background: salmon; }
+.damage.QCK, li.속도, [current-type="속도"] > div { background: lightskyblue; }
+.damage.DEX, li.기술, [current-type="기술"] > div { background: lightgreen; }
+.damage.PSY, li.마음, [current-type="마음"] > div { background: gold; }
+.damage.INT, li.지능, [current-type="지능"] > div { background: orchid; }
 
 .damageLabel {
     font-size: 75%;
