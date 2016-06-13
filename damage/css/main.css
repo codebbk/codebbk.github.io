@@ -539,7 +539,7 @@ input {
     cursor: default;
 }
 
-li.STR > div, li.QCK > div, li.DEX > div, li.PSY > div, li.INT > div {
+li.힘 > div, li.속도 > div, li.기술 > div, li.마음 > div, li.지능 > div {
     color: black !important;
 }
 
