@@ -14,31 +14,31 @@
     pointer-events: none;
 }
 
-.unitOrb.STR {
+.unitOrb.힘 {
     background-image: -webkit-radial-gradient(9px 3px, circle cover, oldlace, orangered, rgb(50,50,50));
     background-image: -moz-radial-gradient(9px 3px, circle cover, oldlace, orangered, rgb(50,50,50));
     background-image: radial-gradient(9px 3px, circle cover, oldlace, orangered, rgb(50,50,50));
 }
 
-.unitOrb.DEX {
+.unitOrb.기술 {
     background-image: -webkit-radial-gradient(9px 3px, circle cover, oldlace, limegreen, rgb(50,50,50));
     background-image: -moz-radial-gradient(9px 3px, circle cover, oldlace, limegreen, rgb(50,50,50));
     background-image: radial-gradient(9px 3px, circle cover, oldlace, limegreen, rgb(50,50,50));
 }
 
-.unitOrb.QCK {
+.unitOrb.속도 {
     background-image: -webkit-radial-gradient(9px 3px, circle cover, oldlace, dodgerblue, rgb(50,50,50));
     background-image: -moz-radial-gradient(9px 3px, circle cover, oldlace, dodgerblue, rgb(50,50,50));
     background-image: radial-gradient(9px 3px, circle cover, oldlace, dodgerblue, rgb(50,50,50));
 }
 
-.unitOrb.PSY {
+.unitOrb.마음 {
     background-image: -webkit-radial-gradient(9px 3px, circle cover, oldlace, orange, rgb(50,50,50));
     background-image: -moz-radial-gradient(9px 3px, circle cover, oldlace, orange, rgb(50,50,50));
     background-image: radial-gradient(9px 3px, circle cover, oldlace, orange, rgb(50,50,50));
 }
 
-.unitOrb.INT {
+.unitOrb.지능 {
     background-image: -webkit-radial-gradient(9px 3px, circle cover, oldlace, mediumorchid, rgb(50,50,50));
     background-image: -moz-radial-gradient(9px 3px, circle cover, oldlace, mediumorchid, rgb(50,50,50));
     background-image: radial-gradient(9px 3px, circle cover, oldlace, mediumorchid, rgb(50,50,50));
@@ -74,11 +74,11 @@
  *     ORB GLOWING     *
  ***********************/
 
-.unitOrb.STR { animation: glowRed .5s linear infinite alternate; }
-.unitOrb.DEX { animation: glowGreen .5s linear infinite alternate; }
-.unitOrb.QCK { animation: glowBlue .5s linear infinite alternate; }
-.unitOrb.PSY { animation: glowOrange .5s linear infinite alternate; }
-.unitOrb.INT { animation: glowPurple .5s linear infinite alternate; }
+.unitOrb.힘 { animation: glowRed .5s linear infinite alternate; }
+.unitOrb.기술 { animation: glowGreen .5s linear infinite alternate; }
+.unitOrb.속도 { animation: glowBlue .5s linear infinite alternate; }
+.unitOrb.마음 { animation: glowOrange .5s linear infinite alternate; }
+.unitOrb.지능 { animation: glowPurple .5s linear infinite alternate; }
 .unitOrb.G { animation: glowG .5s linear infinite alternate; }
 .unitOrb.opposite { animation: glowBlack .5s linear infinite alternate; }
 
