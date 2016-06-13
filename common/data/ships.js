@@ -223,7 +223,7 @@ window.ships = [
         atk: function(p) { return 1.2; },
     }, 
     
-        name: '태양 해적단',
+        name: '태양 해적단 호',
         thumb: null,
         description: 'Boosts ATK and HP of Fighter characters depending on the number of Fighters on the team. Sharply reduces ATK and HP of non-Fighter units. (ATK/HP Boost will assume you\'re using 6 Fighters for now.) ',
         atk: function(p) {
@@ -234,6 +234,5 @@ window.ships = [
             return !p.unit.class.has('격투') ? .05 :
                 [ 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.45, 1.45, 1.5 ][p.boatLevel - 1];
         }
-    }, 
 
 ];
