@@ -1010,7 +1010,7 @@ window.drops = {
         {
             name: "Dr. Indigo & Scarlet!",
             condition: "???",
-            "All Difficulties": [ -912, -1014, -647, -894, -590, -524, -611]
+            "All Difficulties": [ -912, -1014, -647, -891, -590, -524, -611]
         },
 
     ],
