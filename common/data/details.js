@@ -5305,6 +5305,11 @@ window.details = {
 		captain: "Boosts ATK of all characters by 2.5x if HP is below 30% at the start of the turn",
 		special: "Deals severe [PSY] damage to one enemy. If HP < 30% then changes adjacent orbs to Matching orbs",
 		specialName: "Colosseum X Drake Special"
-	}
+	},
+	1092: {
+        captain: "Boosts RCV of all characters depending on the current Health.",
+        captainNotes: "The Lower the Health the Higher the Bonus, at 1HP the multiplier is 2x",
+        special: "Changes the Friend Captains orb into a matching Orb, recovers 3.000HP",
+    }
 	
 };
