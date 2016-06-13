@@ -1091,6 +1091,10 @@ window.units = [
     [ "콜로세움 X 드레이크", "마음", [ "박식", "참격" ], 4, 25, 5, 2, 70, 1066998, 708, 315, 77, null, null, null, null ],
     [ "콜로세움 X 드레이크", "마음", [ "박식", "강인" ], 5, 40, 4, 3, 99, null, 1297, 631, 130, 2599, 1230, 300, null ],
     [ "어린 레베카", "마음", [ "타격", "자유" ], 4, 10, 6, 2, 35, null, 462, 130, 328, null, null, null, null ],
-    [ "어린 레베카 (진화)", "마음", [ "타격", "자유" ], 5, 17, 4, 3, 70, null, 400, 93, 262, null, null, null, null ]
+    [ "어린 레베카 (진화)", "마음", [ "타격", "자유" ], 5, 17, 4, 3, 70, null, 400, 93, 262, null, null, null, null ],
+    [ "Dr. 인디고", "기술", [ "박식", "사격" ], 3, 12, null, null, null, null, null, null, null, null, null, null, null ],
+    [ "Dr. 인디고 (진화)", "기술", [ "박식", "사격" ], 4, 20, null, null, null, null, null, null, null, null, null, null, null ],
+    [ "스칼렛", "지능", [ "강인", "자유" ], 3, 12, null, null, null, null, null, null, null, null, null, null, null ],
+    [ "스칼렛 (진화)", "지능", [ "강인", "자유" ], 4, 20, null, null, null, null, null, null, null, null, null, null, null ],
+    [ "뇌조 빌리", "지능", [ "사격", "강인" ], 3, 10, null, null, null, null, null, null, null, null, null, null, null ]
 	];
-
