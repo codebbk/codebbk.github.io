@@ -136,11 +136,11 @@ input[type="text"] {
 .BOMB  { background: maroon; }
 .G     { background: orange; }
 
-.cell-STR { font-weight: bold; color: red; }
-.cell-QCK { font-weight: bold; color: blue; }
-.cell-DEX { font-weight: bold; color: green; }
-.cell-PSY { font-weight: bold; color: goldenrod; }
-.cell-INT { font-weight: bold; color: darkorchid; }
+.cell-힘 { font-weight: bold; color: red; }
+.cell-속도 { font-weight: bold; color: blue; }
+.cell-기술 { font-weight: bold; color: green; }
+.cell-마음 { font-weight: bold; color: goldenrod; }
+.cell-지능 { font-weight: bold; color: darkorchid; }
 
 .badge-japan, .badge-global {
     float: left;
