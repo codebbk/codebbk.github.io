@@ -743,6 +743,8 @@ window.drops = {
             thumb: 462,
             global: true,
             condition: 'Striker, Shooter and Slashers are weakend.',
+            challenge: 'Damage dealt in a single Round',
+            challengeData: [['???','1x ??? Elder'], ['???','1x ?? Cotton Candy'], ['???','3x Rainbow Gems']],
             "모든 난이도": [ 460, 461, -398, -396, -370, -361, -253, -236, -234 ]
         },
 
@@ -840,6 +842,7 @@ window.drops = {
         {
             name: 'Led by the Light of Shandora! Calgara & Noland!',
             thumb: 688,
+            global: true,
             condition: 'Bomb orbs appear',
             "한국/일본": [ 687, 689, -542, -524, -528, -429, -428, -401, -365, -218 ],
             "글로벌": [ 687, 689, -542, -645, -647, -429, -428, -401, -365, -218 ]
@@ -1002,7 +1005,13 @@ window.drops = {
             thumb: 1072,
             condition: "STR/DEX/QCK units get their 공격 boosted by 1.6x and their HP 빨간uced by 90%. INT/PSY units get their 공격 빨간uced by 80% and their HP boosted by 2.0x",
             "모든 난이도": [ 1069, 1071, 1073, -562, -906, -914, -645, -890, -587, -629, -888, -1070]
-        }
+        },
+        
+        {
+            name: "Dr. Indigo & Scarlet!",
+            condition: "???",
+            "All Difficulties": [ -912, -1014, -647, -894, -590, -524, -611]
+        },
 
     ],
 
