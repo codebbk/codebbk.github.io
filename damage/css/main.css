@@ -306,7 +306,7 @@ body, html {
 }
 
 .damage.STR, li.STR, [current-type="STR"] > div { background: salmon; }
-.damage.QCK, li.QCK, [type in ['속도']] > div { background: lightskyblue; }
+.damage.QCK, li.QCK, [current-type=['속도']] > div { background: lightskyblue; }
 .damage.DEX, li.DEX, [current-type="DEX"] > div { background: lightgreen; }
 .damage.PSY, li.PSY, [current-type="PSY"] > div { background: gold; }
 .damage.INT, li.INT, [current-type="INT"] > div { background: orchid; }
