@@ -225,7 +225,7 @@ window.ships = [
     {
         name: '태양 해적단 호',
         thumb: null,
-        description: 'Boosts ATK and HP of Fighter characters depending on the number of Fighters on the team. Sharply reduces ATK and HP of non-Fighter units. (ATK/HP Boost will assume you\'re using 6 Fighters for now.) ',
+        description: '팀에 격투타입 캐릭터가 많을수록 체력, 공격력 각각 최대 1.5배증가. 격투타입이 아닐시 체력,공격력 격감. (격투타입 6명파티 기준) ',
         atk: function(p) {
             return !p.unit.class.has('격투') ? .05 :
                 [ 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.45, 1.45, 1.5 ][p.boatLevel - 1];
